@@ -90,7 +90,7 @@ export default function Services() {
                     {service.items.map((item, i) => {
                       return (
                         <p key={`item-` + i} style={{ fontSize: "20px" }}>
-                          {item}
+                          <a href="/clients">{item}</a>
                         </p>
                       );
                     })}
