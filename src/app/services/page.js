@@ -89,9 +89,10 @@ export default function Services() {
                   >
                     {service.items.map((item, i) => {
                       return (
-                        <p key={`item-` + i} style={{ fontSize: "20px" }}>
-                          <a href="/clients">{item}</a>
-                        </p>
+                        <a key={`item-` + i} href="/clients">
+                        <p style={{ fontSize: "20px" }}>
+                          {item}
+                        </p></a>
                       );
                     })}
                   </div>
