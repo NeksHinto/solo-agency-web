@@ -134,6 +134,111 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title} style={{ color: "gray" }}>
+              SOCIAL
+            </p>
+            <p className={styles.client__title}>MEDIA</p>
+
+            <div className={styles.embla}>
+              <div className={styles.embla__viewport} ref={emblaRef6}>
+                <div className={styles.embla__container}>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding1.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding2.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding3.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding4.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding5.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding6.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding7.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding8.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/digitalbranding9.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.client__content}>
+          <div className={styles.client__content__container}>
+            <p className={styles.client__title} style={{ color: "gray" }}>
               MAGIC
             </p>
             <p className={styles.client__title}>DOLL</p>
@@ -258,82 +363,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className={styles.client__content}>
-          <div className={styles.client__content__container}>
-            <p className={styles.client__title} style={{ color: "gray" }}>
-              LLEVATE TODO
-            </p>
-            <p className={styles.client__title}>DOLL</p>
-            <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef4}>
-                <div className={styles.embla__container}>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/llevatetododoll1.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/llevatetododoll2.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/llevatetododoll3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <video
-                      controls
-                      autoPlay
-                      muted
-                      loop
-                      playsInline
-                      className={styles.client__image}
-                    >
-                      <source src="/dollstore/llevatetododollsummerreel.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/llevatetododollsum1.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/llevatetododollsum3.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+
         {/* </div>
         </div> */}
         <div className={styles.client__content}>
@@ -437,17 +467,16 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title} style={{ color: "gray" }}>
-              DIGITAL
+              LLEVATE TODO
             </p>
-            <p className={styles.client__title}>BRANDING</p>
-
+            <p className={styles.client__title}>DOLL</p>
             <div className={styles.embla}>
-              <div className={styles.embla__viewport} ref={emblaRef6}>
+              <div className={styles.embla__viewport} ref={emblaRef4}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/digitalbranding1.jpg"
+                      src="/dollstore/llevatetododoll1.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -457,7 +486,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/digitalbranding2.jpg"
+                      src="/dollstore/llevatetododoll2.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -467,7 +496,29 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/digitalbranding3.jpg"
+                      src="/dollstore/llevatetododoll3.jpg"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <video
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/dollstore/llevatetododollsummerreel.mp4" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/dollstore/llevatetododollsum1.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -477,57 +528,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dollstore/digitalbranding4.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/digitalbranding5.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/digitalbranding6.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/digitalbranding7.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/digitalbranding8.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/dollstore/digitalbranding9.jpg"
+                      src="/dollstore/llevatetododollsum3.jpg"
                       alt="Solo Agency"
                       width={0}
                       height={0}
