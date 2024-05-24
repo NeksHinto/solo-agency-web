@@ -6,9 +6,6 @@ import "../globals.css";
 export default function ClientsRed() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
-      <p className={styles.button2} style={{ marginLeft: "0rem" }}>
-        <Link href="/contact">CONTACT US</Link>
-      </p>
       <div
         style={{
           background: "black",

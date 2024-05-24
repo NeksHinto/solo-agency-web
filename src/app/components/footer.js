@@ -40,43 +40,60 @@ export default function Carousel() {
         <div className={styles.footer__section__navs}>
           <div className={styles.footer__section}>
             <p className={styles.subtitle}>KNOW MORE</p>
-            <p>
+            <p style={{ fontWeight: 600 }}>
               <Link href="/about">ABOUT US</Link>
             </p>
-            <p>
+            <p style={{ fontWeight: 600 }}>
               <Link href="/services">SERVICES</Link>
             </p>
-            <p>
+            <p style={{ fontWeight: 600 }}>
               <Link href="/clients">CLIENTS</Link>
             </p>
-            <p>
+            <p style={{ fontWeight: 600 }}>
               <Link href="/contact">CONTACT</Link>
             </p>
           </div>
           <div className={styles.footer__section}>
             <p className={styles.subtitle}>FOLLOW US</p>
-            <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
-              <a href="https://www.instagram.com/solo_agency/" target="blank">
-                <Image src={instagramIcon} alt="instagram" />
-              </a>
+            <p
+              style={{
+                width: "32px",
+                height: "32px",
+                overflow: "hidden",
+              }}
+            >
+              <Link
+                href="https://www.instagram.com/solo_agency/"
+                target="blank"
+              >
+                <Image
+                  src={instagramIcon}
+                  alt="instagram"
+                  // style={{
+                  //   "&:hover": {
+                  //     color: "gray",
+                  //   },
+                  // }}
+                />
+              </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
-              <a href="https://wa.me/+541131313954" target="blank">
+              <Link href="https://wa.me/+541131313954" target="blank">
                 <Image src={whatsappIcon} alt="whatsapp" />
-              </a>
+              </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
-              <a
+              <Link
                 href="https://www.linkedin.com/company/soloagency6/"
                 target="blank"
               >
                 <Image src={linkedinIcon} alt="linkedin" />
-              </a>
+              </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
-              <a href="https://www.behance.net/soloagency6" target="blank">
+              <Link href="https://www.behance.net/soloagency6" target="blank">
                 <Image src={behanceIcon} alt="behance" />
-              </a>
+              </Link>
             </p>
           </div>
         </div>

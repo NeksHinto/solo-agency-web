@@ -20,8 +20,6 @@ export default function Home() {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({
       delay: "3000",
-      stopOnMouseEnter: true,
-      stopOnInteraction: false,
     }),
   ]);
   // const [emblaRef2] = useEmblaCarousel({ loop: true });
@@ -58,38 +56,43 @@ export default function Home() {
             x: { duration: 0.25 },
           }}
         >
-          <div>
-            <Image
-              className={styles.client__page__logo}
-              src="/logos/dollstoreLogo.png"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: "100%", height: "auto", maxWidth: "500px" }}
-            />
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <div>
+              <Image
+                className={styles.client__page__logo}
+                src="/logos/dollstoreLogo.png"
+                alt="Solo Agency"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto", maxWidth: "500px" }}
+              />
+            </div>
+            <div className={styles.client__info}>
+              <p>
+                Reconocida marca de moda Argentina recurre a nuestro servicio
+                360. Desde creative strategy, social media management, content
+                creation y paid media (Meta ads) acompañamos en todos los
+                desafíos que comprenden comunicación visual y digital.
+              </p>
+            </div>
           </div>
-          <div className={styles.client__info}>
-            <p>
-              Reconocida marca de moda Argentina recurre a nuestro servicio 360.
-              Desde creative strategy, social media management, content creation
-              y paid media (Meta ads) acompañamos en todos los desafíos que
-              comprenden comunicación visual y digital.
-            </p>
-          </div>
-          <div className={styles.client__info}>
+          <div className={styles.client__services}>
             <div
               style={{
                 display: "flex",
                 justifyContent: "center",
-                marginBottom: "2rem",
+                alignItems: "center",
+                flexDirection: "column",
+                gap: "1rem",
               }}
             >
               <p className={styles.subtitle}>SERVICIOS</p>
-            </div>
-            <div className={styles.client__info__list}>
-              <p>Creative Strategy</p>• <p>Social Media</p>• <p>Content</p>•{" "}
-              <p>Paid Media</p>• <p>3D Design</p>
+              <div style={{ backgroundColor: "black", width: "5rem" }}></div>
+              <div className={styles.client__info__list}>
+                <p>Creative Strategy</p>• <p>Social Media</p>• <p>Content</p>•{" "}
+                <p>Paid Media</p>• <p>3D Design</p>
+              </div>
             </div>
           </div>
         </motion.div>
@@ -130,15 +133,10 @@ export default function Home() {
         </div> */}
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p
-              className={styles.client__title}
-              style={{ color: "gray", fontSize: "6rem" }}
-            >
+            <p className={styles.client__title} style={{ color: "gray" }}>
               MAGIC
             </p>
-            <p className={styles.client__title} style={{ fontSize: "6em" }}>
-              DOLL
-            </p>
+            <p className={styles.client__title}>DOLL</p>
 
             {/* <p className={styles.client__title}>NAVIDAD 2023</p>
             <Image
@@ -262,15 +260,10 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p
-              className={styles.client__title}
-              style={{ color: "gray", fontSize: "6rem" }}
-            >
+            <p className={styles.client__title} style={{ color: "gray" }}>
               LLEVATE TODO
             </p>
-            <p className={styles.client__title} style={{ fontSize: "6em" }}>
-              DOLL
-            </p>
+            <p className={styles.client__title}>DOLL</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef4}>
                 <div className={styles.embla__container}>
@@ -345,15 +338,10 @@ export default function Home() {
         </div> */}
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p
-              className={styles.client__title}
-              style={{ color: "gray", fontSize: "6rem" }}
-            >
+            <p className={styles.client__title} style={{ color: "gray" }}>
               SALE
             </p>
-            <p className={styles.client__title} style={{ fontSize: "6em" }}>
-              DOLL
-            </p>
+            <p className={styles.client__title}>DOLL</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef}>
                 <div className={styles.embla__container}>
@@ -448,15 +436,10 @@ export default function Home() {
         </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p
-              className={styles.client__title}
-              style={{ color: "gray", fontSize: "6rem" }}
-            >
+            <p className={styles.client__title} style={{ color: "gray" }}>
               DIGITAL
             </p>
-            <p className={styles.client__title} style={{ fontSize: "6em" }}>
-              BRANDING
-            </p>
+            <p className={styles.client__title}>BRANDING</p>
 
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef6}>
