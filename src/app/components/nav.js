@@ -26,7 +26,7 @@ export default function Nav() {
 
   return (
     <div className={styles.nav}>
-      <Link href="/">
+      <Link href="/" style={{ display: "flex" }}>
         <Image
           src="/SOLO AGENCY LOGO TYPO BLANCO.png"
           alt="Valeries"
