@@ -8,7 +8,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
-import BlackBox from "@/app/components/clientsRedirect";
+import BlackBox from "@/app/components/blackBox";
 
 const paragraph = "The girl next door... ";
 

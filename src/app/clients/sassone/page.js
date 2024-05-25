@@ -5,7 +5,7 @@ import styles from "../../page.module.css";
 import Image from "next/image";
 import React, { useCallback } from "react";
 import Script from "next/script";
-import BlackBox from "@/app/components/clientsRedirect";
+import BlackBox from "@/app/components/blackBox";
 
 export default function Home() {
   useEffect(() => {

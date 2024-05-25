@@ -7,7 +7,7 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
-import BlackBox from "@/app/components/clientsRedirect";
+import BlackBox from "@/app/components/blackBox";
 
 export default function Home() {
   useEffect(() => {
