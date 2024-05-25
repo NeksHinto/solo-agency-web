@@ -47,7 +47,7 @@
   text-transform: uppercase;
   border: none;
   margin: 1em;
-  border: 1px solid rgba(255, 255, 255, 0.362);
+  /* border: 1px solid rgba(255, 255, 255, 0.362); */
   width: 8em;
   align-self: flex-end;
   font-weight: 600;
@@ -63,10 +63,11 @@
   font-size: 1.5rem;
   cursor: pointer;
   font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.362);
+  /* border: 1px solid rgba(255, 255, 255, 0.362); */
   border-radius: 20px;
-  padding: 1rem;
-  padding-top: 1.5rem;
+  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-image: linear-gradient(
     to right,
     #23252670 0%,
@@ -106,7 +107,7 @@
   font-size: 1.5rem;
   cursor: pointer;
   font-weight: 600;
-  border: 1px solid rgba(255, 255, 255, 0.362);
+  /* border: 1px solid rgba(255, 255, 255, 0.362); */
   border-radius: 20px;
   padding: 1rem;
   width: 1fr;
@@ -370,7 +371,7 @@
 }
 .service__banner {
   display: flex;
-  flex-direction: row;
+  align-items: center;
   padding-right: 2rem;
   padding-left: 2rem;
   cursor: pointer;
@@ -394,6 +395,7 @@
 .service__list__show {
   height: auto;
   color: white;
+  font-weight: 600;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -404,7 +406,7 @@
   overflow: hidden;
   align-self: start;
   padding-bottom: 2rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
   margin-bottom: 1rem;
   gap: 5rem;
   transition: all 1s cubic-bezier(0.33, 1, 0.68, 1);

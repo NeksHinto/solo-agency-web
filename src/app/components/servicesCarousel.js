@@ -1,51 +1,7 @@
 "use client";
 import Link from "next/link";
 import styles from "../page.module.css";
-
-const services = [
-  {
-    name: "SOCIAL MEDIA",
-    item1: "- Calendarizacion",
-    item2: "- Copywriting",
-    item3: "- Posting",
-  },
-  {
-    name: "PAID MEDIA",
-    item1: "- Google ads",
-    item2: "- Meta ads",
-    item3: "- Mailing",
-  },
-  {
-    name: "GRAPHIC DESIGN & BRANDING",
-    item1: "- Logo design",
-    item2: "- BrandBooks",
-    item3: "- Social Media",
-    item4: "- Packaging",
-    item5: "- Visual Merchandising",
-  },
-  {
-    name: "CONTENT",
-    item1: "- Photo",
-    item2: "- Video",
-  },
-  {
-    name: "CREATIVE STRATEGY",
-    item1: "- Análisis",
-    item2: "- Concept",
-    item3: "- Report",
-  },
-  {
-    name: "PRODUCTION & STYLING",
-    item1: "- Concept crafting",
-    item2: "- Resources Management",
-  },
-  {
-    name: "3D DESIGN",
-    item1: "- Modeling",
-    item2: "- Rendering",
-    item3: "- Animation",
-  },
-];
+import { services } from "../constants/services";
 
 export default function ServicesCarousel() {
   return (
@@ -75,6 +31,7 @@ export default function ServicesCarousel() {
                 justifyContent: "center",
                 textAlign: "center",
                 gridArea: `box${i + 1}`,
+                textTransform: "uppercase",
               }}
             >
               <Link href="/clients">{service.name}</Link>

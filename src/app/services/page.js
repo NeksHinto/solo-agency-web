@@ -5,6 +5,10 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Inner from "../inner/inner";
 import Carousel from "../components/carousel";
+import Link from "next/link";
+import Image from "next/image";
+import { brands } from "../constants/brands";
+import { services } from "../constants/services";
 
 export default function Services() {
   const [selected, setSelected] = useState(null);
@@ -15,43 +19,6 @@ export default function Services() {
     }
     setSelected(i);
   };
-
-  const services = [
-    {
-      name: "Social Media",
-      items: ["- Calendarizacion", "- Copywriting", "- Posting"],
-    },
-    {
-      name: "Paid Media",
-      items: ["- Google ads", "- Meta ads", "- Mailing"],
-    },
-    {
-      name: "Graphic design & branding",
-      items: [
-        "- Logo design",
-        "- BrandBooks",
-        "- Social Media",
-        "- Packaging",
-        "- Visual Merchandising",
-      ],
-    },
-    {
-      name: "Content",
-      items: ["- Photo", "- Video"],
-    },
-    {
-      name: "Creative Strategy",
-      items: ["- Análisis", "- Concept", "- Report"],
-    },
-    {
-      name: "Production & Styling",
-      items: ["- Concept crafting", "- Resources Management"],
-    },
-    {
-      name: "3D design",
-      items: ["- Modeling", "- Rendering", "- Animation"],
-    },
-  ];
 
   const [isActive, setIsActive] = useState(true);
 
@@ -76,43 +43,58 @@ export default function Services() {
           <div className={styles.services_container}>
             {services.map((service, i) => {
               return (
-                <div key={i} style={{ display: "flex", alignItems: "center" }}>
-                  <div className={styles.link}>
-                    <p className={styles.filters_title}>{service.name}</p>
+                <div key={i} className={styles.service}>
+                  <div
+                    className={styles.service__banner}
+                    onClick={() => toggle(i)}
+                  >
+                    <p className={styles.section_title}>{service.name}</p>
+                    <span className={styles.cross}>
+                      {selected === i ? "_" : "+"}
+                    </span>
                   </div>
                   <div
+                    className={
+                      selected == i
+                        ? "page_service__list__show__37KEC"
+                        : "page_service__list__aU9Ez"
+                    }
                     style={{
                       display: "flex",
-                      alignItems: "center",
-                      gap: "1rem",
+                      flexDirection: "column",
                     }}
                   >
-                    {service.items.map((item, i) => {
-                      return (
-                        <a key={`item-` + i} href="/clients">
-                        <p style={{ fontSize: "20px" }}>
-                          {item}
-                        </p></a>
-                      );
-                    })}
+                    <div style={{ display: "flex", gap: "1rem" }}>
+                      {service.items.map((item, i) => {
+                        return (
+                          <>
+                            {i != 0 && <p>|</p>}
+                            <p key={`item-${i}`}>{item}</p>
+                          </>
+                        );
+                      })}
+                    </div>
+                    <div
+                      style={{ display: "flex", flexWrap: "wrap", gap: "5rem" }}
+                    >
+                      {brands
+                        .filter(
+                          (brand) => brand.services.indexOf(service.name) != -1
+                        )
+                        .map((brand, brandIndex) => (
+                          <div key={brandIndex}>
+                            <Link href={brand.route} alt={brand.name}>
+                              <img
+                                src={brand.imageLocation}
+                                alt={brand.name}
+                                className={styles.client__logo}
+                              />
+                            </Link>
+                          </div>
+                        ))}
+                    </div>
                   </div>
                 </div>
-                // <div key={i} className={styles.service}>
-                //   <div
-                //     className={styles.service__banner}
-                //     onClick={() => toggle(i)}
-                //   >
-                //     <p className={styles.section_title}>{service.name}</p>
-                //     <span className={styles.cross}>{selected === i ? '_' : "+"}</span>
-                //   </div>
-                //   <div className={selected == i ?  'page_service__list__show__37KEC' : 'page_service__list__aU9Ez'}>
-                //     <p className={styles.subtitle}>{service.item1}</p>
-                //     <p className={styles.subtitle}>{service.item2}</p>
-                //     <p className={styles.subtitle}>{service.item3}</p>
-                //     <p className={styles.subtitle}>{service.item4}</p>
-                //     <p className={styles.subtitle}>{service.item5}</p>
-                //   </div>
-                // </div>
               );
             })}
           </div>

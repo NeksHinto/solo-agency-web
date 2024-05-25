@@ -13,7 +13,7 @@ export default function Idea() {
       >
         <p className={styles.title}>ESTAMOS A UN CLICK DE DISTANCIA</p>
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <p className={styles.button2} style={{ marginLeft: "0rem" }}>
+          <p className={styles.button2}>
             <Link href="/contact">CONTACT US</Link>
           </p>
         </div>
