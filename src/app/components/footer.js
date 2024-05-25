@@ -8,7 +8,7 @@ import linkedinIcon from "../../../public/linkedin.svg";
 import whatsappIcon from "../../../public/whatsapp.svg";
 import Image from "next/image";
 
-export default function Carousel() {
+export default function Footer() {
   const [result, setResult] = React.useState("");
 
   const onSubmit = async (event) => {

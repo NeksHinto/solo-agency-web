@@ -6,7 +6,7 @@ import React from "react";
 import Inner from "../inner/inner";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import ServicesCarousel from "../components/servicesCarousel";
+import ServicesSection from "../components/servicesSection";
 import Image from "next/image";
 import { brands } from "../constants/brands";
 

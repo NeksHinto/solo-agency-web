@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../page.module.css";
 import { services } from "../constants/services";
 
-export default function ServicesCarousel() {
+export default function ServicesSection() {
   return (
     <div className={styles.carousel}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>

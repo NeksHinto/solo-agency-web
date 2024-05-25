@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../page.module.css";
 import Image from "next/image";
 
-export default function Carousel() {
+export default function ClientsSection() {
   return (
     <div className={styles.carousel}>
       <div style={{ display: "flex", justifyContent: "space-between" }}>

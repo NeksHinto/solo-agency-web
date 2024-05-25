@@ -4,13 +4,13 @@ import styles from "../page.module.css";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Inner from "../inner/inner";
-import Carousel from "../components/carousel";
+import ClientsSection from "../components/clientsSection";
 import Link from "next/link";
 import Image from "next/image";
 import { brands } from "../constants/brands";
 import { services } from "../constants/services";
 
-export default function Services() {
+export default function ServicesPage() {
   const [selected, setSelected] = useState(null);
 
   const toggle = (i) => {

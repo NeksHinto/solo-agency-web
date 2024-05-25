@@ -5,9 +5,9 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import styles from "./page.module.css";
 import Paragraph from "./components/paragraph";
-import Carousel from "./components/carousel";
-import ServicesCarousel from "./components/servicesCarousel";
-import Idea from "./components/idea";
+import ClientsSection from "./components/clientsSection";
+import ServicesSection from "./components/servicesSection";
+import CTA from "./components/idea";
 
 const paragraph =
   "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. ";
@@ -74,9 +74,9 @@ export default function Home() {
               <p className={styles.button2} style={{textAlign: 'left'}}><Link href="/about">ABOUT US</Link></p>
             </div>
         </div> */}
-      <Carousel />
-      <ServicesCarousel />
-      <Idea />
+      <ClientsSection />
+      <ServicesSection />
+      <CTA />
     </main>
   );
 }
