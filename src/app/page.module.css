@@ -381,7 +381,6 @@
   opacity: 0;
   color: white;
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
   margin-left: 2rem;
@@ -389,8 +388,8 @@
   justify-content: left;
   overflow: hidden;
   align-self: start;
-  gap: 5rem;
-  transition: all 2s cubic-bezier(0.33, 1, 0.68, 1);
+  column-gap: 5rem;
+  transition: all 2s cubic-bezier(0.17, 0.67, 0.87, 0.69);
 }
 .service__list__show {
   height: auto;

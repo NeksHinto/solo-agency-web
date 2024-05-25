@@ -62,6 +62,7 @@ export default function Services() {
                     style={{
                       display: "flex",
                       flexDirection: "column",
+                      gap: "1rem",
                     }}
                   >
                     <div style={{ display: "flex", gap: "1rem" }}>
@@ -75,7 +76,11 @@ export default function Services() {
                       })}
                     </div>
                     <div
-                      style={{ display: "flex", flexWrap: "wrap", gap: "5rem" }}
+                      style={{
+                        display: "flex",
+                        flexWrap: "wrap",
+                        columnGap: "5rem",
+                      }}
                     >
                       {brands
                         .filter(
