@@ -1,67 +1,112 @@
-'use client'
+"use client";
 import { useEffect } from "react";
 import { delay, motion } from "framer-motion";
-import styles from "../../page.module.css"
+import styles from "../../page.module.css";
 import Image from "next/image";
-import React, { useCallback} from "react";
+import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
-import ClientsRed from "@/app/components/clientsRedirect";
+import BlackBox from "@/app/components/clientsRedirect";
 
-const  paragraph = "GRAN TRAYECTORIA EN EL RUBRO INMOBILIARIO"
+const paragraph = "GRAN TRAYECTORIA EN EL RUBRO INMOBILIARIO";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
 
-  useEffect( () => {
-    (
-      async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
-      }
-    )()
-  }, [])
-
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef2] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef3] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef4] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef5] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef6] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
 
   return (
     <main className={styles.main}>
-      <Script type="text/javascript" src="/scripts/lightbox.js"/>
+      <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <motion.div
-          className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
+          className={styles.client__banner}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{
-          ease: [0.65, 0, 0.35, 1],
-          duration: 0.75,
-          x: { duration: 0.25 }
-          
-        }}>
+            ease: [0.65, 0, 0.35, 1],
+            duration: 0.75,
+            x: { duration: 0.25 },
+          }}
+        >
           <div>
             <Image
-            className={styles.client__page__logo}
-            src="/logos/lagouardeLogo.png"
-            alt="Solo Agency"
-            width={0}
-            height={0}
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
+              className={styles.client__page__logo}
+              src="/logos/lagouardeLogo.png"
+              alt="Solo Agency"
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto", maxWidth: "500px" }}
             />
           </div>
           <div className={styles.client__info}>
             <p>
-              Con más de 40 años en el rubro, la reconocida inmobiliaria acude a nosotros para afianzar la comunicación y presencia en redes sociales. Creative strategy, Social media, Paid media son las herramientas que llevan a Lagouarde a conquistar terrenos digitales.  
+              Con más de 40 años en el rubro, la reconocida inmobiliaria acude a
+              nosotros para afianzar la comunicación y presencia en redes
+              sociales. Creative strategy, Social media, Paid media son las
+              herramientas que llevan a Lagouarde a conquistar terrenos
+              digitales.
             </p>
           </div>
-            <div className={styles.client__info}>
-          <div>
-            <p className={styles.subtitle}>SERVICIOS</p>
-          </div>
+          <div className={styles.client__info}>
+            <div>
+              <p className={styles.subtitle}>SERVICIOS</p>
+            </div>
             <div className={styles.client__info__list}>
               <p>‐ Creative Strategy</p>
               <p>- Social Media</p>
@@ -72,10 +117,15 @@ export default function Home() {
         </motion.div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
-            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>CREATIVE</p>
+            <p
+              className={styles.client__title}
+              style={{ color: "gray", marginBottom: "-1rem" }}
+            >
+              CREATIVE
+            </p>
             <p className={styles.client__title}>STRATEGY</p>
             <div className={styles.client__imagetext}>
-              <video autoPlay muted controls loop playsInline >
+              <video autoPlay muted controls loop playsInline>
                 <source src="/lagouardePropiedades/lagouardeReel.mp4" />
               </video>
               <Paragraph value={paragraph} />
@@ -84,9 +134,16 @@ export default function Home() {
               <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/lagouardePropiedades/lagouardeReel.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/lagouardePropiedades/lagouardeReel.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -99,9 +156,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/lagouardePropiedades/lagouardeReel2.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/lagouardePropiedades/lagouardeReel2.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -114,9 +178,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/lagouardePropiedades/lagouardeReel.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/lagouardePropiedades/lagouardeReel.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -129,7 +200,14 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                    <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
                       <source src="/lagouardePropiedades/lagouardeReel3.mp4" />
                     </video>
                   </div>
@@ -147,11 +225,22 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className={styles.client__content__container} style={{width: '100%'}}>
+          <div
+            className={styles.client__content__container}
+            style={{ width: "100%" }}
+          >
             <div className={styles.masonry__container}>
-            <p className={styles.client__title} style={{color: 'gray', marginBottom: '-1rem'}}>SOCIAL</p>
-            <p className={styles.client__title}>MEDIA</p>
-              <div className={styles.masonry__galery} style={{marginTop: '0rem'}}>
+              <p
+                className={styles.client__title}
+                style={{ color: "gray", marginBottom: "-1rem" }}
+              >
+                SOCIAL
+              </p>
+              <p className={styles.client__title}>MEDIA</p>
+              <div
+                className={styles.masonry__galery}
+                style={{ marginTop: "0rem" }}
+              >
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
@@ -343,7 +432,14 @@ export default function Home() {
                   />
                 </div>
                 <div className={styles.embla__slide}>
-                  <video autoPlay muted controls loop playsInline className={styles.client__image}>
+                  <video
+                    autoPlay
+                    muted
+                    controls
+                    loop
+                    playsInline
+                    className={styles.client__image}
+                  >
                     <source src="/lagouardePropiedades/lagouardeReel3.mp4" />
                   </video>
                 </div>
@@ -414,7 +510,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <ClientsRed/>
+        <BlackBox />
       </div>
     </main>
   );

@@ -1,9 +1,7 @@
 "use client";
-import styles from "../page.module.css";
-import Link from "next/link";
 import "../globals.css";
 
-export default function ClientsRed() {
+export default function BlackBox() {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div

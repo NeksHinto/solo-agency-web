@@ -1,69 +1,126 @@
-'use client'
+"use client";
 import { useEffect } from "react";
 import { delay, motion } from "framer-motion";
-import styles from "../../page.module.css"
+import styles from "../../page.module.css";
 import Image from "next/image";
-import React, { useCallback} from "react";
+import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
-import ClientsRed from "@/app/components/clientsRedirect";
+import BlackBox from "@/app/components/clientsRedirect";
 
-const  paragraph = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique. "
+const paragraph =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique. ";
 
 export default function Home() {
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
 
-  useEffect( () => {
-    
-    (
-      async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default;
-        const locomotiveScroll = new LocomotiveScroll();
-      }
-    )()
-  }, [])
-
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef2,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef3,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef4,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef5,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef6,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef7,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
-  const [emblaRef8,] = useEmblaCarousel({ loop: true }, [Autoplay({delay: '3000', jump: 'false', playOnInit: 'true', dragFree: 'true'})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef2] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef3] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef4] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef5] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef6] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef7] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
+  const [emblaRef8] = useEmblaCarousel({ loop: true }, [
+    Autoplay({
+      delay: "3000",
+      jump: "false",
+      playOnInit: "true",
+      dragFree: "true",
+    }),
+  ]);
 
   return (
     <main className={styles.main}>
-      <Script type="text/javascript" src="/scripts/lightbox.js"/>
+      <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <motion.div
-          className={styles.client__banner} initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} 
+          className={styles.client__banner}
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
           transition={{
-          ease: [0.65, 0, 0.35, 1],
-          duration: 0.75,
-          x: { duration: 0.25 }
-          
-          }}>
-            <div>
-              <Image
+            ease: [0.65, 0, 0.35, 1],
+            duration: 0.75,
+            x: { duration: 0.25 },
+          }}
+        >
+          <div>
+            <Image
               className={styles.client__page__logo}
               src="/logos/puchetaLogo.png"
               alt="Solo Agency"
               width={0}
               height={0}
               sizes="100vw"
-              style={{ width: '100%', height: 'auto', maxWidth: '500px',}}
-              />
-            </div>
-            <div className={styles.client__info}>
-              <p>
-                Marca referente del diseño emergente argentino.
-                Desde creative strategy, social media management y content creation acompañamos a la marca en todos los desafíos que comprenden comunicación visual y digital.
-              </p>
-            </div>
+              style={{ width: "100%", height: "auto", maxWidth: "500px" }}
+            />
+          </div>
           <div className={styles.client__info}>
-            <div> 
+            <p>
+              Marca referente del diseño emergente argentino. Desde creative
+              strategy, social media management y content creation acompañamos a
+              la marca en todos los desafíos que comprenden comunicación visual
+              y digital.
+            </p>
+          </div>
+          <div className={styles.client__info}>
+            <div>
               <p className={styles.subtitle}>SERVICIOS</p>
             </div>
             <div className={styles.client__info__list}>
@@ -258,7 +315,9 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>CAMPAÑA ELEMENTOS</p>
-            <p className={styles.client__title} style={{color: 'gray'}}>2023</p>
+            <p className={styles.client__title} style={{ color: "gray" }}>
+              2023
+            </p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef2}>
                 <div className={styles.embla__container}>
@@ -335,11 +394,11 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <p className={styles.client__title} >2024</p>
+            <p className={styles.client__title}>2024</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef3}>
                 <div className={styles.embla__container}>
-                <div className={styles.embla__slide}>
+                  <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
                       src="/pucheta/puchetaElementos24_1.jpg"
@@ -411,9 +470,16 @@ export default function Home() {
               <div className={styles.embla__viewport} ref={emblaRef4}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaIcon1.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaIcon1.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -426,9 +492,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaIcon2.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaIcon2.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -441,9 +514,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaIcon3.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaIcon3.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -523,9 +603,16 @@ export default function Home() {
               <div className={styles.embla__viewport} ref={emblaRef5}>
                 <div className={styles.embla__container}>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaReel2.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaReel2.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -538,9 +625,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaReel3.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaReel3.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -553,9 +647,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaReel4.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaReel4.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -568,9 +669,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaReel5.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaReel5.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -696,7 +804,9 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <p className={styles.client__title}>RUNWAY TAKEOVER</p>
-            <p className={styles.client__title} style={{color: 'gray'}}>MARTIN FIERRO</p>
+            <p className={styles.client__title} style={{ color: "gray" }}>
+              MARTIN FIERRO
+            </p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef7}>
                 <div className={styles.embla__container}>
@@ -711,9 +821,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaMartinFierroReel2.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaMartinFierroReel2.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -726,9 +843,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaMartinFierroReel3.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaMartinFierroReel3.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -751,9 +875,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaMartinFierroReel4.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaMartinFierroReel4.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -776,9 +907,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaMartinFierroReel5.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaMartinFierroReel5.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -790,15 +928,14 @@ export default function Home() {
                       sizes="100vw"
                     />
                   </div>
-
                 </div>
               </div>
             </div>
-            <p className={styles.client__title} >RESILIENCIA</p>
+            <p className={styles.client__title}>RESILIENCIA</p>
             <div className={styles.embla}>
               <div className={styles.embla__viewport} ref={emblaRef8}>
                 <div className={styles.embla__container}>
-                <div className={styles.embla__slide}>
+                  <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
                       src="/pucheta/puchetaResiliencia.jpg"
@@ -809,9 +946,16 @@ export default function Home() {
                     />
                   </div>
                   <div className={styles.embla__slide}>
-                      <video autoPlay muted controls loop playsInline className={styles.client__image}>
-                        <source src="/pucheta/puchetaResiliencia.mp4" />
-                      </video>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/pucheta/puchetaResiliencia.mp4" />
+                    </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
@@ -898,7 +1042,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <ClientsRed/>
+        <BlackBox />
       </div>
     </main>
   );
