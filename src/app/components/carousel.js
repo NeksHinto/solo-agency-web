@@ -4,9 +4,8 @@ import styles from "../page.module.css";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
-const Carousel = ({ items, index, emblaRefs }) => {
-  console.log(emblaRefs);
-  emblaRefs.current[`emblaRef-${index}`] = useEmblaCarousel({ loop: true }, [
+const Carousel = ({ items, index }) => {
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: "3000" }),
   ]);
 
@@ -16,7 +15,7 @@ const Carousel = ({ items, index, emblaRefs }) => {
 
   return (
     <div className={styles.embla}>
-      <div className={styles.embla__viewport} ref={index}>
+      <div className={styles.embla__viewport} ref={emblaRef}>
         <div className={styles.embla__container}>
           {items.map((item) => (
             <div className={styles.embla__slide} key={item.id}>
