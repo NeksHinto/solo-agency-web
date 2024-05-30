@@ -21,7 +21,7 @@ export default function Home() {
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/aiaLogo.png"
+          logoSrc="/logos/aiaLogo.webp"
           clientInfo="Junto a la marca realizamos la dirección estratégica para el desarrollo de editoriales para redes sociales, reflejando los valores de simplicidad, movimiento y calidad, aspectos claves de una mujer contemporánea y joven, el público meta planteado con esta desarrollo."
           services={["Content"]}
         />

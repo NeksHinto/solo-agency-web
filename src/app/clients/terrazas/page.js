@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/terrazasdelosandesLogo.png"
+              src="/logos/terrazasdelosandesLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -100,7 +100,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/terrazas/terrazasUnboxing.mp4" />
+                <source src="/terrazas/terrazasUnboxing.webm" />
               </video>
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
               <div className={styles.masonry__galery} style={{ width: "95%" }}>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas.jpg"
+                    src="/terrazas/terrazas.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -118,7 +118,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas2.jpg"
+                    src="/terrazas/terrazas2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -127,7 +127,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas3.jpg"
+                    src="/terrazas/terrazas3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -136,7 +136,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas4.jpg"
+                    src="/terrazas/terrazas4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -145,7 +145,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas5.jpg"
+                    src="/terrazas/terrazas5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -154,7 +154,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/terrazas/terrazas6.jpg"
+                    src="/terrazas/terrazas6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}

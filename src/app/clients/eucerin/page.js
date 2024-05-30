@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/eucerinLogo.png"
+              src="/logos/eucerinLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -108,7 +108,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto", width: "100%" }}
               >
-                <source src="/eucerin/eucerinVideo2.mp4" />
+                <source src="/eucerin/eucerinVideo2.webm" />
               </video>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin.jpg"
+                    src="/eucerin/Eucerin.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -134,13 +134,13 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/eucerin/eucerinVideo.mp4" />
+                    <source src="/eucerin/eucerinVideo.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin2.jpg"
+                    src="/eucerin/Eucerin2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -156,13 +156,13 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/eucerin/eucerinVideo3.mp4" />
+                    <source src="/eucerin/eucerinVideo3.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin3.jpg"
+                    src="/eucerin/Eucerin3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -172,7 +172,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin4.jpg"
+                    src="/eucerin/Eucerin4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -182,7 +182,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin5.jpg"
+                    src="/eucerin/Eucerin5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -192,7 +192,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin6.jpg"
+                    src="/eucerin/Eucerin6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -202,7 +202,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin7.jpg"
+                    src="/eucerin/Eucerin7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -212,7 +212,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin8.jpg"
+                    src="/eucerin/Eucerin8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -222,7 +222,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin9.jpg"
+                    src="/eucerin/Eucerin9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin10.jpg"
+                    src="/eucerin/Eucerin10.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -242,7 +242,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin11.jpg"
+                    src="/eucerin/Eucerin11.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -252,7 +252,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin12.jpg"
+                    src="/eucerin/Eucerin12.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -262,7 +262,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin13.jpg"
+                    src="/eucerin/Eucerin13.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -272,7 +272,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin14.jpg"
+                    src="/eucerin/Eucerin14.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -282,7 +282,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin15.jpg"
+                    src="/eucerin/Eucerin15.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -292,7 +292,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin16.jpg"
+                    src="/eucerin/Eucerin16.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -302,7 +302,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin17.jpg"
+                    src="/eucerin/Eucerin17.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -312,7 +312,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin18.jpg"
+                    src="/eucerin/Eucerin18.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -322,7 +322,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin19.jpg"
+                    src="/eucerin/Eucerin19.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -332,7 +332,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin20.jpg"
+                    src="/eucerin/Eucerin20.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -342,7 +342,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin21.jpg"
+                    src="/eucerin/Eucerin21.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -352,7 +352,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin22.jpg"
+                    src="/eucerin/Eucerin22.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -362,7 +362,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin23.jpg"
+                    src="/eucerin/Eucerin23.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -372,7 +372,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin24.jpg"
+                    src="/eucerin/Eucerin24.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -382,7 +382,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/eucerin/Eucerin25.jpg"
+                    src="/eucerin/Eucerin25.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}

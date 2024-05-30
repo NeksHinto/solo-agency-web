@@ -87,7 +87,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/faitfulLogo.png"
+              src="/logos/faitfulLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -125,7 +125,7 @@ export default function Home() {
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/faitful/faitfulFeed1_2.jpg"
+                src="/faitful/faitfulFeed1_2.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -143,7 +143,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory1_1.jpg"
+                      src="/faitful/faitfulStory1_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -153,7 +153,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory1_2.jpg"
+                      src="/faitful/faitfulStory1_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -163,7 +163,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory1_3.jpg"
+                      src="/faitful/faitfulStory1_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -173,7 +173,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_1.jpg"
+                      src="/faitful/faitfulStory2_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -183,7 +183,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_2.jpg"
+                      src="/faitful/faitfulStory2_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -193,7 +193,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_3.jpg"
+                      src="/faitful/faitfulStory2_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -203,7 +203,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_4.jpg"
+                      src="/faitful/faitfulStory2_4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -213,7 +213,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_5.jpg"
+                      src="/faitful/faitfulStory2_5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -223,7 +223,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_6.jpg"
+                      src="/faitful/faitfulStory2_6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -233,7 +233,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/faitful/faitfulStory2_7.jpg"
+                      src="/faitful/faitfulStory2_7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -256,7 +256,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed1_1.jpg"
+                    src="/faitful/faitfulFeed1_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -266,7 +266,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory3_1.jpg"
+                    src="/faitful/faitfulStory3_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -276,7 +276,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed1_2.jpg"
+                    src="/faitful/faitfulFeed1_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -286,7 +286,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory3_2.jpg"
+                    src="/faitful/faitfulStory3_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -296,7 +296,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed1_3.jpg"
+                    src="/faitful/faitfulFeed1_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -306,7 +306,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory3_3.jpg"
+                    src="/faitful/faitfulStory3_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -316,7 +316,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed1_4.jpg"
+                    src="/faitful/faitfulFeed1_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -326,7 +326,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory3_4.jpg"
+                    src="/faitful/faitfulStory3_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -336,7 +336,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed2_1.jpg"
+                    src="/faitful/faitfulFeed2_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -346,7 +346,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory3_5.jpg"
+                    src="/faitful/faitfulStory3_5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -356,7 +356,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed2_2.jpg"
+                    src="/faitful/faitfulFeed2_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -376,7 +376,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed2_3.jpg"
+                    src="/faitful/faitfulFeed2_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -386,7 +386,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_2.jpg"
+                    src="/faitful/faitfulStory4_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -396,7 +396,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulFeed2_4.jpg"
+                    src="/faitful/faitfulFeed2_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -406,7 +406,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_3.jpg"
+                    src="/faitful/faitfulStory4_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -416,7 +416,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_4.jpg"
+                    src="/faitful/faitfulStory4_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -426,7 +426,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_5.jpg"
+                    src="/faitful/faitfulStory4_5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -436,7 +436,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_6.jpg"
+                    src="/faitful/faitfulStory4_6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -446,7 +446,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_7.jpg"
+                    src="/faitful/faitfulStory4_7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -456,7 +456,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_8.jpg"
+                    src="/faitful/faitfulStory4_8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -466,7 +466,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_9.jpg"
+                    src="/faitful/faitfulStory4_9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -476,7 +476,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/faitful/faitfulStory4_10.png"
+                    src="/faitful/faitfulStory4_10.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -496,7 +496,7 @@ export default function Home() {
                 style={{ justifyContent: "center" }}
               >
                 <Image
-                  src="/faitful/faitfulPaidMedia.jpg"
+                  src="/faitful/faitfulPaidMedia.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -504,7 +504,7 @@ export default function Home() {
                   className={styles.client__paid__image}
                 />
                 <Image
-                  src="/faitful/faitfulPaidMedia2.jpg"
+                  src="/faitful/faitfulPaidMedia2.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}

@@ -56,7 +56,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/hisilvieLogo.png"
+              src="/logos/hisilvieLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -94,7 +94,7 @@ export default function Home() {
             <p className={styles.client__title}>STRATEGY</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/hisilvie/hiSilvie2.jpg"
+                src="/hisilvie/hiSilvie2.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -114,7 +114,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie.jpg"
+                      src="/hisilvie/hiSilvie.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -124,7 +124,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie2.jpg"
+                      src="/hisilvie/hiSilvie2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -140,13 +140,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/looks inspirados en... SILVIE_H.264.mp4" />
+                      <source src="/hisilvie/looks inspirados en... SILVIE_H.264.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie3.jpg"
+                      src="/hisilvie/hiSilvie3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -162,13 +162,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/looks para ir a trabajar SILVIE_H.264.mp4" />
+                      <source src="/hisilvie/looks para ir a trabajar SILVIE_H.264.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie4.jpg"
+                      src="/hisilvie/hiSilvie4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -178,7 +178,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie5.jpg"
+                      src="/hisilvie/hiSilvie5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -188,7 +188,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/hisilvie/hiSilvie6.jpg"
+                      src="/hisilvie/hiSilvie6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -204,7 +204,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/LOOK OLD MONEY final_H.264.mp4" />
+                      <source src="/hisilvie/LOOK OLD MONEY final_H.264.webm" />
                     </video>
                   </div>
                 </div>
@@ -281,7 +281,7 @@ export default function Home() {
               </p>
               <Image
                 className={styles.client__image}
-                src="/hisilvie/ANTES.png"
+                src="/hisilvie/ANTES.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -292,7 +292,7 @@ export default function Home() {
               <p className={styles.title}>After</p>
               <Image
                 className={styles.client__image}
-                src="/hisilvie/DESPUES.png"
+                src="/hisilvie/DESPUES.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -323,7 +323,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/hisilvie/uncafeconvos.mp4" />
+                <source src="/hisilvie/uncafeconvos.webm" />
               </video>
             </div>
             <div className={styles.embla}>
@@ -338,7 +338,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/uncafeconvos2.mp4" />
+                      <source src="/hisilvie/uncafeconvos2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -350,7 +350,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/uncafeconvos3.mp4" />
+                      <source src="/hisilvie/uncafeconvos3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -362,7 +362,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/hisilvie/uncafeconvos4.mp4" />
+                      <source src="/hisilvie/uncafeconvos4.webm" />
                     </video>
                   </div>
                 </div>

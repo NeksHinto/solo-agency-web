@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/jpLogo.png"
+              src="/logos/jpLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -105,7 +105,7 @@ export default function Home() {
               />
               <Image
                 className={styles.masonry__image}
-                src="/jp/jpSocial7.jpg"
+                src="/jp/jpSocial7.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -122,7 +122,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial.jpg"
+                    src="/jp/jpSocial.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -132,7 +132,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent.jpg"
+                    src="/jp/jpContent.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -142,7 +142,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial2.jpg"
+                    src="/jp/jpSocial2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -152,7 +152,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent2.jpg"
+                    src="/jp/jpContent2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -162,7 +162,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial3.jpg"
+                    src="/jp/jpSocial3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -172,7 +172,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent3.jpg"
+                    src="/jp/jpContent3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -182,7 +182,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial4.jpg"
+                    src="/jp/jpSocial4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -192,7 +192,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent4.jpg"
+                    src="/jp/jpContent4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -202,7 +202,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial5.jpg"
+                    src="/jp/jpSocial5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -212,7 +212,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent5.jpg"
+                    src="/jp/jpContent5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -222,7 +222,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial6.jpg"
+                    src="/jp/jpSocial6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -232,7 +232,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent6.jpg"
+                    src="/jp/jpContent6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -242,7 +242,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpSocial7.jpg"
+                    src="/jp/jpSocial7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -252,7 +252,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent7.jpg"
+                    src="/jp/jpContent7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -262,7 +262,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent8.jpg"
+                    src="/jp/jpContent8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -272,7 +272,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent9.jpg"
+                    src="/jp/jpContent9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -282,7 +282,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent10.jpg"
+                    src="/jp/jpContent10.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -292,7 +292,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent11.jpg"
+                    src="/jp/jpContent11.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -302,7 +302,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent12.jpg"
+                    src="/jp/jpContent12.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -312,7 +312,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent13.jpg"
+                    src="/jp/jpContent13.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -322,7 +322,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent14.jpg"
+                    src="/jp/jpContent14.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -332,7 +332,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent15.jpg"
+                    src="/jp/jpContent15.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -342,7 +342,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/jp/jpContent16.jpg"
+                    src="/jp/jpContent16.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}

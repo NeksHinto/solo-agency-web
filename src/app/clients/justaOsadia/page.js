@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/justaosadiaLogo.png"
+              src="/logos/justaosadiaLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -92,52 +92,52 @@ export default function Home() {
               <div className={styles.masonry__galery} style={{ width: "80%" }}>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia.mp4" />
+                    <source src="/justaOsadia/justaOsadia.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia2.mp4" />
+                    <source src="/justaOsadia/justaOsadia2.webm" />
                   </video>
                 </div>
                 {/* <div className={styles.embla__slide}>
                     <video autoPlay muted controls loop playsInline>
-                      <source src="/justaOsadia/justaOsadia3.mp4" />
+                      <source src="/justaOsadia/justaOsadia3.webm" />
                     </video>
                 </div> */}
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia4.mp4" />
+                    <source src="/justaOsadia/justaOsadia4.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia5.mp4" />
+                    <source src="/justaOsadia/justaOsadia5.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia6.mp4" />
+                    <source src="/justaOsadia/justaOsadia6.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia7.mp4" />
+                    <source src="/justaOsadia/justaOsadia7.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia8.mp4" />
+                    <source src="/justaOsadia/justaOsadia8.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia9.mp4" />
+                    <source src="/justaOsadia/justaOsadia9.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/justaOsadia/justaOsadia10.mp4" />
+                    <source src="/justaOsadia/justaOsadia10.webm" />
                   </video>
                 </div>
               </div>

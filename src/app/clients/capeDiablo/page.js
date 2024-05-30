@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/capediabloLogo.png"
+              src="/logos/capediabloLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -95,7 +95,7 @@ export default function Home() {
                 className={styles.client__metrics_container_title}
               />
               <Image
-                src="/capeDiablo/capediablo.jpg"
+                src="/capeDiablo/capediablo.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -108,7 +108,7 @@ export default function Home() {
               <div className={styles.masonry__galery} style={{ width: "80%" }}>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo.jpg"
+                    src="/capeDiablo/capediablo.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -117,7 +117,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo2.jpg"
+                    src="/capeDiablo/capediablo2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -126,7 +126,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo3.jpg"
+                    src="/capeDiablo/capediablo3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -135,7 +135,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo4.jpg"
+                    src="/capeDiablo/capediablo4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -144,7 +144,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo5.jpg"
+                    src="/capeDiablo/capediablo5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -153,7 +153,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/capeDiablo/capediablo6.jpg"
+                    src="/capeDiablo/capediablo6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -161,10 +161,10 @@ export default function Home() {
                   />
                 </div>
                 <video autoPlay muted controls loop playsInline>
-                  <source src="/capeDiablo/capediabloV.mp4" />
+                  <source src="/capeDiablo/capediabloV.webm" />
                 </video>
                 <video autoPlay muted controls loop playsInline>
-                  <source src="/capeDiablo/capediabloV2.mp4" />
+                  <source src="/capeDiablo/capediabloV2.webm" />
                 </video>
               </div>
             </div>

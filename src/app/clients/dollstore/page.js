@@ -22,7 +22,7 @@ export default function Home() {
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dollstoreLogo.png"
+          logoSrc="/logos/dollstoreLogo.webp"
           clientInfo="Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital."
           services={[
             "Creative Strategy",

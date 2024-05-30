@@ -53,7 +53,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/dsmenLogo.png"
+              src="/logos/dsmenLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -90,7 +90,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmensale.jpg"
+                      src="/dsmen/dsmensale.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -100,7 +100,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmensale2.jpg"
+                      src="/dsmen/dsmensale2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -110,7 +110,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmensale3.jpg"
+                      src="/dsmen/dsmensale3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -120,7 +120,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmensale4.jpg"
+                      src="/dsmen/dsmensale4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -130,7 +130,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmensale5.jpg"
+                      src="/dsmen/dsmensale5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -151,7 +151,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad.jpg"
+                      src="/dsmen/dsmenNavidad.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -161,7 +161,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad2.jpg"
+                      src="/dsmen/dsmenNavidad2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -171,7 +171,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad3.jpg"
+                      src="/dsmen/dsmenNavidad3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -181,7 +181,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad4.jpg"
+                      src="/dsmen/dsmenNavidad4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -191,7 +191,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad5.jpg"
+                      src="/dsmen/dsmenNavidad5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -201,7 +201,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad6.jpg"
+                      src="/dsmen/dsmenNavidad6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -211,7 +211,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad7.jpg"
+                      src="/dsmen/dsmenNavidad7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -221,7 +221,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad8.jpg"
+                      src="/dsmen/dsmenNavidad8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -231,7 +231,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenNavidad9.jpg"
+                      src="/dsmen/dsmenNavidad9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -256,7 +256,7 @@ export default function Home() {
             <div>
               <Image
                 className={styles.client__image}
-                src="/dsmen/dsmenBranding6.jpg"
+                src="/dsmen/dsmenBranding6.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -264,7 +264,7 @@ export default function Home() {
               />
               <Image
                 className={styles.client__image}
-                src="/dsmen/dsmenBranding7.jpg"
+                src="/dsmen/dsmenBranding7.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -277,7 +277,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenBranding.jpg"
+                      src="/dsmen/dsmenBranding.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -287,7 +287,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenBranding2.jpg"
+                      src="/dsmen/dsmenBranding2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -297,7 +297,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenBranding3.jpg"
+                      src="/dsmen/dsmenBranding3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -307,7 +307,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenBranding4.jpg"
+                      src="/dsmen/dsmenBranding4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -317,7 +317,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenBranding5.jpg"
+                      src="/dsmen/dsmenBranding5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -345,7 +345,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle.jpg"
+                      src="/dsmen/dsmenStreetstyle.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -355,7 +355,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle2.jpg"
+                      src="/dsmen/dsmenStreetstyle2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -365,7 +365,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle3.jpg"
+                      src="/dsmen/dsmenStreetstyle3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -375,7 +375,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle4.jpg"
+                      src="/dsmen/dsmenStreetstyle4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -385,7 +385,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle5.jpg"
+                      src="/dsmen/dsmenStreetstyle5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -395,7 +395,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle6.jpg"
+                      src="/dsmen/dsmenStreetstyle6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -405,7 +405,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle7.jpg"
+                      src="/dsmen/dsmenStreetstyle7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -415,7 +415,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle8.jpg"
+                      src="/dsmen/dsmenStreetstyle8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -425,7 +425,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle9.jpg"
+                      src="/dsmen/dsmenStreetstyle9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -441,7 +441,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel2.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -453,13 +453,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle10.jpg"
+                      src="/dsmen/dsmenStreetstyle10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -469,7 +469,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle11.jpg"
+                      src="/dsmen/dsmenStreetstyle11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -479,7 +479,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle12.jpg"
+                      src="/dsmen/dsmenStreetstyle12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -489,7 +489,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle13.jpg"
+                      src="/dsmen/dsmenStreetstyle13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -505,13 +505,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel3.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle14.jpg"
+                      src="/dsmen/dsmenStreetstyle14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -521,7 +521,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle15.jpg"
+                      src="/dsmen/dsmenStreetstyle15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -531,7 +531,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle16.jpg"
+                      src="/dsmen/dsmenStreetstyle16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -547,13 +547,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel4.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle17.jpg"
+                      src="/dsmen/dsmenStreetstyle17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -563,7 +563,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle18.jpg"
+                      src="/dsmen/dsmenStreetstyle18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -573,7 +573,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle20.jpg"
+                      src="/dsmen/dsmenStreetstyle20.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -583,7 +583,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle21.jpg"
+                      src="/dsmen/dsmenStreetstyle21.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -593,7 +593,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle22.jpg"
+                      src="/dsmen/dsmenStreetstyle22.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -609,13 +609,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel5.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel5.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle23.jpg"
+                      src="/dsmen/dsmenStreetstyle23.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -625,7 +625,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle24.jpg"
+                      src="/dsmen/dsmenStreetstyle24.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -635,7 +635,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle25.jpg"
+                      src="/dsmen/dsmenStreetstyle25.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -645,7 +645,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle26.jpg"
+                      src="/dsmen/dsmenStreetstyle26.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -661,13 +661,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel6.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel6.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle27.jpg"
+                      src="/dsmen/dsmenStreetstyle27.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -677,7 +677,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle28.jpg"
+                      src="/dsmen/dsmenStreetstyle28.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -693,13 +693,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel9.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel9.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle29.jpg"
+                      src="/dsmen/dsmenStreetstyle29.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -709,7 +709,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle30.jpg"
+                      src="/dsmen/dsmenStreetstyle30.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -719,7 +719,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle31.jpg"
+                      src="/dsmen/dsmenStreetstyle31.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -729,7 +729,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle32.jpg"
+                      src="/dsmen/dsmenStreetstyle32.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -739,7 +739,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/dsmen/dsmenStreetstyle33.jpg"
+                      src="/dsmen/dsmenStreetstyle33.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -755,7 +755,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/dsmen/dsmenStreetstyleReel10.mp4" />
+                      <source src="/dsmen/dsmenStreetstyleReel10.webm" />
                     </video>
                   </div>
                 </div>

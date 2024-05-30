@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/celebreinculinaLogo.png"
+              src="/logos/celebreinculinaLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -93,7 +93,7 @@ export default function Home() {
                 className={styles.client__metrics_container_title}
               />
               <video autoPlay muted controls loop playsInline>
-                <source src="/celebreinculina/celebreInCulina.mp4" />
+                <source src="/celebreinculina/celebreInCulina.webm" />
               </video>
             </div>
           </div>
@@ -111,7 +111,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/celebreinculina/celebreInCulina2.mp4" />
+                      <source src="/celebreinculina/celebreInCulina2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -123,7 +123,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/celebreinculina/celebreInCulina4.mp4" />
+                      <source src="/celebreinculina/celebreInCulina4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -135,7 +135,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/celebreinculina/celebreInCulina5.mp4" />
+                      <source src="/celebreinculina/celebreInCulina5.webm" />
                     </video>
                   </div>
                 </div>

@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/ubkLogo.png"
+              src="/logos/ubkLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -102,7 +102,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/ubk/UBK_H.264.mp4" />
+                <source src="/ubk/UBK_H.264.webm" />
               </video>
             </div>
           </div>
@@ -120,13 +120,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/ubk/poste UBK_H.264.mp4" />
+                      <source src="/ubk/poste UBK_H.264.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk1.jpg"
+                      src="/ubk/ubk1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -136,7 +136,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk2.jpg"
+                      src="/ubk/ubk2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -146,7 +146,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk3.jpg"
+                      src="/ubk/ubk3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -156,7 +156,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk4.jpg"
+                      src="/ubk/ubk4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -166,7 +166,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk5.jpg"
+                      src="/ubk/ubk5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -176,7 +176,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk6.jpg"
+                      src="/ubk/ubk6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -186,7 +186,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk7.jpg"
+                      src="/ubk/ubk7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -196,7 +196,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk8.jpg"
+                      src="/ubk/ubk8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -206,7 +206,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk9.jpg"
+                      src="/ubk/ubk9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -216,7 +216,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk10.jpg"
+                      src="/ubk/ubk10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -226,7 +226,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk11.jpg"
+                      src="/ubk/ubk11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -236,7 +236,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk12.jpg"
+                      src="/ubk/ubk12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -246,7 +246,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk13.jpg"
+                      src="/ubk/ubk13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -256,7 +256,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk14.jpg"
+                      src="/ubk/ubk14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -266,7 +266,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk15.jpg"
+                      src="/ubk/ubk15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -276,7 +276,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk16.jpg"
+                      src="/ubk/ubk16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -286,7 +286,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk17.jpg"
+                      src="/ubk/ubk17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -296,7 +296,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk18.jpg"
+                      src="/ubk/ubk18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -306,7 +306,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk19.jpg"
+                      src="/ubk/ubk19.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -316,7 +316,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk20.jpg"
+                      src="/ubk/ubk20.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -326,7 +326,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk21.jpg"
+                      src="/ubk/ubk21.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -336,7 +336,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk22.jpg"
+                      src="/ubk/ubk22.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -346,7 +346,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk23.jpg"
+                      src="/ubk/ubk23.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -356,7 +356,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk24.jpg"
+                      src="/ubk/ubk24.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -366,7 +366,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk25.jpg"
+                      src="/ubk/ubk25.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -376,7 +376,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk26.jpg"
+                      src="/ubk/ubk26.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -386,7 +386,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk27.jpg"
+                      src="/ubk/ubk27.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -396,7 +396,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk28.jpg"
+                      src="/ubk/ubk28.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -406,7 +406,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk29.jpg"
+                      src="/ubk/ubk29.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -416,7 +416,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/ubk/ubk28.jpg"
+                      src="/ubk/ubk28.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}

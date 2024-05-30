@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/companianativaLogo.png"
+              src="/logos/companianativaLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -106,13 +106,13 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/companiaNativa/BARRAS CN_H.264.mp4" />
+                <source src="/companiaNativa/BARRAS CN_H.264.webm" />
               </video>
             </div>
           </div>
           <div className={styles.client__imagetext}>
             <Image
-              src="/companiaNativa/companiaNativa.jpg"
+              src="/companiaNativa/companiaNativa.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -128,12 +128,12 @@ export default function Home() {
               <div className={styles.masonry__galery}>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Armado mesa Quadra_H.264.mp4" />
+                    <source src="/companiaNativa/Armado mesa Quadra_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa2.jpg"
+                    src="/companiaNativa/companiaNativa2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -142,12 +142,12 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Armado exterior_H.264.mp4" />
+                    <source src="/companiaNativa/Armado exterior_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa3.jpg"
+                    src="/companiaNativa/companiaNativa3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -156,7 +156,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa4.jpg"
+                    src="/companiaNativa/companiaNativa4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -165,13 +165,13 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Centro de mesa navideño_H.264.mp4" />
+                    <source src="/companiaNativa/Centro de mesa navideño_H.264.webm" />
                   </video>
                 </div>
                 <div>
                   <Image
                     className={styles.client__image}
-                    src="/companiaNativa/companiaNativa5.jpg"
+                    src="/companiaNativa/companiaNativa5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -180,12 +180,12 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Saludo de fin año_H.264.mp4" />
+                    <source src="/companiaNativa/Saludo de fin año_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa6.jpg"
+                    src="/companiaNativa/companiaNativa6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -194,12 +194,12 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Mesa navideña día_ noche_H.264.mp4" />
+                    <source src="/companiaNativa/Mesa navideña día_ noche_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa7.jpg"
+                    src="/companiaNativa/companiaNativa7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -208,12 +208,12 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Sillas de exterior_H.264.mp4" />
+                    <source src="/companiaNativa/Sillas de exterior_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa8.jpg"
+                    src="/companiaNativa/companiaNativa8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -222,12 +222,12 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Proceso de armado mesa Rocky_H.264.mp4" />
+                    <source src="/companiaNativa/Proceso de armado mesa Rocky_H.264.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
-                    src="/companiaNativa/companiaNativa9.jpg"
+                    src="/companiaNativa/companiaNativa9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -236,7 +236,7 @@ export default function Home() {
                 </div>
                 <div className={styles.embla__slide}>
                   <video autoPlay muted controls loop playsInline>
-                    <source src="/companiaNativa/Saludo de fin año_H.264.mp4" />
+                    <source src="/companiaNativa/Saludo de fin año_H.264.webm" />
                   </video>
                 </div>
               </div>
@@ -265,7 +265,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/companiaNativa/Avances Casa Nativa_H.264.mp4" />
+                <source src="/companiaNativa/Avances Casa Nativa_H.264.webm" />
               </video>
             </div>
           </div>

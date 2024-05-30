@@ -35,7 +35,7 @@ export default function Home() {
         }}
       >
         <Image
-          src="/SOLO AGENCY LOGO TYPO BLANCO.png"
+          src="/SOLO AGENCY LOGO TYPO BLANCO.webp"
           alt="Solo Agency"
           width={0}
           height={0}
@@ -54,7 +54,7 @@ export default function Home() {
         playsInline
         style={{ marginBottom: "20vh" }}
       >
-        <source src="/SOLOAGENCY.mp4" />
+        <source src="/SOLOAGENCY.webm" />
       </video> */}
       <div className={styles.WWW}>
         <div>

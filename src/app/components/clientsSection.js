@@ -21,7 +21,7 @@ export default function ClientsSection() {
         <div className={styles.scroller__inner}>
           <Link href={"../clients/elGorumet"}>
             <Image
-              src="/logos/elgourmetLogo.png"
+              src="/logos/elgourmetLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -30,7 +30,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/dollstore"}>
             <Image
-              src="/logos/dollstoreLogo.png"
+              src="/logos/dollstoreLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -39,7 +39,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/eucerin"}>
             <Image
-              src="/logos/eucerinLogo.png"
+              src="/logos/eucerinLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -48,7 +48,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/justaOsadia"}>
             <Image
-              src="/logos/justaosadiaLogo.png"
+              src="/logos/justaosadiaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -57,7 +57,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/lidherma"}>
             <Image
-              src="/logos/lidhermaLogo.png"
+              src="/logos/lidhermaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -66,7 +66,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/pucheta"}>
             <Image
-              src="/logos/puchetaLogo.png"
+              src="/logos/puchetaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -75,7 +75,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/elGorumet"}>
             <Image
-              src="/logos/elgourmetLogo.png"
+              src="/logos/elgourmetLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -84,7 +84,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/dollstore"}>
             <Image
-              src="/logos/dollstoreLogo.png"
+              src="/logos/dollstoreLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -93,7 +93,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/eucerin"}>
             <Image
-              src="/logos/eucerinLogo.png"
+              src="/logos/eucerinLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -102,7 +102,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/justaOsadia"}>
             <Image
-              src="/logos/justaosadiaLogo.png"
+              src="/logos/justaosadiaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -111,7 +111,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/lidherma"}>
             <Image
-              src="/logos/lidhermaLogo.png"
+              src="/logos/lidhermaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"
@@ -120,7 +120,7 @@ export default function ClientsSection() {
           </Link>
           <Link href={"../clients/pucheta"}>
             <Image
-              src="/logos/puchetaLogo.png"
+              src="/logos/puchetaLogo.webp"
               width={0}
               height={0}
               sizes="100vw"

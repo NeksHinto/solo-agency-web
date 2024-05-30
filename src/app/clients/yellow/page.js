@@ -56,7 +56,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/yellowLogo.png"
+              src="/logos/yellowLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -94,7 +94,7 @@ export default function Home() {
             <p className={styles.client__title}>STRATEGY</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/yellow/yellowContent26.jpg"
+                src="/yellow/yellowContent26.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -110,14 +110,14 @@ export default function Home() {
             </p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/yellow/yellowContent3.jpg"
+                src="/yellow/yellowContent3.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
                 sizes="100vw"
               />
               <Image
-                src="/yellow/yellowContent5.jpg"
+                src="/yellow/yellowContent5.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -130,7 +130,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent.jpg"
+                      src="/yellow/yellowContent.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -140,7 +140,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent2.jpg"
+                      src="/yellow/yellowContent2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -150,7 +150,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent4.jpg"
+                      src="/yellow/yellowContent4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent6.jpg"
+                      src="/yellow/yellowContent6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -170,7 +170,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent8.jpg"
+                      src="/yellow/yellowContent8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -180,7 +180,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent9.jpg"
+                      src="/yellow/yellowContent9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -190,7 +190,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent10.jpg"
+                      src="/yellow/yellowContent10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -200,7 +200,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent11.jpg"
+                      src="/yellow/yellowContent11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -210,7 +210,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent12.jpg"
+                      src="/yellow/yellowContent12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -220,7 +220,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent13.jpg"
+                      src="/yellow/yellowContent13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -230,7 +230,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent14.jpg"
+                      src="/yellow/yellowContent14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -240,7 +240,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent15.jpg"
+                      src="/yellow/yellowContent15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -250,7 +250,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent16.jpg"
+                      src="/yellow/yellowContent16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -260,7 +260,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent17.jpg"
+                      src="/yellow/yellowContent17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -270,7 +270,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent18.jpg"
+                      src="/yellow/yellowContent18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -280,7 +280,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent19.jpg"
+                      src="/yellow/yellowContent19.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -290,7 +290,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent20.jpg"
+                      src="/yellow/yellowContent20.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -300,7 +300,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent21.jpg"
+                      src="/yellow/yellowContent21.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -310,7 +310,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent22.jpg"
+                      src="/yellow/yellowContent22.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -320,7 +320,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent23.jpg"
+                      src="/yellow/yellowContent23.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -330,7 +330,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent24.jpg"
+                      src="/yellow/yellowContent24.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -340,7 +340,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent25.jpg"
+                      src="/yellow/yellowContent25.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -350,7 +350,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/yellow/yellowContent27.jpg"
+                      src="/yellow/yellowContent27.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -373,7 +373,7 @@ export default function Home() {
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.client__imagetext}>
               <video autoPlay muted controls loop playsInlin>
-                <source src="/yellow/yellowPaidMedia.mp4" />
+                <source src="/yellow/yellowPaidMedia.webm" />
               </video>
               <div className={styles.embla2} style={{ margin: "auto" }}>
                 <div className={styles.embla__viewport} ref={emblaRef4}>
@@ -388,7 +388,7 @@ export default function Home() {
                         style={{ margin: "auto" }}
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowPaidMedia6.mp4" />
+                        <source src="/yellow/yellowPaidMedia6.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -400,7 +400,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowPaidMedia5.mp4" />
+                        <source src="/yellow/yellowPaidMedia5.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -412,7 +412,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowPaidMedia3.mp4" />
+                        <source src="/yellow/yellowPaidMedia3.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -424,7 +424,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowPaidMedia2.mp4" />
+                        <source src="/yellow/yellowPaidMedia2.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -436,7 +436,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowPaidMedia4.mp4" />
+                        <source src="/yellow/yellowPaidMedia4.webm" />
                       </video>
                     </div>
                   </div>
@@ -463,7 +463,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/yellow/yellowSocialMedia.mp4" />
+                <source src="/yellow/yellowSocialMedia.webm" />
               </video>
               <div className={styles.embla2} style={{ margin: "auto" }}>
                 <div className={styles.embla__viewport} ref={emblaRef}>
@@ -477,7 +477,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia2.mp4" />
+                        <source src="/yellow/yellowSocialMedia2.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -489,7 +489,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia3.mp4" />
+                        <source src="/yellow/yellowSocialMedia3.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -501,7 +501,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia4.mp4" />
+                        <source src="/yellow/yellowSocialMedia4.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -513,7 +513,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia5.mp4" />
+                        <source src="/yellow/yellowSocialMedia5.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -525,7 +525,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia6.mp4" />
+                        <source src="/yellow/yellowSocialMedia6.webm" />
                       </video>
                     </div>
                     <div className={styles.embla__slide2}>
@@ -537,7 +537,7 @@ export default function Home() {
                         playsInline
                         className={styles.embla__slide2}
                       >
-                        <source src="/yellow/yellowSocialMedia7.mp4" />
+                        <source src="/yellow/yellowSocialMedia7.webm" />
                       </video>
                     </div>
                   </div>

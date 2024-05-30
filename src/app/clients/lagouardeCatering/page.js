@@ -84,7 +84,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/lagouardeLogo.png"
+              src="/logos/lagouardeLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -122,7 +122,7 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook1.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook1.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -138,7 +138,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook11.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook11.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -154,7 +154,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook14.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook14.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -170,7 +170,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook16.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook16.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -186,7 +186,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook19.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook19.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -202,7 +202,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook20.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook20.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -218,7 +218,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook21.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook21.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -234,7 +234,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/lagouardeCatering/lagouardeCBrandbook25.jpg"
+              src="/lagouardeCatering/lagouardeCBrandbook25.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -260,7 +260,7 @@ export default function Home() {
             <p className={styles.client__title}>MEDIA</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/lagouardeCatering/lagouardeCFeedCompleto.png"
+                src="/lagouardeCatering/lagouardeCFeedCompleto.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -280,13 +280,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardeCatering/lagouardeCReel2.mp4" />
+                      <source src="/lagouardeCatering/lagouardeCReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria1_1.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria1_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -302,13 +302,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardeCatering/lagouardeCReel3.mp4" />
+                      <source src="/lagouardeCatering/lagouardeCReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria1_2.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria1_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -318,7 +318,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria1_3.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria1_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -334,13 +334,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardePropiedades/lagouardeReel3.mp4" />
+                      <source src="/lagouardePropiedades/lagouardeReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria2_1.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria2_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -350,7 +350,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria2_2.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria2_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -360,7 +360,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria3_1.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria3_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -370,7 +370,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardeCatering/lagouardeCHistoria3_2.jpg"
+                      src="/lagouardeCatering/lagouardeCHistoria3_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -386,7 +386,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardeCatering/lagouardeCReel.mp4" />
+                      <source src="/lagouardeCatering/lagouardeCReel.webm" />
                     </video>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent.jpg"
+                    src="/lagouardeCatering/lagouardeCContent.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -415,7 +415,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -425,7 +425,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent2.jpg"
+                    src="/lagouardeCatering/lagouardeCContent2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -435,7 +435,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed2.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -445,7 +445,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent3.jpg"
+                    src="/lagouardeCatering/lagouardeCContent3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -455,7 +455,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed3.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -465,7 +465,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent4.jpg"
+                    src="/lagouardeCatering/lagouardeCContent4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -475,7 +475,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed4.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -485,7 +485,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent5.jpg"
+                    src="/lagouardeCatering/lagouardeCContent5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -495,7 +495,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed5.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -505,7 +505,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent6.jpg"
+                    src="/lagouardeCatering/lagouardeCContent6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -515,7 +515,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCFeed6.jpg"
+                    src="/lagouardeCatering/lagouardeCFeed6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -525,7 +525,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent7.jpg"
+                    src="/lagouardeCatering/lagouardeCContent7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -535,7 +535,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent8.jpg"
+                    src="/lagouardeCatering/lagouardeCContent8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -545,7 +545,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent9.jpg"
+                    src="/lagouardeCatering/lagouardeCContent9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -555,7 +555,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent10.jpg"
+                    src="/lagouardeCatering/lagouardeCContent10.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -565,7 +565,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent11.jpg"
+                    src="/lagouardeCatering/lagouardeCContent11.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -575,7 +575,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent12.jpg"
+                    src="/lagouardeCatering/lagouardeCContent12.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -585,7 +585,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent13.jpg"
+                    src="/lagouardeCatering/lagouardeCContent13.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -595,7 +595,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent14.jpg"
+                    src="/lagouardeCatering/lagouardeCContent14.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -605,7 +605,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent15.jpg"
+                    src="/lagouardeCatering/lagouardeCContent15.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -615,7 +615,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardeCatering/lagouardeCContent16.jpg"
+                    src="/lagouardeCatering/lagouardeCContent16.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}

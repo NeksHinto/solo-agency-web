@@ -5,25 +5,25 @@ export const carouselData = [
       {
         id: 1,
         type: "video",
-        src: "/celebreinculina/celebreInCulina.mp4",
+        src: "/celebreinculina/celebreInCulina.webm",
         alt: "Celebre Inculina Video",
       },
       {
         id: 2,
         type: "video",
-        src: "/celebreinculina/celebreInCulina2.mp4",
+        src: "/celebreinculina/celebreInCulina2.webm",
         alt: "Celebre Inculina Reels Video",
       },
       {
         id: 3,
         type: "video",
-        src: "/celebreinculina/celebreInCulina4.mp4",
+        src: "/celebreinculina/celebreInCulina4.webm",
         alt: "Celebre Inculina Reels Video",
       },
       {
         id: 4,
         type: "video",
-        src: "/celebreinculina/celebreInCulina5.mp4",
+        src: "/celebreinculina/celebreInCulina5.webm",
         alt: "Celebre Inculina Reels Video",
       },
 

@@ -86,7 +86,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/lagouardeLogo.png"
+              src="/logos/lagouardeLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -126,7 +126,7 @@ export default function Home() {
             <p className={styles.client__title}>STRATEGY</p>
             <div className={styles.client__imagetext}>
               <video autoPlay muted controls loop playsInline>
-                <source src="/lagouardePropiedades/lagouardeReel.mp4" />
+                <source src="/lagouardePropiedades/lagouardeReel.webm" />
               </video>
               <Paragraph value={paragraph} />
             </div>
@@ -142,13 +142,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardePropiedades/lagouardeReel.mp4" />
+                      <source src="/lagouardePropiedades/lagouardeReel.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardePropiedades/lagouardeStory2_1.jpg"
+                      src="/lagouardePropiedades/lagouardeStory2_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -164,13 +164,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardePropiedades/lagouardeReel2.mp4" />
+                      <source src="/lagouardePropiedades/lagouardeReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardePropiedades/lagouardeStory2_2.jpg"
+                      src="/lagouardePropiedades/lagouardeStory2_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -186,13 +186,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardePropiedades/lagouardeReel.mp4" />
+                      <source src="/lagouardePropiedades/lagouardeReel.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardePropiedades/lagouardeStory2_3.jpg"
+                      src="/lagouardePropiedades/lagouardeStory2_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -208,13 +208,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lagouardePropiedades/lagouardeReel3.mp4" />
+                      <source src="/lagouardePropiedades/lagouardeReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lagouardePropiedades/lagouardeStory2_4.jpg"
+                      src="/lagouardePropiedades/lagouardeStory2_4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -244,7 +244,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory1_1.jpg"
+                    src="/lagouardePropiedades/lagouardeStory1_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -254,7 +254,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed1_1.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed1_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -264,7 +264,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory1_2.jpg"
+                    src="/lagouardePropiedades/lagouardeStory1_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -274,7 +274,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed1_2.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed1_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -284,7 +284,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory1_3.jpg"
+                    src="/lagouardePropiedades/lagouardeStory1_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -294,7 +294,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed1_3.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed1_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -304,7 +304,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory1_4.jpg"
+                    src="/lagouardePropiedades/lagouardeStory1_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -314,7 +314,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed1_4.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed1_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -324,7 +324,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory3_1.jpg"
+                    src="/lagouardePropiedades/lagouardeStory3_1.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -334,7 +334,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_2.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -344,7 +344,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory3_2.jpg"
+                    src="/lagouardePropiedades/lagouardeStory3_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -354,7 +354,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_3.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -364,7 +364,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory3_3.jpg"
+                    src="/lagouardePropiedades/lagouardeStory3_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -374,7 +374,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_4.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -384,7 +384,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory3_4.jpg"
+                    src="/lagouardePropiedades/lagouardeStory3_4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -394,7 +394,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_5.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -404,7 +404,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_6.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -414,7 +414,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_7.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -424,7 +424,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeFeed3_8.jpg"
+                    src="/lagouardePropiedades/lagouardeFeed3_8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -440,13 +440,13 @@ export default function Home() {
                     playsInline
                     className={styles.client__image}
                   >
-                    <source src="/lagouardePropiedades/lagouardeReel3.mp4" />
+                    <source src="/lagouardePropiedades/lagouardeReel3.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory4_2.jpg"
+                    src="/lagouardePropiedades/lagouardeStory4_2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -456,7 +456,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory4_3.png"
+                    src="/lagouardePropiedades/lagouardeStory4_3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -466,7 +466,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/lagouardePropiedades/lagouardeStory4_5.jpg"
+                    src="/lagouardePropiedades/lagouardeStory4_5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -483,7 +483,7 @@ export default function Home() {
             <div className={styles.client__content__container}>
               <div className={styles.client__content__paidmedia}>
                 <Image
-                  src="/lagouardePropiedades/lagouardePaidMedia.jpg"
+                  src="/lagouardePropiedades/lagouardePaidMedia.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -491,7 +491,7 @@ export default function Home() {
                   className={styles.client__paid__image}
                 />
                 <Image
-                  src="/lagouardePropiedades/lagouardePaidMedia2.jpg"
+                  src="/lagouardePropiedades/lagouardePaidMedia2.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -499,7 +499,7 @@ export default function Home() {
                   className={styles.client__paid__image}
                 />
                 <Image
-                  src="/lagouardePropiedades/lagouardePaidMedia3.jpg"
+                  src="/lagouardePropiedades/lagouardePaidMedia3.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}

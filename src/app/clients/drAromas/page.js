@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/doctoraromasLogo.png"
+              src="/logos/doctoraromasLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -106,7 +106,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/drAromas/drAromasVideo5.mp4" />
+                <source src="/drAromas/drAromasVideo5.webm" />
               </video>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/drAromas/drAromas.jpg"
+                    src="/drAromas/drAromas.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/drAromas/drAromas2.jpg"
+                    src="/drAromas/drAromas2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -142,7 +142,7 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/drAromas/drAromasVideo8.mp4" />
+                    <source src="/drAromas/drAromasVideo8.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
@@ -154,13 +154,13 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/drAromas/drAromasVideo2.mp4" />
+                    <source src="/drAromas/drAromasVideo2.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/drAromas/drAromas3.jpg"
+                    src="/drAromas/drAromas3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -170,41 +170,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/drAromas/drAromas4.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <video
-                    autoPlay
-                    muted
-                    controls
-                    loop
-                    playsInline
-                    className={styles.masonry__image}
-                  >
-                    <source src="/drAromas/drAromasVideo3.mp4" />
-                  </video>
-                </div>
-                <div className={styles.embla__slide}>
-                  <video
-                    autoPlay
-                    muted
-                    controls
-                    loop
-                    playsInline
-                    className={styles.masonry__image}
-                  >
-                    <source src="/drAromas/drAromasVideo4.mp4" />
-                  </video>
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/drAromas/drAromas5.jpg"
+                    src="/drAromas/drAromas4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -220,7 +186,7 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/drAromas/drAromasVideo5.mp4" />
+                    <source src="/drAromas/drAromasVideo3.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
@@ -232,23 +198,13 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/drAromas/drAromasVideo6.mp4" />
+                    <source src="/drAromas/drAromasVideo4.webm" />
                   </video>
                 </div>
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/drAromas/drAromas6.jpg"
-                    alt="Solo Agency"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                  />
-                </div>
-                <div className={styles.embla__slide}>
-                  <Image
-                    className={styles.masonry__image}
-                    src="/drAromas/drAromas7.jpg"
+                    src="/drAromas/drAromas5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -264,7 +220,51 @@ export default function Home() {
                     playsInline
                     className={styles.masonry__image}
                   >
-                    <source src="/drAromas/drAromasVideo7.mp4" />
+                    <source src="/drAromas/drAromasVideo5.webm" />
+                  </video>
+                </div>
+                <div className={styles.embla__slide}>
+                  <video
+                    autoPlay
+                    muted
+                    controls
+                    loop
+                    playsInline
+                    className={styles.masonry__image}
+                  >
+                    <source src="/drAromas/drAromasVideo6.webm" />
+                  </video>
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    className={styles.masonry__image}
+                    src="/drAromas/drAromas6.webp"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <Image
+                    className={styles.masonry__image}
+                    src="/drAromas/drAromas7.webp"
+                    alt="Solo Agency"
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                  />
+                </div>
+                <div className={styles.embla__slide}>
+                  <video
+                    autoPlay
+                    muted
+                    controls
+                    loop
+                    playsInline
+                    className={styles.masonry__image}
+                  >
+                    <source src="/drAromas/drAromasVideo7.webm" />
                   </video>
                 </div>
               </div>

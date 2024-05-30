@@ -103,7 +103,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/puchetaLogo.png"
+              src="/logos/puchetaLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -140,7 +140,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom.jpg"
+                      src="/pucheta/puchetaEcom.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -150,7 +150,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom2.jpg"
+                      src="/pucheta/puchetaEcom2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom3.jpg"
+                      src="/pucheta/puchetaEcom3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -170,7 +170,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom4.jpg"
+                      src="/pucheta/puchetaEcom4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -180,7 +180,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom5.jpg"
+                      src="/pucheta/puchetaEcom5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -190,7 +190,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom6.jpg"
+                      src="/pucheta/puchetaEcom6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -200,7 +200,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom7.jpg"
+                      src="/pucheta/puchetaEcom7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -210,7 +210,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom8.jpg"
+                      src="/pucheta/puchetaEcom8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -220,7 +220,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom9.jpg"
+                      src="/pucheta/puchetaEcom9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -230,7 +230,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom10.jpg"
+                      src="/pucheta/puchetaEcom10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -240,7 +240,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom11.jpg"
+                      src="/pucheta/puchetaEcom11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -250,7 +250,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom12.jpg"
+                      src="/pucheta/puchetaEcom12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -260,7 +260,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom13.jpg"
+                      src="/pucheta/puchetaEcom13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -270,7 +270,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom14.jpg"
+                      src="/pucheta/puchetaEcom14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -280,7 +280,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom15.jpg"
+                      src="/pucheta/puchetaEcom15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -290,7 +290,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom16.jpg"
+                      src="/pucheta/puchetaEcom16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -300,7 +300,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaEcom17.jpg"
+                      src="/pucheta/puchetaEcom17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -324,7 +324,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_1.jpg"
+                      src="/pucheta/puchetaElementos23_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -334,7 +334,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_2.jpg"
+                      src="/pucheta/puchetaElementos23_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -344,7 +344,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_3.jpg"
+                      src="/pucheta/puchetaElementos23_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -354,7 +354,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_4.jpg"
+                      src="/pucheta/puchetaElementos23_4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -364,7 +364,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_5.jpg"
+                      src="/pucheta/puchetaElementos23_5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -374,7 +374,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_6.jpg"
+                      src="/pucheta/puchetaElementos23_6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -384,7 +384,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos23_7.jpg"
+                      src="/pucheta/puchetaElementos23_7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -401,7 +401,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos24_1.jpg"
+                      src="/pucheta/puchetaElementos24_1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -411,7 +411,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos24_2.jpg"
+                      src="/pucheta/puchetaElementos24_2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -421,7 +421,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos24_3.jpg"
+                      src="/pucheta/puchetaElementos24_3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -431,7 +431,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos24_4.jpg"
+                      src="/pucheta/puchetaElementos24_4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -441,7 +441,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaElementos24_5.jpg"
+                      src="/pucheta/puchetaElementos24_5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -458,7 +458,7 @@ export default function Home() {
             <p className={styles.client__title}>ICONS</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/pucheta/PORTADAS PROMO ICONS-01.png"
+                src="/pucheta/PORTADAS PROMO ICONS-01.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -478,13 +478,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaIcon1.mp4" />
+                      <source src="/pucheta/puchetaIcon1.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON1.jpg"
+                      src="/pucheta/PUCHETA_ICON1.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -500,13 +500,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaIcon2.mp4" />
+                      <source src="/pucheta/puchetaIcon2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON2.jpg"
+                      src="/pucheta/PUCHETA_ICON2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -522,13 +522,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaIcon3.mp4" />
+                      <source src="/pucheta/puchetaIcon3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON3.jpg"
+                      src="/pucheta/PUCHETA_ICON3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -538,7 +538,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON3.jpg"
+                      src="/pucheta/PUCHETA_ICON3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -548,7 +548,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON4.jpg"
+                      src="/pucheta/PUCHETA_ICON4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -558,7 +558,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON5.jpg"
+                      src="/pucheta/PUCHETA_ICON5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -568,7 +568,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON6.jpg"
+                      src="/pucheta/PUCHETA_ICON6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -578,7 +578,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/PUCHETA_ICON7.jpg"
+                      src="/pucheta/PUCHETA_ICON7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -595,7 +595,7 @@ export default function Home() {
             <p className={styles.client__title}>SOCIAL MEDIA</p>
             <div className={styles.client__imagetext}>
               <video autoPlay muted controls loop playsInline>
-                <source src="/pucheta/puchetaReel.mp4" />
+                <source src="/pucheta/puchetaReel.webm" />
               </video>
               <Paragraph value={paragraph} />
             </div>
@@ -611,13 +611,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaReel2.mp4" />
+                      <source src="/pucheta/puchetaReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories.jpg"
+                      src="/pucheta/puchetaStories.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -633,13 +633,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaReel3.mp4" />
+                      <source src="/pucheta/puchetaReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories2.jpg"
+                      src="/pucheta/puchetaStories2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -655,13 +655,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaReel4.mp4" />
+                      <source src="/pucheta/puchetaReel4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories3.jpg"
+                      src="/pucheta/puchetaStories3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -677,13 +677,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaReel5.mp4" />
+                      <source src="/pucheta/puchetaReel5.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories4.jpg"
+                      src="/pucheta/puchetaStories4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -693,7 +693,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories5.jpg"
+                      src="/pucheta/puchetaStories5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -703,7 +703,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories6.jpg"
+                      src="/pucheta/puchetaStories6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -713,7 +713,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories7.jpg"
+                      src="/pucheta/puchetaStories7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -723,7 +723,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories8.jpg"
+                      src="/pucheta/puchetaStories8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -733,7 +733,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories9.jpg"
+                      src="/pucheta/puchetaStories9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -743,7 +743,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaStories10.jpg"
+                      src="/pucheta/puchetaStories10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -759,7 +759,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaPost.jpg"
+                      src="/pucheta/puchetaPost.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -769,7 +769,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaPost2.jpg"
+                      src="/pucheta/puchetaPost2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -779,7 +779,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaPost3.jpg"
+                      src="/pucheta/puchetaPost3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -789,7 +789,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaPost4.jpg"
+                      src="/pucheta/puchetaPost4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -813,7 +813,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro.jpg"
+                      src="/pucheta/puchetaMartinFierro.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -829,13 +829,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaMartinFierroReel2.mp4" />
+                      <source src="/pucheta/puchetaMartinFierroReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro2.jpg"
+                      src="/pucheta/puchetaMartinFierro2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -851,13 +851,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaMartinFierroReel3.mp4" />
+                      <source src="/pucheta/puchetaMartinFierroReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro3.jpg"
+                      src="/pucheta/puchetaMartinFierro3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -867,7 +867,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro4.jpg"
+                      src="/pucheta/puchetaMartinFierro4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -883,13 +883,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaMartinFierroReel4.mp4" />
+                      <source src="/pucheta/puchetaMartinFierroReel4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro5.jpg"
+                      src="/pucheta/puchetaMartinFierro5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -899,7 +899,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro6.jpg"
+                      src="/pucheta/puchetaMartinFierro6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -915,13 +915,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaMartinFierroReel5.mp4" />
+                      <source src="/pucheta/puchetaMartinFierroReel5.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaMartinFierro7.jpg"
+                      src="/pucheta/puchetaMartinFierro7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -938,7 +938,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia.jpg"
+                      src="/pucheta/puchetaResiliencia.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -954,13 +954,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/pucheta/puchetaResiliencia.mp4" />
+                      <source src="/pucheta/puchetaResiliencia.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia2.jpg"
+                      src="/pucheta/puchetaResiliencia2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -970,7 +970,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia3.jpg"
+                      src="/pucheta/puchetaResiliencia3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -980,7 +980,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia4.jpg"
+                      src="/pucheta/puchetaResiliencia4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -990,7 +990,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia5.jpg"
+                      src="/pucheta/puchetaResiliencia5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -1000,7 +1000,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia6.jpg"
+                      src="/pucheta/puchetaResiliencia6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -1010,7 +1010,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia7.jpg"
+                      src="/pucheta/puchetaResiliencia7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -1020,7 +1020,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia8.jpg"
+                      src="/pucheta/puchetaResiliencia8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -1030,7 +1030,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/pucheta/puchetaResiliencia9.jpg"
+                      src="/pucheta/puchetaResiliencia9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}

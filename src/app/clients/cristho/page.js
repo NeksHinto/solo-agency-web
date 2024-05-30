@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/cristhoLogo.png"
+              src="/logos/cristhoLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -102,7 +102,7 @@ export default function Home() {
               />
               <Image
                 className={styles.masonry__image}
-                src="/cristho/cristho.jpg"
+                src="/cristho/cristho.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -116,7 +116,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho2.jpg"
+                    src="/cristho/cristho2.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho3.jpg"
+                    src="/cristho/cristho3.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -136,7 +136,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho4.jpg"
+                    src="/cristho/cristho4.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -146,7 +146,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho5.jpg"
+                    src="/cristho/cristho5.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -156,7 +156,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho6.jpg"
+                    src="/cristho/cristho6.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -166,7 +166,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho7.jpg"
+                    src="/cristho/cristho7.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -176,7 +176,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho8.jpg"
+                    src="/cristho/cristho8.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -186,7 +186,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho9.jpg"
+                    src="/cristho/cristho9.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -196,7 +196,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho10.jpg"
+                    src="/cristho/cristho10.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -206,7 +206,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho11.jpg"
+                    src="/cristho/cristho11.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -216,7 +216,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho12.jpg"
+                    src="/cristho/cristho12.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -226,7 +226,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho13.jpg"
+                    src="/cristho/cristho13.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -236,7 +236,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho14.jpg"
+                    src="/cristho/cristho14.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}
@@ -246,7 +246,7 @@ export default function Home() {
                 <div className={styles.embla__slide}>
                   <Image
                     className={styles.masonry__image}
-                    src="/cristho/cristho15.jpg"
+                    src="/cristho/cristho15.webp"
                     alt="Solo Agency"
                     width={0}
                     height={0}

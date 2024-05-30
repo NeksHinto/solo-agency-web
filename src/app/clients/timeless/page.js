@@ -32,7 +32,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/timelessLogo.png"
+              src="/logos/timelessLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -59,7 +59,7 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK.jpg"
+              src="/timeless/TIMELESS BRANDBOOK.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -75,7 +75,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK2.jpg"
+              src="/timeless/TIMELESS BRANDBOOK2.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -91,7 +91,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK3.jpg"
+              src="/timeless/TIMELESS BRANDBOOK3.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK4.jpg"
+              src="/timeless/TIMELESS BRANDBOOK4.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK5.jpg"
+              src="/timeless/TIMELESS BRANDBOOK5.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -139,7 +139,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK6.jpg"
+              src="/timeless/TIMELESS BRANDBOOK6.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -155,7 +155,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK7.jpg"
+              src="/timeless/TIMELESS BRANDBOOK7.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -171,7 +171,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK8.jpg"
+              src="/timeless/TIMELESS BRANDBOOK8.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -187,7 +187,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK9.jpg"
+              src="/timeless/TIMELESS BRANDBOOK9.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -203,7 +203,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK10.jpg"
+              src="/timeless/TIMELESS BRANDBOOK10.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -219,7 +219,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK11.jpg"
+              src="/timeless/TIMELESS BRANDBOOK11.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -235,7 +235,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK12.jpg"
+              src="/timeless/TIMELESS BRANDBOOK12.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -251,7 +251,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK13.jpg"
+              src="/timeless/TIMELESS BRANDBOOK13.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -267,7 +267,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK14.jpg"
+              src="/timeless/TIMELESS BRANDBOOK14.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -283,7 +283,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK15.jpg"
+              src="/timeless/TIMELESS BRANDBOOK15.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -299,7 +299,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/timeless/TIMELESS BRANDBOOK16.jpg"
+              src="/timeless/TIMELESS BRANDBOOK16.webp"
               alt="Solo Agency"
               width={0}
               height={0}

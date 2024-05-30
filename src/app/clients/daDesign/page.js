@@ -86,7 +86,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/dadesignLogo.png"
+              src="/logos/dadesignLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -136,13 +136,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/daDesign/daDesignReel.mp4" />
+                      <source src="/daDesign/daDesignReel.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria.jpg"
+                      src="/daDesign/daDesignHistoria.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -158,13 +158,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/daDesign/daDesignReel2.mp4" />
+                      <source src="/daDesign/daDesignReel2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria4.jpg"
+                      src="/daDesign/daDesignHistoria4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -174,7 +174,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria2.jpg"
+                      src="/daDesign/daDesignHistoria2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -190,13 +190,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/daDesign/daDesignReel3.mp4" />
+                      <source src="/daDesign/daDesignReel3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria3.jpg"
+                      src="/daDesign/daDesignHistoria3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -212,13 +212,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/daDesign/daDesignReel4.mp4" />
+                      <source src="/daDesign/daDesignReel4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria5.jpg"
+                      src="/daDesign/daDesignHistoria5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -228,7 +228,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria6.jpg"
+                      src="/daDesign/daDesignHistoria6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -238,7 +238,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria7.jpg"
+                      src="/daDesign/daDesignHistoria7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -248,7 +248,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria8.jpg"
+                      src="/daDesign/daDesignHistoria8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -258,7 +258,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria9.jpg"
+                      src="/daDesign/daDesignHistoria9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -268,7 +268,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria10.jpg"
+                      src="/daDesign/daDesignHistoria10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -278,7 +278,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria11.jpg"
+                      src="/daDesign/daDesignHistoria11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -288,7 +288,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria12.jpg"
+                      src="/daDesign/daDesignHistoria12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -298,7 +298,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria13.jpg"
+                      src="/daDesign/daDesignHistoria13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -308,7 +308,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria14.jpg"
+                      src="/daDesign/daDesignHistoria14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -318,7 +318,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria15.jpg"
+                      src="/daDesign/daDesignHistoria15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -328,7 +328,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria16.jpg"
+                      src="/daDesign/daDesignHistoria16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -338,7 +338,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria17.jpg"
+                      src="/daDesign/daDesignHistoria17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -348,7 +348,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria18.jpg"
+                      src="/daDesign/daDesignHistoria18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -358,7 +358,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria19.jpg"
+                      src="/daDesign/daDesignHistoria19.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -368,7 +368,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria20.jpg"
+                      src="/daDesign/daDesignHistoria20.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -378,7 +378,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria21.jpg"
+                      src="/daDesign/daDesignHistoria21.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -388,7 +388,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignHistoria22.jpg"
+                      src="/daDesign/daDesignHistoria22.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -404,7 +404,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed.jpg"
+                      src="/daDesign/daDesignFeed.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -414,7 +414,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed2.jpg"
+                      src="/daDesign/daDesignFeed2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -424,7 +424,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed3.jpg"
+                      src="/daDesign/daDesignFeed3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -434,7 +434,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed4.jpg"
+                      src="/daDesign/daDesignFeed4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -444,7 +444,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed5.jpg"
+                      src="/daDesign/daDesignFeed5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -454,7 +454,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed6.jpg"
+                      src="/daDesign/daDesignFeed6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -464,7 +464,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed7.jpg"
+                      src="/daDesign/daDesignFeed7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -474,7 +474,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed8.jpg"
+                      src="/daDesign/daDesignFeed8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -484,7 +484,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed9.jpg"
+                      src="/daDesign/daDesignFeed9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -494,7 +494,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed10.jpg"
+                      src="/daDesign/daDesignFeed10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -504,7 +504,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed11.jpg"
+                      src="/daDesign/daDesignFeed11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -514,7 +514,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesignFeed12.jpg"
+                      src="/daDesign/daDesignFeed12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -531,7 +531,7 @@ export default function Home() {
             <p className={styles.client__title}>CONTENT</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/daDesign/daDesignFeedFinal.jpg"
+                src="/daDesign/daDesignFeedFinal.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -545,7 +545,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign.jpg"
+                      src="/daDesign/daDesign.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -555,7 +555,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign2.jpg"
+                      src="/daDesign/daDesign2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -565,7 +565,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign3.jpg"
+                      src="/daDesign/daDesign3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -575,7 +575,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign4.jpg"
+                      src="/daDesign/daDesign4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -585,7 +585,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign5.jpg"
+                      src="/daDesign/daDesign5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -595,7 +595,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign6.jpg"
+                      src="/daDesign/daDesign6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -605,7 +605,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign7.jpg"
+                      src="/daDesign/daDesign7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -615,7 +615,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign8.jpg"
+                      src="/daDesign/daDesign8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -625,7 +625,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign9.jpg"
+                      src="/daDesign/daDesign9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -635,7 +635,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign10.jpg"
+                      src="/daDesign/daDesign10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -645,7 +645,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign11.jpg"
+                      src="/daDesign/daDesign11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -655,7 +655,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign12.jpg"
+                      src="/daDesign/daDesign12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -665,7 +665,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign13.jpg"
+                      src="/daDesign/daDesign13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -675,7 +675,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign14.jpg"
+                      src="/daDesign/daDesign14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -685,7 +685,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign15.jpg"
+                      src="/daDesign/daDesign15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -695,7 +695,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign16.jpg"
+                      src="/daDesign/daDesign16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -705,7 +705,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign17.jpg"
+                      src="/daDesign/daDesign17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -715,7 +715,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign18.jpg"
+                      src="/daDesign/daDesign18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -725,7 +725,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/daDesign/daDesign19.jpg"
+                      src="/daDesign/daDesign19.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}

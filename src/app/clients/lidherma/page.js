@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/lidhermaLogo.png"
+              src="/logos/lidhermaLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -107,7 +107,7 @@ export default function Home() {
                 playsInline
                 style={{ margin: "auto" }}
               >
-                <source src="/lidherma/lidhermaV.mp4" />
+                <source src="/lidherma/lidhermaV.webm" />
               </video>
             </div>
           </div>
@@ -119,7 +119,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma.jpg"
+                      src="/lidherma/lidherma.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -129,7 +129,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma2.jpg"
+                      src="/lidherma/lidherma2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -139,7 +139,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma3.jpg"
+                      src="/lidherma/lidherma3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -149,7 +149,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma4.jpg"
+                      src="/lidherma/lidherma4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -159,7 +159,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma5.jpg"
+                      src="/lidherma/lidherma5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -169,7 +169,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma6.jpg"
+                      src="/lidherma/lidherma6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -179,7 +179,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma7.jpg"
+                      src="/lidherma/lidherma7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -189,7 +189,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma8.jpg"
+                      src="/lidherma/lidherma8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -199,7 +199,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma9.jpg"
+                      src="/lidherma/lidherma9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -209,7 +209,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma10.jpg"
+                      src="/lidherma/lidherma10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -219,7 +219,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/lidherma/lidherma11.jpg"
+                      src="/lidherma/lidherma11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -242,7 +242,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV.mp4" />
+                      <source src="/lidherma/lidhermaV.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -254,7 +254,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV2.mp4" />
+                      <source src="/lidherma/lidhermaV2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -266,7 +266,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV3.mp4" />
+                      <source src="/lidherma/lidhermaV3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -278,7 +278,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV4.mp4" />
+                      <source src="/lidherma/lidhermaV4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -290,7 +290,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV5.mp4" />
+                      <source src="/lidherma/lidhermaV5.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -302,7 +302,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/lidherma/lidhermaV6.mp4" />
+                      <source src="/lidherma/lidhermaV6.webm" />
                     </video>
                   </div>
                 </div>

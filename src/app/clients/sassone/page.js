@@ -32,7 +32,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/sassoneLogo.png"
+              src="/logos/sassoneLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -67,7 +67,7 @@ export default function Home() {
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook1.jpg"
+              src="/sassone/sassoneBrandbook1.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -83,7 +83,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook9.jpg"
+              src="/sassone/sassoneBrandbook9.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -99,7 +99,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook14.jpg"
+              src="/sassone/sassoneBrandbook14.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook17.jpg"
+              src="/sassone/sassoneBrandbook17.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -131,7 +131,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook18.jpg"
+              src="/sassone/sassoneBrandbook18.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -147,7 +147,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook22.jpg"
+              src="/sassone/sassoneBrandbook22.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -163,7 +163,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook25.jpg"
+              src="/sassone/sassoneBrandbook25.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -179,7 +179,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook31.jpg"
+              src="/sassone/sassoneBrandbook31.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -195,7 +195,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook32.jpg"
+              src="/sassone/sassoneBrandbook32.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -211,7 +211,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook33.jpg"
+              src="/sassone/sassoneBrandbook33.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -227,7 +227,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook34.jpg"
+              src="/sassone/sassoneBrandbook34.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -243,7 +243,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook35.jpg"
+              src="/sassone/sassoneBrandbook35.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -259,7 +259,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook36.jpg"
+              src="/sassone/sassoneBrandbook36.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -275,7 +275,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook37.jpg"
+              src="/sassone/sassoneBrandbook37.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -291,7 +291,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook38.jpg"
+              src="/sassone/sassoneBrandbook38.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -307,7 +307,7 @@ export default function Home() {
           </div>
           <div className={styles.client__content__container}>
             <Image
-              src="/sassone/sassoneBrandbook39.jpg"
+              src="/sassone/sassoneBrandbook39.webp"
               alt="Solo Agency"
               width={0}
               height={0}

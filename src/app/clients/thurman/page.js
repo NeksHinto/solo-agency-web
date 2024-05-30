@@ -87,7 +87,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/thurmanLogo.png"
+              src="/logos/thurmanLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -134,13 +134,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/Video campaña completa.mp4" />
+                      <source src="/thurman/Video campaña completa.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign.jpg"
+                      src="/thurman/thurmanCampaign.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -150,7 +150,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign2.jpg"
+                      src="/thurman/thurmanCampaign2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -160,7 +160,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign3.jpg"
+                      src="/thurman/thurmanCampaign3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -170,7 +170,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign4.jpg"
+                      src="/thurman/thurmanCampaign4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -186,13 +186,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/thurmanCamp.mp4" />
+                      <source src="/thurman/thurmanCamp.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign5.jpg"
+                      src="/thurman/thurmanCampaign5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -202,7 +202,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign6.jpg"
+                      src="/thurman/thurmanCampaign6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -212,7 +212,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign7.jpg"
+                      src="/thurman/thurmanCampaign7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -228,13 +228,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/thurmanCamp2.mp4" />
+                      <source src="/thurman/thurmanCamp2.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign8.jpg"
+                      src="/thurman/thurmanCampaign8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -244,7 +244,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign9.jpg"
+                      src="/thurman/thurmanCampaign9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -254,7 +254,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign10.jpg"
+                      src="/thurman/thurmanCampaign10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -270,13 +270,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/thurmanCamp3.mp4" />
+                      <source src="/thurman/thurmanCamp3.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign11.jpg"
+                      src="/thurman/thurmanCampaign11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -286,7 +286,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign12.jpg"
+                      src="/thurman/thurmanCampaign12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -296,7 +296,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign13.jpg"
+                      src="/thurman/thurmanCampaign13.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -312,13 +312,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/thurmanCamp4.mp4" />
+                      <source src="/thurman/thurmanCamp4.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign14.jpg"
+                      src="/thurman/thurmanCampaign14.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -328,7 +328,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign15.jpg"
+                      src="/thurman/thurmanCampaign15.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -338,7 +338,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign16.jpg"
+                      src="/thurman/thurmanCampaign16.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -348,7 +348,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanCampaign17.jpg"
+                      src="/thurman/thurmanCampaign17.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -369,7 +369,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom.jpg"
+                      src="/thurman/ecom/thurmanEcom.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -379,7 +379,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom2.jpg"
+                      src="/thurman/ecom/thurmanEcom2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -389,7 +389,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom3.jpg"
+                      src="/thurman/ecom/thurmanEcom3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -399,7 +399,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom4.jpg"
+                      src="/thurman/ecom/thurmanEcom4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -409,7 +409,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom5.jpg"
+                      src="/thurman/ecom/thurmanEcom5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -419,7 +419,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom6.jpg"
+                      src="/thurman/ecom/thurmanEcom6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -429,7 +429,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom7.jpg"
+                      src="/thurman/ecom/thurmanEcom7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -439,7 +439,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom8.jpg"
+                      src="/thurman/ecom/thurmanEcom8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -449,109 +449,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom9.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <video
-                      autoPlay
-                      muted
-                      controls
-                      loop
-                      playsInline
-                      className={styles.client__image}
-                    >
-                      <source src="/thurman/ecom/thurmanEcom9.mp4" />
-                    </video>
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom10.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom11.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom12.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom13.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom14.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom15.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom16.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom17.jpg"
-                      alt="Solo Agency"
-                      width={0}
-                      height={0}
-                      sizes="100vw"
-                    />
-                  </div>
-                  <div className={styles.embla__slide}>
-                    <Image
-                      className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom18.jpg"
+                      src="/thurman/ecom/thurmanEcom9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -567,13 +465,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/ecom/thurmanEcom18.mp4" />
+                      <source src="/thurman/ecom/thurmanEcom9.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom19.jpg"
+                      src="/thurman/ecom/thurmanEcom10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -583,7 +481,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom20.jpg"
+                      src="/thurman/ecom/thurmanEcom11.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -593,7 +491,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom21.jpg"
+                      src="/thurman/ecom/thurmanEcom12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -603,7 +501,57 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom22.jpg"
+                      src="/thurman/ecom/thurmanEcom13.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom14.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom15.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom16.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom17.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom18.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -619,13 +567,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/ecom/thurmanEcom22.mp4" />
+                      <source src="/thurman/ecom/thurmanEcom18.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom23.jpg"
+                      src="/thurman/ecom/thurmanEcom19.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -635,7 +583,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom24.jpg"
+                      src="/thurman/ecom/thurmanEcom20.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -645,7 +593,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom25.jpg"
+                      src="/thurman/ecom/thurmanEcom21.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -655,7 +603,59 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/ecom/thurmanEcom26.jpg"
+                      src="/thurman/ecom/thurmanEcom22.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <video
+                      autoPlay
+                      muted
+                      controls
+                      loop
+                      playsInline
+                      className={styles.client__image}
+                    >
+                      <source src="/thurman/ecom/thurmanEcom22.webm" />
+                    </video>
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom23.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom24.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom25.webp"
+                      alt="Solo Agency"
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                    />
+                  </div>
+                  <div className={styles.embla__slide}>
+                    <Image
+                      className={styles.client__image}
+                      src="/thurman/ecom/thurmanEcom26.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -672,7 +672,7 @@ export default function Home() {
             <p className={styles.client__title}>SOCIAL MEDIA</p>
             <div className={styles.client__imagetext}>
               <Image
-                src="/thurman/thurmanFeed.png"
+                src="/thurman/thurmanFeed.webp"
                 alt="Solo Agency"
                 width={0}
                 height={0}
@@ -693,13 +693,13 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/thurman/thurmanSocialMedia.mp4" />
+                      <source src="/thurman/thurmanSocialMedia.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia.jpg"
+                      src="/thurman/thurmanSocialMedia.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -709,7 +709,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia2.jpg"
+                      src="/thurman/thurmanSocialMedia2.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -719,7 +719,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia3.jpg"
+                      src="/thurman/thurmanSocialMedia3.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -729,7 +729,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia4.jpg"
+                      src="/thurman/thurmanSocialMedia4.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -739,7 +739,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia5.jpg"
+                      src="/thurman/thurmanSocialMedia5.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -749,7 +749,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia6.jpg"
+                      src="/thurman/thurmanSocialMedia6.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -759,7 +759,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia7.jpg"
+                      src="/thurman/thurmanSocialMedia7.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -769,7 +769,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia8.jpg"
+                      src="/thurman/thurmanSocialMedia8.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -779,7 +779,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia9.jpg"
+                      src="/thurman/thurmanSocialMedia9.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -789,7 +789,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia10.jpg"
+                      src="/thurman/thurmanSocialMedia10.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -799,7 +799,7 @@ export default function Home() {
                   <div className={styles.embla__slide}>
                     <Image
                       className={styles.client__image}
-                      src="/thurman/thurmanSocialMedia12.jpg"
+                      src="/thurman/thurmanSocialMedia12.webp"
                       alt="Solo Agency"
                       width={0}
                       height={0}
@@ -817,7 +817,7 @@ export default function Home() {
             <div className={styles.client__content__container}>
               <div className={styles.client__content__paidmedia}>
                 <Image
-                  src="/thurman/thurmanNews.jpg"
+                  src="/thurman/thurmanNews.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -825,7 +825,7 @@ export default function Home() {
                   className={styles.client__paid__image}
                 />
                 <Image
-                  src="/thurman/thurmanNews2.jpg"
+                  src="/thurman/thurmanNews2.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}
@@ -833,7 +833,7 @@ export default function Home() {
                   className={styles.client__paid__image}
                 />
                 <Image
-                  src="/thurman/thurmanNews3.jpg"
+                  src="/thurman/thurmanNews3.webp"
                   alt="Solo Agency"
                   width={0}
                   height={0}

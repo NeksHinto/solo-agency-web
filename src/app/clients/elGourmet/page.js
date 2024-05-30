@@ -54,7 +54,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.client__page__logo}
-              src="/logos/elgourmetLogo.png"
+              src="/logos/elgourmetLogo.webp"
               alt="Solo Agency"
               width={0}
               height={0}
@@ -99,7 +99,7 @@ export default function Home() {
                 className={styles.client__metrics_container_title}
               />
               <video autoPlay muted controls loop playsInline>
-                <source src="/elGourmet/DIA1SALTA.mp4" />
+                <source src="/elGourmet/DIA1SALTA.webm" />
               </video>
             </div>
           </div>
@@ -118,7 +118,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA2JUJUY.mp4" />
+                      <source src="/elGourmet/DIA2JUJUY.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -130,7 +130,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA3JUJUY.mp4" />
+                      <source src="/elGourmet/DIA3JUJUY.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -142,7 +142,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA4SALTA.mp4" />
+                      <source src="/elGourmet/DIA4SALTA.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -154,7 +154,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA5SALTA.mp4" />
+                      <source src="/elGourmet/DIA5SALTA.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -166,7 +166,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA6SALTA.mp4" />
+                      <source src="/elGourmet/DIA6SALTA.webm" />
                     </video>
                   </div>
                   <div className={styles.embla__slide}>
@@ -178,7 +178,7 @@ export default function Home() {
                       playsInline
                       className={styles.client__image}
                     >
-                      <source src="/elGourmet/DIA15CATAMARCA.mp4" />
+                      <source src="/elGourmet/DIA15CATAMARCA.webm" />
                     </video>
                   </div>
                 </div>
