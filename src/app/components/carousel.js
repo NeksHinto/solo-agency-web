@@ -4,14 +4,19 @@ import styles from "../page.module.css";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
 
-const Carousel = ({ items }) => {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [
+const Carousel = ({ items, index, emblaRefs }) => {
+  console.log(emblaRefs);
+  emblaRefs.current[`emblaRef-${index}`] = useEmblaCarousel({ loop: true }, [
     Autoplay({ delay: "3000" }),
   ]);
 
+  const constructYoutubeUrl = (videoId) => {
+    return `https://www.youtube.com/embed/${videoId}`; // Construct URL with ID
+  };
+
   return (
     <div className={styles.embla}>
-      <div className={styles.embla__viewport} ref={emblaRef}>
+      <div className={styles.embla__viewport} ref={index}>
         <div className={styles.embla__container}>
           {items.map((item) => (
             <div className={styles.embla__slide} key={item.id}>
@@ -24,6 +29,18 @@ const Carousel = ({ items }) => {
                   height={0}
                   sizes="100vw"
                 />
+              ) : item.type === "youtube" ? (
+                <iframe
+                  className={styles.client__image}
+                  src={constructYoutubeUrl(item.src)}
+                  frameBorder="0"
+                  allow={item.allow}
+                  referrerPolicy={item.referrerPolicy}
+                  width={item.width}
+                  height={item.height}
+                  title={item.title}
+                  allowFullScreen
+                ></iframe>
               ) : (
                 <video
                   controls
