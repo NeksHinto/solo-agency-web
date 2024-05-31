@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import { delay, motion } from "framer-motion";
+ 
 import styles from "../../page.module.css";
 import Image from "next/image";
 import React, { useCallback } from "react";
@@ -41,15 +41,9 @@ export default function Home() {
     <main className={styles.main}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
-        <motion.div
+        <div
           className={styles.client__banner}
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{
-            ease: [0.65, 0, 0.35, 1],
-            duration: 0.75,
-            x: { duration: 0.25 },
-          }}
+
         >
           <div>
             <Image
@@ -84,7 +78,7 @@ export default function Home() {
               <p>‐ Content</p>
             </div>
           </div>
-        </motion.div>
+        </div>
         <div className={styles.client__content}>
           <div className={styles.client__content__container}>
             <div className={styles.client__imagetext}>

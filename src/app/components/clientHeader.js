@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+
 import styles from "../page.module.css";
 
 const ClientHeader = ({ logoSrc, clientInfo, services }) => {
   return (
-    <motion.div
+    <div
       className={styles.client__banner}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -50,7 +50,7 @@ const ClientHeader = ({ logoSrc, clientInfo, services }) => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
