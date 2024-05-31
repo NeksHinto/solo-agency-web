@@ -23,22 +23,15 @@ export default function Home() {
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dadesignLogo.webp"
-          clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
-          para democratizar su mensaje en redes sociales. Bajo los servicios
-          de creative strategy, social media management y content creation
-          realizamos una comunicación asertiva para generar una pauta
-          publicitaria en Meta ads que luego se traduciría en ventas."
-          services={[
-            "Creative Strategy",
-            "Social Media",
-            "Content",
-            "Paid Media",
-          ]}
+          logoSrc="/logos/terrazasdelosandesLogo.webp"
+          clientInfo="Solo Agency ha tenido el rol de registrar el evento de lanzamiento
+          de su línea de vinos reserva, elaborando piezas fotográficas y
+          audiovisuales del mismo."
+          services={["Content"]}
         />
 
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
+          <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
         <BlackBox />

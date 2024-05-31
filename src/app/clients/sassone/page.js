@@ -5,8 +5,8 @@ import React from "react";
 import Script from "next/script";
 import BlackBox from "@/app/components/blackBox";
 import { carouselData } from "./carouselData";
-import ClientPageContent from "@/app/components/clientPageContent";
 import ClientHeader from "@/app/components/clientHeader";
+import ClientPageContent from "@/app/components/clientPageContent";
 
 export default function Home() {
   useEffect(() => {
@@ -16,29 +16,22 @@ export default function Home() {
     })();
   }, []);
 
-  console.log(carouselData);
-
   return (
     <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dadesignLogo.webp"
-          clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
-          para democratizar su mensaje en redes sociales. Bajo los servicios
-          de creative strategy, social media management y content creation
-          realizamos una comunicación asertiva para generar una pauta
-          publicitaria en Meta ads que luego se traduciría en ventas."
-          services={[
-            "Creative Strategy",
-            "Social Media",
-            "Content",
-            "Paid Media",
-          ]}
+          logoSrc="/logos/sassoneLogo.webp"
+          clientInfo="Cementando sus raíces en 1920, Sassone más que una empresa, nace
+          como una puerta hacia el mundo, conectando culturas. Siendo
+          empresa líder en despachos, Sassone busca una nueva imagen que
+          comunique su confiabilidad, experiencia y sobre todo la
+          grandilocuencia que esta ejerce en el rubro. Es así como Solo
+          Agency, le propone una nueva identidad de marca."
+          services={["Digital Branding"]}
         />
-
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
+          <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
         <BlackBox />

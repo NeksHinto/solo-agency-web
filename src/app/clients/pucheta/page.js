@@ -16,24 +16,21 @@ export default function Home() {
     })();
   }, []);
 
-  console.log(carouselData);
-
   return (
     <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dadesignLogo.webp"
-          clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
-          para democratizar su mensaje en redes sociales. Bajo los servicios
-          de creative strategy, social media management y content creation
-          realizamos una comunicación asertiva para generar una pauta
-          publicitaria en Meta ads que luego se traduciría en ventas."
+          logoSrc="/logos/puchetaLogo.webp"
+          clientInfo="Marca referente del diseño emergente argentino. Desde creative
+          strategy, social media management y content creation acompañamos a
+          la marca en todos los desafíos que comprenden comunicación visual
+          y digital."
           services={[
             "Creative Strategy",
             "Social Media",
             "Content",
-            "Paid Media",
+            "Digital Branding",
           ]}
         />
 

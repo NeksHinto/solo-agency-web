@@ -1,7 +1,25 @@
 export const carouselData = [
   {
-    title: ["TERRAZAS DE", "LOS ANDES"],
+    title: ["LA MAGIA", "DE LA MONTAÑA"],
     items: [
+      {
+        id: 2,
+        type: "image",
+        src: "/terrazas/terrazas.jpg",
+        alt: "Terrazas de Los Andes",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "/terrazas/terrazas2.jpg",
+        alt: "Terrazas de Los Andes",
+      },
+      {
+        id: 4,
+        type: "image",
+        src: "/terrazas/terrazas3.jpg",
+        alt: "Terrazas de Los Andes",
+      },
       {
         id: 1,
         type: "video",
@@ -9,39 +27,21 @@ export const carouselData = [
         alt: "Terrazas de Los Andes Unboxing",
       },
       {
-        id: 2,
-        type: "image",
-        src: "/terrazas/terrazas.webp",
-        alt: "Terrazas de Los Andes",
-      },
-      {
-        id: 3,
-        type: "image",
-        src: "/terrazas/terrazas2.webp",
-        alt: "Terrazas de Los Andes",
-      },
-      {
-        id: 4,
-        type: "image",
-        src: "/terrazas/terrazas3.webp",
-        alt: "Terrazas de Los Andes",
-      },
-      {
         id: 5,
         type: "image",
-        src: "/terrazas/terrazas4.webp",
+        src: "/terrazas/terrazas4.jpg",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 6,
         type: "image",
-        src: "/terrazas/terrazas5.webp",
+        src: "/terrazas/terrazas5.jpg",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 7,
         type: "image",
-        src: "/terrazas/terrazas6.webp",
+        src: "/terrazas/terrazas6.jpg",
         alt: "Terrazas de Los Andes",
       },
     ],
