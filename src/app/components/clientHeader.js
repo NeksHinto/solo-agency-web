@@ -8,12 +8,11 @@ const ClientHeader = ({ logoSrc, clientInfo, services }) => {
     <div
       className={styles.client__banner}
       initial={{ opacity: 0 }}
-      whileInView={{ opacity: 1 }}
-      transition={{
-        ease: [0.65, 0, 0.35, 1],
-        duration: 0.75,
-        x: { duration: 0.25 },
-      }}
+      // transition={{
+      //   ease: [0.65, 0, 0.35, 1],
+      //   duration: 0.75,
+      //   x: { duration: 0.25 },
+      // }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
         <div>

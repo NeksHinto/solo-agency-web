@@ -38,7 +38,7 @@ export default function Nav() {
       <div className={styles.list}>
         <ul
           animate={{ top: isActive ? "-15px" : "-225px" }}
-          transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
+          // transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
         >
           {pages.map((page, index) => {
             return (
