@@ -34,7 +34,36 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
   color: white;
+}
+.main__home {
+  font-family: Aron;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10vh;
+  color: white;
+}
+
+.main__client {
+  font-family: Aron;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.banner__home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  font-size: 2rem;
+  height: 100vh;
 }
 .button {
   background: #00000000;
@@ -200,7 +229,6 @@
 .title {
   font-weight: bold;
   font-size: 3rem;
-  /* width: 100%; */
   font-style: normal;
 }
 .subtitle {
@@ -334,6 +362,7 @@
   width: 100%;
   margin: auto;
   margin-top: 5rem;
+  margin-bottom: 3rem;
 }
 .page__description {
   font-size: 30px;
@@ -481,6 +510,19 @@
   text-align: center;
   border-radius: 20px;
 }
+.grid__client {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 10vw;
+}
+
+.grid__client__youtube {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  padding-left: 5vw;
+}
 .client__content__container {
   width: 99%;
 }
@@ -527,11 +569,11 @@
   width: 100%;
   height: auto;
   max-width: 20rem;
-  z-index: 10;
-  right: 0;
+  /* z-index: 10;
+  right: 0; */
   border: 5px solid black;
   border-radius: 20px;
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 .client__imagetext {
   display: flex;
@@ -620,7 +662,7 @@
 /*CONTACT PAGE*/
 .contact__page {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 90%;
   margin: auto;
   font-size: 2rem;
@@ -634,12 +676,11 @@
 }
 .contact__page__details {
   display: flex;
-  flex-direction: column;
   width: 100%;
   align-items: center;
   padding: 1rem;
   padding-top: 0rem;
-  border-right: 1px solid rgba(255, 255, 255, 0.362);
+  /* border-right: 1px solid rgba(255, 255, 255, 0.362); */
 }
 .contact__page__details__section {
   display: flex;
@@ -758,13 +799,14 @@
   margin-bottom: 4rem;
 }
 .embla__container {
-  display: flex;
-  margin: auto;
-  width: 70%;
-  justify-content: space-evenly;
+  /* display: flex;
+  margin: auto; */
+  width: 100%;
+  /* justify-content: space-evenly; */
 }
 .embla__slide {
-  flex: 0 0 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
   min-width: 0;
   max-width: 20rem;
 }

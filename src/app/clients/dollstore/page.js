@@ -1,7 +1,6 @@
 "use client";
 import { useEffect } from "react";
 import styles from "../../page.module.css";
-import Image from "next/image";
 import React from "react";
 import Script from "next/script";
 import BlackBox from "@/app/components/blackBox";
@@ -18,7 +17,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
+    <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
@@ -33,8 +32,8 @@ export default function Home() {
           ]}
         />
 
-        {carouselData.map((carousel) => (
-          <ClientPageContent key={carousel.title} carousel={carousel} />
+        {carouselData.map((data) => (
+          <ClientPageContent key={data.title} carousel={true} data={data} />
         ))}
 
         <BlackBox />

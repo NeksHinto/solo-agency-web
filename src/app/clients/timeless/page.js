@@ -6,6 +6,7 @@ import Image from "next/image";
 import React, { useCallback } from "react";
 import Script from "next/script";
 import BlackBox from "@/app/components/blackBox";
+import { carouselData } from "./carouselData";
 
 export default function Home() {
   useEffect(() => {

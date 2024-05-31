@@ -1,4 +1,4 @@
-export const companiaNativaData = [
+export const carouselData = [
   {
     title: ["COMPAÑIA", "NATIVA"],
     items: [
@@ -11,14 +11,9 @@ export const companiaNativaData = [
       {
         id: 2,
         type: "image",
-        src: "/companiaNativa/companiaNativa.webp",
+        src: "/companiaNativa/companiaNativa1.webp",
         alt: "Compañia Nativa Image",
       },
-    ],
-  },
-  {
-    title: "NATIVA",
-    items: [
       {
         id: 3,
         type: "video",
@@ -114,17 +109,6 @@ export const companiaNativaData = [
         type: "video",
         src: "/companiaNativa/Saludo de fin año_H.264.webm",
         alt: "Compañia Nativa Video",
-      },
-    ],
-  },
-  {
-    title: "CASA NATIVA",
-    items: [
-      {
-        id: 19,
-        type: "video",
-        src: "/companiaNativa/Avances Casa Nativa_H.264.webm",
-        alt: "Casa Nativa Video",
       },
     ],
   },

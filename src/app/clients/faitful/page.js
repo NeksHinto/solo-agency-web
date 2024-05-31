@@ -9,6 +9,7 @@ import Autoplay from "embla-carousel-autoplay";
 import Script from "next/script";
 import Paragraph from "@/app/components/paragraph";
 import BlackBox from "@/app/components/blackBox";
+import { carouselData } from "./carouselData";
 
 const paragraph =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt, nibh in viverra tristique. ";

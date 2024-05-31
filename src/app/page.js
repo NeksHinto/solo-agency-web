@@ -21,7 +21,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main className={styles.main}>
+    <main className={styles.main__home}>
+      <div className={styles.banner__home}>
       <Image
         src="/SOLO AGENCY LOGO TYPO BLANCO.webp"
         alt="Solo Agency"
@@ -33,6 +34,7 @@ export default function Home() {
       <p id="subtitle">
         NO SOMOS <strong>SOLO</strong> UNA AGENCIA
       </p>
+      </div>
       {/* <video
         autoPlay
         muted

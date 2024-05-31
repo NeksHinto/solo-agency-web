@@ -1,6 +1,6 @@
 export const carouselData = [
   {
-    title: ["LA INTIMIDAD", "CELEBRE INCULINA"],
+    title: ["INSTAGRAM", "REELS"],
     items: [
       {
         id: 1,
@@ -26,7 +26,12 @@ export const carouselData = [
         src: "/celebreinculina/celebreInCulina5.webm",
         alt: "Celebre Inculina Reels Video",
       },
-
+    ],
+  },
+  {
+    title: ["YOU", "TUBE"],
+    items: [
+      { youtube: true },
       {
         id: 5,
         type: "youtube",

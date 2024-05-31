@@ -4,7 +4,6 @@ import styles from "../page.module.css";
 import { useState } from "react";
 import React from "react";
 import Inner from "../inner/inner";
-import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import ServicesSection from "../components/servicesSection";
 import Image from "next/image";
@@ -39,56 +38,47 @@ export default function Clients() {
 
   return (
     <main className={styles.main}>
-      <AnimatePresence mode="wait">
-        <Inner>
-          <div className={styles.page__info}>
-            <p className={styles.title}>CLIENTS</p>
-            <p className={styles.page__description}>
-              En Solo Agency nos enorgullece ser tu aliado creativo en el mundo
-              de la identidad visual. Nuestro enfoque se centra en potenciar tus
-              valores y comunicar todo aquello que no se puede expresar con
-              palabras.
-            </p>
+      <div className={styles.page__info}>
+        <p className={styles.title}>CLIENTS</p>
+        <p className={styles.page__description}>
+          En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de
+          la identidad visual. Nuestro enfoque se centra en potenciar tus
+          valores y comunicar todo aquello que no se puede expresar con
+          palabras.
+        </p>
+      </div>
+      <div className={styles.services_container}>
+        {categories.map((category, i) => (
+          <div key={i} className={styles.service}>
+            <div className={styles.service__banner} onClick={() => toggle(i)}>
+              <p className={styles.section_title}>{category.name}</p>
+              <span className={styles.cross}>{selected === i ? "_" : "+"}</span>
+            </div>
+            <div
+              className={
+                selected == i
+                  ? "page_service__list__show__37KEC"
+                  : "page_service__list__aU9Ez"
+              }
+            >
+              {brands
+                .filter((brand) => brand.category === category.name)
+                .map((brand, brandIndex) => (
+                  <div key={brandIndex}>
+                    <Link href={brand.route} alt={brand.name}>
+                      <img
+                        src={brand.imageLocation}
+                        alt={brand.name}
+                        className={styles.client__logo}
+                      />
+                      {/* <p>{brand.name}</p> */}
+                    </Link>
+                  </div>
+                ))}
+            </div>
           </div>
-          <div className={styles.services_container}>
-            {categories.map((category, i) => (
-              <div key={i} className={styles.service}>
-                <div
-                  className={styles.service__banner}
-                  onClick={() => toggle(i)}
-                >
-                  <p className={styles.section_title}>{category.name}</p>
-                  <span className={styles.cross}>
-                    {selected === i ? "_" : "+"}
-                  </span>
-                </div>
-                <div
-                  className={
-                    selected == i
-                      ? "page_service__list__show__37KEC"
-                      : "page_service__list__aU9Ez"
-                  }
-                >
-                  {brands
-                    .filter((brand) => brand.category === category.name)
-                    .map((brand, brandIndex) => (
-                      <div key={brandIndex}>
-                        <Link href={brand.route} alt={brand.name}>
-                          <img
-                            src={brand.imageLocation}
-                            alt={brand.name}
-                            className={styles.client__logo}
-                          />
-                          {/* <p>{brand.name}</p> */}
-                        </Link>
-                      </div>
-                    ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </Inner>
-      </AnimatePresence>
+        ))}
+      </div>
     </main>
   );
 }

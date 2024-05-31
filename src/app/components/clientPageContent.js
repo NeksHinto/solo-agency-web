@@ -1,16 +1,19 @@
 import React from "react";
-import Carousel from "./carousel";
+import ClientCarousel from "./carousel";
+import ClientGrid from "./clientGrid";
 import styles from "../page.module.css";
 
-const ClientPageContent = ({ carousel }) => {
+const ClientPageContent = ({ carousel, data }) => {
   return (
     <div className={styles.client__content}>
       <div className={styles.client__content__container}>
         <p className={styles.client__title} style={{ color: "gray" }}>
-          {carousel.title[0]}
+          {data.title[0]}
         </p>
-        <p className={styles.client__title}>{carousel.title[1]}</p>
-        <Carousel key={carousel.title} items={carousel.items} />
+        <p className={styles.client__title}>{data.title[1]}</p>
+        {carousel ? <ClientCarousel key={data.title} items={data.items} /> :
+        <ClientGrid key={data.title} items={data.items}/>
+        }
       </div>
     </div>
   );

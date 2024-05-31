@@ -1,8 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
 import styles from "../page.module.css";
-
-// Page-in animation
 
 export default function Inner({ children }) {
   const anim = (variants) => {
