@@ -1,12 +1,12 @@
 "use client";
 import { useEffect } from "react";
-
 import styles from "../../page.module.css";
-import Image from "next/image";
-import React, { useCallback } from "react";
+import React from "react";
 import Script from "next/script";
 import BlackBox from "@/app/components/blackBox";
 import { carouselData } from "./carouselData";
+import ClientPageContent from "@/app/components/clientPageContent";
+import ClientHeader from "@/app/components/clientHeader";
 
 export default function Home() {
   useEffect(() => {
@@ -16,296 +16,31 @@ export default function Home() {
     })();
   }, []);
 
+  console.log(carouselData);
+
   return (
-    <main className={styles.main}>
+    <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
-        <div className={styles.client__banner}>
-          <div>
-            <Image
-              className={styles.client__page__logo}
-              src="/logos/timelessLogo.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: "100%", height: "auto", maxWidth: "400px" }}
-            />
-          </div>
-          <div className={styles.client__info}>
-            <p>
-              Centro de medicina estética recurre a Solo Agency para construir
-              los cimientos de su marca. Se ha elaborado el diseño del brandbook
-              para aportar concepto, narrativa y morfología a su idea.
-            </p>
-          </div>
-          <div className={styles.client__info}>
-            <div>
-              <p className={styles.subtitle}>SERVICIOS</p>
-            </div>
-            <div className={styles.client__info__list}>
-              <p>‐ Branding</p>
-            </div>
-          </div>
-        </div>
-        <div className={styles.client__content}>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK2.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK3.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK4.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK5.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK6.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK7.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK8.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK9.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK10.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK11.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK12.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK13.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK14.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK15.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-          <div className={styles.client__content__container}>
-            <Image
-              src="/timeless/TIMELESS BRANDBOOK16.webp"
-              alt="Solo Agency"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{
-                width: "100%",
-                height: "auto",
-                marginBottom: "0rem",
-                borderRadius: "30px",
-                padding: "0.5rem",
-              }}
-            />
-          </div>
-        </div>
+        <ClientHeader
+          logoSrc="/logos/dadesignLogo.webp"
+          clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
+          para democratizar su mensaje en redes sociales. Bajo los servicios
+          de creative strategy, social media management y content creation
+          realizamos una comunicación asertiva para generar una pauta
+          publicitaria en Meta ads que luego se traduciría en ventas."
+          services={[
+            "Creative Strategy",
+            "Social Media",
+            "Content",
+            "Paid Media",
+          ]}
+        />
+
+        {carouselData.map((data) => (
+          <ClientPageContent key={data.title} carousel={true} data={data} />
+        ))}
+
         <BlackBox />
       </div>
     </main>
