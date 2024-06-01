@@ -16,29 +16,20 @@ export default function Home() {
     })();
   }, []);
 
-  console.log(carouselData);
-
   return (
     <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dadesignLogo.webp"
-          clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
-          para democratizar su mensaje en redes sociales. Bajo los servicios
-          de creative strategy, social media management y content creation
-          realizamos una comunicación asertiva para generar una pauta
-          publicitaria en Meta ads que luego se traduciría en ventas."
-          services={[
-            "Creative Strategy",
-            "Social Media",
-            "Content",
-            "Paid Media",
-          ]}
+          logoSrc="/logos/timelessLogo.webp"
+          clientInfo="Centro de medicina estética recurre a Solo Agency para construir
+          los cimientos de su marca. Se ha elaborado el diseño del brandbook
+          para aportar concepto, narrativa y morfología a su idea."
+          services={["Digital Branding"]}
         />
 
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
+          <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
         <BlackBox />
