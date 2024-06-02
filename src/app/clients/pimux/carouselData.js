@@ -1,7 +1,23 @@
 export const carouselData = [
   {
     title: ["DIGITAL", "BRANDING"],
+    gridProps: {
+      display: "grid",
+      gridTemplateColumns: "repeat(4, 1fr)",
+      gridTemplateRows: "repeat(4, 1fr)",
+      gridTemplateAreas: `
+      "box2 box2 box1 box3"
+      "box2 box2 box4 box5"
+      "box6 box7 box10 box10"
+      "box8 box9 box10 box10"`,
+    },
     items: [
+      {
+        id: 1,
+        type: "image",
+        src: "/pimux/pimux1.webp",
+        alt: "AIA Athleisure Wear",
+      },
       {
         id: 2,
         type: "image",

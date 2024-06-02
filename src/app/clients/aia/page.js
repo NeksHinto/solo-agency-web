@@ -4,7 +4,7 @@ import styles from "../../page.module.css";
 import React from "react";
 import Script from "next/script";
 import BlackBox from "@/app/components/blackBox";
-import { carouselData } from "./carouselData";
+import { carouselData, gridData } from "./carouselData";
 import ClientHeader from "@/app/components/clientHeader";
 import ClientPageContent from "@/app/components/clientPageContent";
 
@@ -22,10 +22,16 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/aiaLogo.webp"
+          logoProps={{
+            marginTop: "4rem",
+          }}
           clientInfo="Junto a la marca realizamos la dirección estratégica para el desarrollo de editoriales para redes sociales, reflejando los valores de simplicidad, movimiento y calidad, aspectos claves de una mujer contemporánea y joven, el público meta planteado con esta desarrollo."
           services={["Content"]}
         />
         {carouselData.map((data) => (
+          <ClientPageContent key={data.title} carousel={true} data={data} />
+        ))}
+        {gridData.map((data) => (
           <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 

@@ -73,60 +73,6 @@ export default function ClientsSection() {
               alt="Picture of the author"
             />
           </Link>
-          <Link href={"../clients/elGorumet"}>
-            <Image
-              src="/logos/elgourmetLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/dollstore"}>
-            <Image
-              src="/logos/dollstoreLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/eucerin"}>
-            <Image
-              src="/logos/eucerinLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/justaOsadia"}>
-            <Image
-              src="/logos/justaosadiaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/lidherma"}>
-            <Image
-              src="/logos/lidhermaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/pucheta"}>
-            <Image
-              src="/logos/puchetaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
         </div>
       </div>
       {/* <div style={{display: 'flex', flexDirection: 'row'}}>

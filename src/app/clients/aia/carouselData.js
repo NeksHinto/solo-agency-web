@@ -3,12 +3,6 @@ export const carouselData = [
     title: ["BE FREE", "BE AIA"],
     items: [
       {
-        id: 1,
-        type: "video",
-        src: "/aia/aiaLycraVision.webm",
-        alt: "AIA Be Free Be AIA Video",
-      },
-      {
         id: 2,
         type: "image",
         src: "/aia/aia1.webp",
@@ -20,12 +14,7 @@ export const carouselData = [
         src: "/aia/aia2.webp",
         alt: "AIA Athleisure Wear",
       },
-      {
-        id: 4,
-        type: "video",
-        src: "/aia/aiaReel.webm",
-        alt: "AIA Athleisure Wear Video",
-      },
+
       {
         id: 5,
         type: "image",
@@ -39,12 +28,6 @@ export const carouselData = [
         alt: "AIA Athleisure Wear",
       },
       {
-        id: 7,
-        type: "video",
-        src: "/aia/aiaLycraVision.webm",
-        alt: "AIA Be Free Be AIA Video",
-      },
-      {
         id: 8,
         type: "image",
         src: "/aia/aia5.webp",
@@ -55,12 +38,6 @@ export const carouselData = [
         type: "image",
         src: "/aia/aia6.webp",
         alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 10,
-        type: "video",
-        src: "/aia/aiaJogginConMusculosa.webm",
-        alt: "AIA Jogging with Tank Top Video",
       },
       {
         id: 11,
@@ -80,11 +57,37 @@ export const carouselData = [
         src: "/aia/aia9.webp",
         alt: "AIA Athleisure Wear",
       },
+    ],
+  },
+];
+
+export const gridData = [
+  {
+    title: ["LYCRA", "VISION"],
+    items: [
+      {
+        id: 1,
+        type: "video",
+        src: "/aia/aiaLycraVision.webm",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 4,
+        type: "video",
+        src: "/aia/aiaReel.webm",
+        alt: "AIA Athleisure Wear Video",
+      },
       {
         id: 14,
         type: "video",
         src: "/aia/aiaBatallaDeTenis.webm",
         alt: "AIA Tennis Battle Video",
+      },
+      {
+        id: 10,
+        type: "video",
+        src: "/aia/aiaJogginConMusculosa.webm",
+        alt: "AIA Jogging with Tank Top Video",
       },
     ],
   },

@@ -16,8 +16,6 @@ export default function Home() {
     })();
   }, []);
 
-  console.log(carouselData);
-
   return (
     <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />

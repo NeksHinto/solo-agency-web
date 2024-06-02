@@ -1,6 +1,19 @@
 export const carouselData = [
   {
     title: ["TIMELESS"],
+    gridProps: {
+      display: "grid",
+      gridTemplateColumns: "repeat(4, 1fr)",
+      gridTemplateRows: "repeat(7, 1fr)",
+      gridTemplateAreas: `
+      "box4 box2 box1 box1"
+      "box3 box5 box1 box1"
+      "box6 box10 box8 box8"
+      "box7 box7 box8 box8"
+      "box7 box7 box12 box12"
+      "box9 box11 box12 box12"
+      "box13 box14 box15 box16"`,
+    },
     items: [
       {
         id: 1,

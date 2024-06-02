@@ -22,6 +22,11 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/pimuxLogo.webp"
+          logoProps={{
+            marginTop: "6rem",
+            width: "16vw",
+            height: "auto",
+          }}
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea
           desarrollamos el re - branding y la identidad visual de la marca,
@@ -30,7 +35,12 @@ export default function Home() {
           services={["Digital Branding"]}
         />
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={false} data={data} />
+          <ClientPageContent
+            key={data.title}
+            carousel={false}
+            branding={true}
+            data={data}
+          />
         ))}
 
         <BlackBox />

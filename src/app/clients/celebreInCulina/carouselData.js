@@ -30,8 +30,12 @@ export const carouselData = [
   },
   {
     title: ["YOU", "TUBE"],
+    containerProps: {
+      display: "grid",
+      gridTemplateColumns: "repeat(6, auto)",
+      paddingLeft: "10vw",
+    },
     items: [
-      { youtube: true },
       {
         id: 5,
         type: "youtube",

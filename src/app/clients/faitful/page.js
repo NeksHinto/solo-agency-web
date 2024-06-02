@@ -22,6 +22,11 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/faitfulLogo.webp"
+          logoProps={{
+            marginTop: "4rem",
+            width: "18vw",
+            height: "auto",
+          }}
           clientInfo="Reconocido vivero con más de 10 años de trayectoria recurre a
           nuestro servicio 360. Desde creative strategy, social media
           management, content creation y paid media acompañamos en todos los

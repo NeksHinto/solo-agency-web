@@ -22,6 +22,11 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/jpLogo.webp"
+          logoProps={{
+            marginTop: "5rem",
+            width: "18vw",
+            height: "auto",
+          }}
           clientInfo="Junto a la marca realizamos la dirección estratégica para el
           desarrollo de editoriales para redes sociales, reflejando los
           valores de simplicidad, movimiento y calidad, aspectos claves de

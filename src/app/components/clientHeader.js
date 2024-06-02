@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import styles from "../page.module.css";
 
-const ClientHeader = ({ logoSrc, clientInfo, services }) => {
+const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
   return (
     <div
       className={styles.client__banner}
@@ -15,7 +15,7 @@ const ClientHeader = ({ logoSrc, clientInfo, services }) => {
       // }}
     >
       <div style={{ display: "flex", alignItems: "center" }}>
-        <div>
+        <div style={logoProps}>
           <Image
             className={styles.client__page__logo}
             src={logoSrc}

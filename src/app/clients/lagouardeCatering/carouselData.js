@@ -2,7 +2,6 @@ export const gridData = [
   {
     title: ["DIGITAL", "BRANDING"],
     items: [
-      { columns: 2 },
       {
         id: 1,
         src: "/lagouardeCatering/lagouardeCBrandbook1.jpg",

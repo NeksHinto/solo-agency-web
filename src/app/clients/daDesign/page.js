@@ -16,14 +16,17 @@ export default function Home() {
     })();
   }, []);
 
-  console.log(carouselData);
-
   return (
     <main className={styles.main__client}>
       <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/dadesignLogo.webp"
+          logoProps={{
+            marginTop: "4rem",
+            width: "16vw",
+            height: "auto",
+          }}
           clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
           para democratizar su mensaje en redes sociales. Bajo los servicios
           de creative strategy, social media management y content creation

@@ -40,13 +40,6 @@ export const brands = [
     route: "/clients/thurman",
   },
   {
-    name: "Cape Diablo",
-    imageLocation: "/logos/capediabloLogo.webp",
-    category: "Fashion",
-    services: ["Content"],
-    route: "/clients/capeDiablo",
-  },
-  {
     name: "Cristho",
     imageLocation: "/logos/cristhoLogo.webp",
     category: "Fashion",
@@ -71,13 +64,6 @@ export const brands = [
       "Creative Strategy",
     ],
     route: "/clients/pucheta",
-  },
-  {
-    name: "HiSilvie",
-    imageLocation: "/logos/hisilvieLogo.webp",
-    category: "Fashion",
-    services: ["Content", "Production & Styling", "Creative Strategy"],
-    route: "/clients/hiSilvie",
   },
   {
     name: "UBK",
@@ -160,13 +146,6 @@ export const brands = [
     category: "Food & other pleasures",
     services: ["Content"],
     route: "/clients/celebreInCulina",
-  },
-  {
-    name: "Yellow",
-    imageLocation: "/logos/yellowLogo.webp",
-    category: "Health & beauty",
-    services: ["Content", "Social Media", "Paid Media", "Creative Strategy"],
-    route: "/clients/yellow",
   },
   {
     name: "Timeless",
