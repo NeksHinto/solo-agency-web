@@ -1,6 +1,6 @@
 export const carouselData = [
   {
-    title: ["TIMELESS"],
+    title: ["TIMELESS", "BRANDING"],
     gridProps: {
       display: "grid",
       gridTemplateColumns: "repeat(4, 1fr)",
