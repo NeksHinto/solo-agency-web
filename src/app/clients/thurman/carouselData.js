@@ -11,25 +11,25 @@ export const carouselData = [
       {
         id: 2,
         type: "image",
-        src: "/thurman/thurmanCampaign.jpg",
+        src: "/thurman/thurmanCampaign.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 3,
         type: "image",
-        src: "/thurman/thurmanCampaign2.jpg",
+        src: "/thurman/thurmanCampaign2.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 4,
         type: "image",
-        src: "/thurman/thurmanCampaign3.jpg",
+        src: "/thurman/thurmanCampaign3.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 5,
         type: "image",
-        src: "/thurman/thurmanCampaign4.jpg",
+        src: "/thurman/thurmanCampaign4.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -41,19 +41,19 @@ export const carouselData = [
       {
         id: 7,
         type: "image",
-        src: "/thurman/thurmanCampaign5.jpg",
+        src: "/thurman/thurmanCampaign5.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 8,
         type: "image",
-        src: "/thurman/thurmanCampaign6.jpg",
+        src: "/thurman/thurmanCampaign6.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 9,
         type: "image",
-        src: "/thurman/thurmanCampaign7.jpg",
+        src: "/thurman/thurmanCampaign7.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -65,24 +65,24 @@ export const carouselData = [
     ],
   },
   {
-    title:["",""],
-    items:[
+    title: ["", ""],
+    items: [
       {
         id: 11,
         type: "image",
-        src: "/thurman/thurmanCampaign8.jpg",
+        src: "/thurman/thurmanCampaign8.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 12,
         type: "image",
-        src: "/thurman/thurmanCampaign9.jpg",
+        src: "/thurman/thurmanCampaign9.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 13,
         type: "image",
-        src: "/thurman/thurmanCampaign10.jpg",
+        src: "/thurman/thurmanCampaign10.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -94,19 +94,19 @@ export const carouselData = [
       {
         id: 15,
         type: "image",
-        src: "/thurman/thurmanCampaign11.jpg",
+        src: "/thurman/thurmanCampaign11.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 16,
         type: "image",
-        src: "/thurman/thurmanCampaign12.jpg",
+        src: "/thurman/thurmanCampaign12.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 17,
         type: "image",
-        src: "/thurman/thurmanCampaign13.jpg",
+        src: "/thurman/thurmanCampaign13.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -118,28 +118,28 @@ export const carouselData = [
       {
         id: 19,
         type: "image",
-        src: "/thurman/thurmanCampaign14.jpg",
+        src: "/thurman/thurmanCampaign14.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 20,
         type: "image",
-        src: "/thurman/thurmanCampaign15.jpg",
+        src: "/thurman/thurmanCampaign15.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 21,
         type: "image",
-        src: "/thurman/thurmanCampaign16.jpg",
+        src: "/thurman/thurmanCampaign16.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 22,
         type: "image",
-        src: "/thurman/thurmanCampaign17.jpg",
+        src: "/thurman/thurmanCampaign17.webp",
         alt: "Thurman Campaign",
       },
-    ]
+    ],
   },
   {
     title: ["E-", "COMMERCE"],
@@ -147,55 +147,55 @@ export const carouselData = [
       {
         id: 1,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom.jpg",
+        src: "/thurman/ecom/thurmanEcom.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 2,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom2.jpg",
+        src: "/thurman/ecom/thurmanEcom2.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 3,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom3.jpg",
+        src: "/thurman/ecom/thurmanEcom3.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 4,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom4.jpg",
+        src: "/thurman/ecom/thurmanEcom4.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 5,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom5.jpg",
+        src: "/thurman/ecom/thurmanEcom5.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 6,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom6.jpg",
+        src: "/thurman/ecom/thurmanEcom6.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 7,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom7.jpg",
+        src: "/thurman/ecom/thurmanEcom7.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 8,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom8.jpg",
+        src: "/thurman/ecom/thurmanEcom8.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 9,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom9.jpg",
+        src: "/thurman/ecom/thurmanEcom9.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -207,60 +207,60 @@ export const carouselData = [
       {
         id: 11,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom10.jpg",
+        src: "/thurman/ecom/thurmanEcom10.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 12,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom11.jpg",
+        src: "/thurman/ecom/thurmanEcom11.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 13,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom12.jpg",
+        src: "/thurman/ecom/thurmanEcom12.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 14,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom13.jpg",
+        src: "/thurman/ecom/thurmanEcom13.webp",
         alt: "Thurman Campaign Video",
       },
     ],
   },
   {
-    title:["",""],
-    items:[
+    title: ["", ""],
+    items: [
       {
         id: 15,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom14.jpg",
+        src: "/thurman/ecom/thurmanEcom14.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 16,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom15.jpg",
+        src: "/thurman/ecom/thurmanEcom15.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 17,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom16.jpg",
+        src: "/thurman/ecom/thurmanEcom16.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 18,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom17.jpg",
+        src: "/thurman/ecom/thurmanEcom17.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 19,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom18.jpg",
+        src: "/thurman/ecom/thurmanEcom18.webp",
         alt: "Thurman Campaign",
       },
       {
@@ -272,25 +272,25 @@ export const carouselData = [
       {
         id: 21,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom19.jpg",
+        src: "/thurman/ecom/thurmanEcom19.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 22,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom20.jpg",
+        src: "/thurman/ecom/thurmanEcom20.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 23,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom21.jpg",
+        src: "/thurman/ecom/thurmanEcom21.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 24,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom22.jpg",
+        src: "/thurman/ecom/thurmanEcom22.webp",
         alt: "Thurman Campaign Video",
       },
       {
@@ -302,28 +302,28 @@ export const carouselData = [
       {
         id: 26,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom23.jpg",
+        src: "/thurman/ecom/thurmanEcom23.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 27,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom24.jpg",
+        src: "/thurman/ecom/thurmanEcom24.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 28,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom25.jpg",
+        src: "/thurman/ecom/thurmanEcom25.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 29,
         type: "image",
-        src: "/thurman/ecom/thurmanEcom26.jpg",
+        src: "/thurman/ecom/thurmanEcom26.webp",
         alt: "Thurman Campaign",
       },
-    ]
+    ],
   },
   {
     title: ["SOCIAL", "MEDIA"],
@@ -331,7 +331,7 @@ export const carouselData = [
       {
         id: 1,
         type: "image",
-        src: "/thurman/thurmanFeed.png",
+        src: "/thurman/thurmanFeed.webp",
         alt: "Thurman Campaign Video",
       },
       {
@@ -343,93 +343,95 @@ export const carouselData = [
       {
         id: 3,
         type: "image",
-        src: "/thurman/thurmanSocialMedia.jpg",
+        src: "/thurman/thurmanSocialMedia.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 4,
         type: "image",
-        src: "/thurman/thurmanSocialMedia2.jpg",
+        src: "/thurman/thurmanSocialMedia2.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 5,
         type: "image",
-        src: "/thurman/thurmanSocialMedia3.jpg",
+        src: "/thurman/thurmanSocialMedia3.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 6,
         type: "image",
-        src: "/thurman/thurmanSocialMedia4.jpg",
+        src: "/thurman/thurmanSocialMedia4.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 7,
         type: "image",
-        src: "/thurman/thurmanSocialMedia5.jpg",
+        src: "/thurman/thurmanSocialMedia5.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 8,
         type: "image",
-        src: "/thurman/thurmanSocialMedia6.jpg",
+        src: "/thurman/thurmanSocialMedia6.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 9,
         type: "image",
-        src: "/thurman/thurmanSocialMedia7.jpg",
+        src: "/thurman/thurmanSocialMedia7.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 10,
         type: "image",
-        src: "/thurman/thurmanSocialMedia8.jpg",
+        src: "/thurman/thurmanSocialMedia8.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 11,
         type: "image",
-        src: "/thurman/thurmanSocialMedia9.jpg",
+        src: "/thurman/thurmanSocialMedia9.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 12,
         type: "image",
-        src: "/thurman/thurmanSocialMedia10.jpg",
+        src: "/thurman/thurmanSocialMedia10.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 13,
         type: "image",
-        src: "/thurman/thurmanSocialMedia12.jpg",
+        src: "/thurman/thurmanSocialMedia12.webp",
         alt: "Thurman Campaign",
       },
     ],
   },
 ];
 
-export const gridData=[
+export const gridData = [
   {
     title: ["PAID", "MEDIA"],
     items: [
       {
         id: 1,
         type: "image",
-        src: "/thurman/thurmanNews.jpg",
+        src: "/thurman/thurmanNews.webp",
         alt: "Thurman Campaign Video",
       },
       {
         id: 2,
         type: "image",
-        src: "/thurman/thurmanNews2.jpg",
+        src: "/thurman/thurmanNews2.webp",
         alt: "Thurman Campaign",
       },
       {
         id: 3,
         type: "image",
-        src: "/thurman/thurmanNews3.jpg",
+        src: "/thurman/thurmanNews3.webp",
         alt: "Thurman Campaign",
-      },]}
-]
+      },
+    ],
+  },
+];

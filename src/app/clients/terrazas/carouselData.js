@@ -5,19 +5,19 @@ export const carouselData = [
       {
         id: 2,
         type: "image",
-        src: "/terrazas/terrazas.jpg",
+        src: "/terrazas/terrazas.webp",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 3,
         type: "image",
-        src: "/terrazas/terrazas2.jpg",
+        src: "/terrazas/terrazas2.webp",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 4,
         type: "image",
-        src: "/terrazas/terrazas3.jpg",
+        src: "/terrazas/terrazas3.webp",
         alt: "Terrazas de Los Andes",
       },
       {
@@ -29,19 +29,19 @@ export const carouselData = [
       {
         id: 5,
         type: "image",
-        src: "/terrazas/terrazas4.jpg",
+        src: "/terrazas/terrazas4.webp",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 6,
         type: "image",
-        src: "/terrazas/terrazas5.jpg",
+        src: "/terrazas/terrazas5.webp",
         alt: "Terrazas de Los Andes",
       },
       {
         id: 7,
         type: "image",
-        src: "/terrazas/terrazas6.jpg",
+        src: "/terrazas/terrazas6.webp",
         alt: "Terrazas de Los Andes",
       },
     ],
