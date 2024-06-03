@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import styles from "../../page.module.css";
 import React from "react";
-import Script from "next/script";
+
 import BlackBox from "@/app/components/blackBox";
 import { carouselData, gridData } from "./carouselData";
 import ClientHeader from "@/app/components/clientHeader";
@@ -18,7 +18,6 @@ export default function Home() {
 
   return (
     <main className={styles.main__client}>
-      <Script type="text/javascript" src="/scripts/lightbox.js" />
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/aiaLogo.webp"

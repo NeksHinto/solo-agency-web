@@ -16,7 +16,7 @@ const ClientCarousel = ({ items }) => {
       <AliceCarousel
         autoPlay
         autoPlayInterval={2000}
-        autoHeight
+        autoPlayStrategy="none"
         autoWidth
         infinite
         responsive={{

@@ -210,6 +210,12 @@ export const carouselData = [
         alt: "Solo Agency Reel",
       },
       {
+        id: 11,
+        src: "/pucheta/puchetaIcon1.webm",
+        type: "video",
+        alt: "Solo Agency Feed",
+      },
+      {
         id: 4,
         type: "image",
         src: "/pucheta/puchetaIcons4.webp",
@@ -225,6 +231,13 @@ export const carouselData = [
         id: 6,
         src: "/pucheta/puchetaIcons6.webp",
         type: "image",
+        alt: "Solo Agency Feed",
+      },
+
+      {
+        id: 12,
+        src: "/pucheta/puchetaIcon2.webm",
+        type: "video",
         alt: "Solo Agency Feed",
       },
       {
@@ -249,6 +262,12 @@ export const carouselData = [
         id: 10,
         src: "/pucheta/puchetaIcons10.webp",
         type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 13,
+        src: "/pucheta/puchetaIcon3.webm",
+        type: "video",
         alt: "Solo Agency Feed",
       },
     ],
@@ -471,7 +490,7 @@ export const carouselData = [
       },
       {
         id: 4,
-        type: "video",
+        type: "image",
         src: "/pucheta/puchetaResiliencia3.webp",
         alt: "Solo Agency Reel",
       },
@@ -490,7 +509,7 @@ export const carouselData = [
       {
         id: 7,
         src: "/pucheta/puchetaResiliencia6.webp",
-        type: "video",
+        type: "image",
         alt: "Solo Agency Feed",
       },
       {
@@ -508,7 +527,7 @@ export const carouselData = [
       {
         id: 10,
         src: "/pucheta/puchetaResiliencia9.webp",
-        type: "video",
+        type: "image",
         alt: "Solo Agency Feed",
       },
     ],
