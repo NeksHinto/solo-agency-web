@@ -3,11 +3,21 @@ import ClientCarousel from "./carousel";
 import ClientGrid from "./clientGrid";
 import ClientGridBranding from "./clientGridBranding";
 import styles from "../page.module.css";
+import { motion } from "framer-motion";
 
 const ClientPageContent = ({ carousel, branding, data }) => {
   return (
     <div className={styles.client__content}>
-      <div className={styles.client__content__container}>
+      <motion.div
+        className={styles.client__content__container}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          ease: [0.65, 0, 0.35, 1],
+          duration: 0.75,
+          x: { duration: 0.25 },
+        }}
+      >
         <p className={styles.client__title} style={{ color: "gray" }}>
           {data.title[0]}
         </p>
@@ -27,7 +37,7 @@ const ClientPageContent = ({ carousel, branding, data }) => {
             containerProps={data.containerProps}
           />
         )}
-      </div>
+      </motion.div>
     </div>
   );
 };

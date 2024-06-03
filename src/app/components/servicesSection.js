@@ -2,10 +2,20 @@
 import Link from "next/link";
 import styles from "../page.module.css";
 import { services } from "../constants/services";
+import { motion } from "framer-motion";
 
 export default function ServicesSection() {
   return (
-    <div className={styles.carousel}>
+    <motion.div
+      className={styles.carousel}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        ease: [0.65, 0, 0.35, 1],
+        duration: 0.75,
+        x: { duration: 0.25 },
+      }}
+    >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p className={styles.title}>SERVICIOS</p>
         <p
@@ -17,7 +27,6 @@ export default function ServicesSection() {
           <Link href="/services">VER MÁS</Link>
         </p>
       </div>
-      {/* <p className={styles.page__description}>Solo Agency es una agencia creativa espacializada en el diseño de identidad visual y comunicacion efectiva.</p> */}
       <div className={styles.services_carousel_container}>
         {services.map((service, i) => {
           return (
@@ -34,11 +43,11 @@ export default function ServicesSection() {
                 textTransform: "uppercase",
               }}
             >
-              <Link href="/clients">{service.name}</Link>
+              <Link href="/services">{service.name}</Link>
             </p>
           );
         })}
       </div>
-    </div>
+    </motion.div>
   );
 }

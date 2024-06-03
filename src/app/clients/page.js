@@ -3,11 +3,9 @@ import { useEffect } from "react";
 import styles from "../page.module.css";
 import { useState } from "react";
 import React from "react";
-import Inner from "../inner/inner";
 import Link from "next/link";
-import ServicesSection from "../components/servicesSection";
-import Image from "next/image";
 import { brands } from "../constants/brands";
+import { motion } from "framer-motion";
 
 export default function Clients() {
   const [isActive, setIsActive] = useState(true);
@@ -38,7 +36,16 @@ export default function Clients() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.page__info}>
+      <motion.div
+        className={styles.page__info}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          ease: [0.65, 0, 0.35, 1],
+          duration: 0.75,
+          x: { duration: 0.25 },
+        }}
+      >
         <p className={styles.title}>CLIENTS</p>
         <p className={styles.page__description}>
           En Solo Agency nos enorgullece ser tu aliado creativo en el mundo de
@@ -46,10 +53,20 @@ export default function Clients() {
           valores y comunicar todo aquello que no se puede expresar con
           palabras.
         </p>
-      </div>
+      </motion.div>
       <div className={styles.services_container}>
         {categories.map((category, i) => (
-          <div key={i} className={styles.service}>
+          <motion.div
+            key={i}
+            className={styles.service}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{
+              ease: [0.65, 0, 0.35, 1],
+              duration: 0.75,
+              x: { duration: 0.25 },
+            }}
+          >
             <div className={styles.service__banner} onClick={() => toggle(i)}>
               <p className={styles.section_title}>{category.name}</p>
               <span className={styles.cross}>{selected === i ? "_" : "+"}</span>
@@ -64,7 +81,16 @@ export default function Clients() {
               {brands
                 .filter((brand) => brand.category === category.name)
                 .map((brand, brandIndex) => (
-                  <div key={brandIndex}>
+                  <motion.div
+                    key={brandIndex}
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{
+                      ease: [0.65, 0, 0.35, 1],
+                      duration: 0.75,
+                      x: { duration: 0.25 },
+                    }}
+                  >
                     <Link href={brand.route} alt={brand.name}>
                       <img
                         src={brand.imageLocation}
@@ -73,10 +99,10 @@ export default function Clients() {
                       />
                       {/* <p>{brand.name}</p> */}
                     </Link>
-                  </div>
+                  </motion.div>
                 ))}
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </main>

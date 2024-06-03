@@ -1,9 +1,19 @@
 import Link from "next/link";
 import styles from "../page.module.css";
+import { motion } from "framer-motion";
 
 export default function CTA() {
   return (
-    <div className={styles.carousel}>
+    <motion.div
+      className={styles.carousel}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        ease: [0.65, 0, 0.35, 1],
+        duration: 0.75,
+        x: { duration: 0.25 },
+      }}
+    >
       <div
         style={{
           display: "flex",
@@ -18,15 +28,6 @@ export default function CTA() {
           </p>
         </div>
       </div>
-    </div>
-
-    // <div className={styles.idea}>
-    //   <div>
-    //     <p>Tenes una idea?</p>
-    //   </div>
-    //   <div style={{display: 'flex', flexDirection: 'row'}}>
-    //     <p className={styles.button2} style={{marginLeft: '0rem'}}><Link href="/contact">CONTACTANOS</Link></p>
-    //   </div>
-    // </div>
+    </motion.div>
   );
 }

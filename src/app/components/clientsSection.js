@@ -2,10 +2,29 @@
 import Link from "next/link";
 import styles from "../page.module.css";
 import Image from "next/image";
+import { clientLogos } from "../constants/homeLogos";
+import { motion } from "framer-motion";
+
+function ClientLink({ href, logo }) {
+  return (
+    <Link href={href}>
+      <Image src={logo} width={0} height={0} sizes="100vw" alt="Client Logo" />
+    </Link>
+  );
+}
 
 export default function ClientsSection() {
   return (
-    <div className={styles.carousel}>
+    <motion.div
+      className={styles.carousel}
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        ease: [0.65, 0, 0.35, 1],
+        duration: 0.75,
+        x: { duration: 0.25 },
+      }}
+    >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <p className={styles.title}>CLIENTES</p>
         <p
@@ -19,65 +38,11 @@ export default function ClientsSection() {
       </div>
       <div className={styles.scroller}>
         <div className={styles.scroller__inner}>
-          <Link href={"../clients/elGorumet"}>
-            <Image
-              src="/logos/elgourmetLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/dollstore"}>
-            <Image
-              src="/logos/dollstoreLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/eucerin"}>
-            <Image
-              src="/logos/eucerinLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/justaOsadia"}>
-            <Image
-              src="/logos/justaosadiaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/lidherma"}>
-            <Image
-              src="/logos/lidhermaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
-          <Link href={"../clients/pucheta"}>
-            <Image
-              src="/logos/puchetaLogo.webp"
-              width={0}
-              height={0}
-              sizes="100vw"
-              alt="Picture of the author"
-            />
-          </Link>
+          {clientLogos.map((client) => (
+            <ClientLink key={client.href} {...client} />
+          ))}
         </div>
       </div>
-      {/* <div style={{display: 'flex', flexDirection: 'row'}}>
-              <p className={styles.button2} style={{margin: '2rem',marginLeft: '0px', textAlign: 'left', right: '0'}}><Link href="/clients">ALL CLIENTS</Link></p>
-            </div> */}
-    </div>
+    </motion.div>
   );
 }

@@ -556,6 +556,8 @@
 .client__image {
   border: 5px solid black;
   border-radius: 20px;
+  height: auto;
+  width: 20rem;
 }
 .client__grid__branding__image {
   border: 5px solid black;
@@ -675,9 +677,9 @@
   display: flex;
   width: 100%;
   align-items: center;
+  justify-content: center;
   padding: 1rem;
   padding-top: 0rem;
-  /* border-right: 1px solid rgba(255, 255, 255, 0.362); */
 }
 .contact__page__details__section {
   display: flex;

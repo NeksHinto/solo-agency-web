@@ -8,6 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { brands } from "../constants/brands";
 import { services } from "../constants/services";
+import { motion } from "framer-motion";
 
 export default function ServicesPage() {
   const [selected, setSelected] = useState(null);
@@ -30,17 +31,36 @@ export default function ServicesPage() {
 
   return (
     <main className={styles.main}>
-      <div className={styles.page__info}>
+      <motion.div
+        className={styles.page__info}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          ease: [0.65, 0, 0.35, 1],
+          duration: 0.75,
+          x: { duration: 0.25 },
+        }}
+      >
         <p className={styles.title}>SERVICES</p>
         <p className={styles.page__description}>
           Solo Agency es una agencia creativa espacializada en el diseño de
           identidad visual y comunicacion efectiva.
         </p>
-      </div>
+      </motion.div>
       <div className={styles.services_container}>
         {services.map((service, i) => {
           return (
-            <div key={i} className={styles.service}>
+            <motion.div
+              key={i}
+              className={styles.service}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{
+                ease: [0.65, 0, 0.35, 1],
+                duration: 0.75,
+                x: { duration: 0.25 },
+              }}
+            >
               <div className={styles.service__banner} onClick={() => toggle(i)}>
                 <p className={styles.section_title}>{service.name}</p>
                 <span className={styles.cross}>
@@ -69,11 +89,18 @@ export default function ServicesPage() {
                     );
                   })}
                 </div>
-                <div
+                <motion.div
                   style={{
                     display: "flex",
                     flexWrap: "wrap",
                     columnGap: "5rem",
+                  }}
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    ease: [0.65, 0, 0.35, 1],
+                    duration: 0.75,
+                    x: { duration: 0.25 },
                   }}
                 >
                   {brands
@@ -91,9 +118,9 @@ export default function ServicesPage() {
                         </Link>
                       </div>
                     ))}
-                </div>
+                </motion.div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

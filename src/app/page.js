@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import Link from "next/link";
-
+import { motion } from "framer-motion";
 import styles from "./page.module.css";
 import Paragraph from "./components/paragraph";
 import ClientsSection from "./components/clientsSection";
@@ -22,19 +22,28 @@ export default function Home() {
 
   return (
     <main className={styles.main__home}>
-      <div className={styles.banner__home}>
-      <Image
-        src="/SOLO AGENCY LOGO TYPO BLANCO.webp"
-        alt="Solo Agency"
-        width={0}
-        height={0}
-        sizes="100vw"
-        style={{ width: "100%", height: "auto", maxWidth: "1200px" }}
-      />
-      <p id="subtitle">
-        NO SOMOS <strong>SOLO</strong> UNA AGENCIA
-      </p>
-      </div>
+      <motion.div
+        className={styles.banner__home}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{
+          ease: [0.65, 0, 0.35, 1],
+          duration: 0.75,
+          x: { duration: 0.25 },
+        }}
+      >
+        <Image
+          src="/SOLO AGENCY LOGO TYPO BLANCO.webp"
+          alt="Solo Agency"
+          width={0}
+          height={0}
+          sizes="100vw"
+          style={{ width: "100%", height: "auto", maxWidth: "1200px" }}
+        />
+        <p id="subtitle">
+          NO SOMOS <strong>SOLO</strong> UNA AGENCIA
+        </p>
+      </motion.div>
       {/* <video
         autoPlay
         muted
@@ -46,23 +55,22 @@ export default function Home() {
         <source src="/SOLOAGENCY.webm" />
       </video> */}
       <div className={styles.WWW}>
-        <div>
+        <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{
+                    ease: [0.65, 0, 0.35, 1],
+                    duration: 0.75,
+                    x: { duration: 0.25 },
+                  }}>
           <p className={styles.www__title}>
             <strong>WWW.</strong>
             <span className={styles.cursor}>|</span>
           </p>
           <p className={styles.title}>WHAT, WHO, WHY?</p>
-        </div>
+        </motion.div>
       </div>
       <Paragraph value={paragraph} />
-      {/* <div className={styles.aboutredir}>
-            <p>
-              NO SOMOS <strong>SOLO</strong> UNA AGENCIA
-            </p>
-            <div style={{display: 'flex', flexDirection: 'row'}}>
-              <p className={styles.button2} style={{textAlign: 'left'}}><Link href="/about">ABOUT US</Link></p>
-            </div>
-        </div> */}
       <ClientsSection />
       <ServicesSection />
       <CTA />
