@@ -31,7 +31,12 @@ export default function Home() {
           services={["Content"]}
         />
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={false} data={data} />
+          <ClientPageContent
+            key={data.title}
+            carousel={false}
+            branding={true}
+            data={data}
+          />
         ))}
 
         <BlackBox />

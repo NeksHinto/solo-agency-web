@@ -1,113 +1,6 @@
 export const carouselData = [
   {
-    title: ["DSMEN", "SALE"],
-    items: [
-      {
-        id: 1,
-        src: "/dsmen/dsmenSale1.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 2,
-        src: "/dsmen/dsmenSale2.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 3,
-        src: "/dsmen/dsmenSale3.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 4,
-        src: "/dsmen/dsmenSale4.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 5,
-        src: "/dsmen/dsmenSale5.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 6,
-        src: "/dsmen/dsmenSale6.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 7,
-        src: "/dsmen/dsmenSale7.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-    ],
-  },
-
-  {
-    title: ["NAVIDAD", "2023"],
-    items: [
-      {
-        id: 1,
-        src: "/dsmen/dsmenNavidad1.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 2,
-        src: "/dsmen/dsmenNavidad2.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 3,
-        src: "/dsmen/dsmenNavidad3.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 4,
-        src: "/dsmen/dsmenNavidad4.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 5,
-        src: "/dsmen/dsmenNavidad5.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 6,
-        src: "/dsmen/dsmenNavidad6.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 7,
-        src: "/dsmen/dsmenNavidad7.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 8,
-        src: "/dsmen/dsmenNavidad8.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
-        id: 9,
-        src: "/dsmen/dsmenNavidad9.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-    ],
-  },
-  {
-    title: ["DIGITAL", "BRANDING"],
+    title: ["SOCIAL", "MEDIA"],
     items: [
       {
         id: 1,
@@ -118,12 +11,6 @@ export const carouselData = [
       {
         id: 2,
         src: "/dsmen/dsmenBranding2.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 3,
-        src: "/dsmen/dsmenBranding3.webp",
         type: "image",
         alt: "Solo Agency Stories",
       },
@@ -153,9 +40,6 @@ export const carouselData = [
       },
     ],
   },
-];
-
-export const gridData = [
   {
     title: ["STREET", "STYLE"],
     items: [
@@ -167,7 +51,7 @@ export const gridData = [
       },
       {
         id: 11,
-        src: "/dsmen/dsmenStreetstyle.webp",
+        src: "/dsmen/dsmenStreetstyle1.webp",
         type: "image",
         alt: "Solo Agency Stories",
       },
@@ -230,6 +114,142 @@ export const gridData = [
         type: "video",
         src: "/dsmen/dsmenStreetstyleReel6.webm",
         alt: "Solo Agency Reel",
+      },
+      {
+        id: 8,
+        src: "/dsmen/dsmenStreetstyle7.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 9,
+        src: "/dsmen/dsmenStreetstyle8.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 10,
+        src: "/dsmen/dsmenStreetstyle9.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 11,
+        src: "/dsmen/dsmenStreetstyle10.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 12,
+        src: "/dsmen/dsmenStreetstyle11.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+    ],
+  },
+  {
+    title: ["NAVIDAD", "2023"],
+    items: [
+      {
+        id: 1,
+        src: "/dsmen/dsmenNavidad1.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 2,
+        src: "/dsmen/dsmenNavidad2.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 3,
+        src: "/dsmen/dsmenNavidad3.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 4,
+        src: "/dsmen/dsmenNavidad4.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 5,
+        src: "/dsmen/dsmenNavidad5.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 6,
+        src: "/dsmen/dsmenNavidad6.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 7,
+        src: "/dsmen/dsmenNavidad7.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 8,
+        src: "/dsmen/dsmenNavidad8.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 9,
+        src: "/dsmen/dsmenNavidad9.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+    ],
+  },
+  {
+    title: ["DSMEN", "SALE"],
+    items: [
+      {
+        id: 1,
+        src: "/dsmen/dsmenSale1.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 2,
+        src: "/dsmen/dsmenSale2.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 3,
+        src: "/dsmen/dsmenSale3.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 4,
+        src: "/dsmen/dsmenSale4.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 5,
+        src: "/dsmen/dsmenSale5.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 6,
+        src: "/dsmen/dsmenSale6.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 7,
+        src: "/dsmen/dsmenSale7.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
       },
     ],
   },

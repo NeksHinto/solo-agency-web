@@ -33,7 +33,7 @@ export default function Home() {
         />
 
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
+          <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
         <BlackBox />

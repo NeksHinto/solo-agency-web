@@ -6,6 +6,7 @@ import instagramIcon from "../../../public/instagram.svg";
 import behanceIcon from "../../../public/behance.svg";
 import linkedinIcon from "../../../public/linkedin.svg";
 import whatsappIcon from "../../../public/whatsapp.svg";
+import { wppAutoMessage } from "../utils/wppAutoMessage";
 import Image from "next/image";
 
 export default function Footer() {
@@ -16,7 +17,7 @@ export default function Footer() {
     setResult("Enviando....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "5708937d-8c8d-405f-b8d6-dbd75827398e");
+    formData.append("access_key", NEXT_PUBLIC_FORM_KEY);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -78,7 +79,12 @@ export default function Footer() {
               </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
-              <Link href="https://wa.me/+541131313954" target="blank">
+              <Link
+                href={`https://wa.me/${
+                  process.env.NEXT_PUBLIC_WPP_NUMBER
+                }?text=${wppAutoMessage()}`}
+                target="blank"
+              >
                 <Image src={whatsappIcon} alt="whatsapp" />
               </Link>
             </p>
@@ -117,7 +123,7 @@ export default function Footer() {
                 <input
                   type="hidden"
                   name="access_key"
-                  value="5708937d-8c8d-405f-b8d6-dbd75827398e"
+                  value="NEXT_PUBLIC_FORM_KEY"
                 />
                 <input type="email" name="email" placeholder="email" required />
                 <button className={styles.button} type="submit">

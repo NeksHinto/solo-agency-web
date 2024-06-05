@@ -32,13 +32,18 @@ export default function Home() {
           desafíos que comprenden comunicación visual y digital."
           services={["Creative Strategy", "Social Media", "Paid Media"]}
         />
-        {gridData.map((data) => (
-          <ClientPageContent key={data.title} carousel={false} data={data} />
-        ))}
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} carousel={true} data={data} />
         ))}
 
+        {gridData.map((data) => (
+          <ClientPageContent
+            key={data.title}
+            carousel={false}
+            branding={true}
+            data={data}
+          />
+        ))}
         <BlackBox />
       </div>
     </main>

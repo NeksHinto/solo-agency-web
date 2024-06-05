@@ -36,7 +36,7 @@ export default function Home() {
         />
 
         {gridData.map((data) => (
-          <ClientPageContent key={data.title} carousel={false} data={data} />
+          <ClientPageContent key={data.title} carousel={false} branding={true} data={data} />
         ))}
 
         {carouselData.map((data) => (

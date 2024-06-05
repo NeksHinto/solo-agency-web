@@ -37,10 +37,6 @@ export default function Home() {
           <ClientPageContent key={data.title} carousel={true} data={data} />
         ))}
 
-        {gridData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
-        ))}
-
         <BlackBox />
       </div>
     </main>

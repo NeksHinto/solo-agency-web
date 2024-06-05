@@ -38,8 +38,8 @@ export default function ClientsSection() {
       </div>
       <div className={styles.scroller}>
         <div className={styles.scroller__inner}>
-          {clientLogos.map((client) => (
-            <ClientLink key={client.href} {...client} />
+          {clientLogos.map((client, i) => (
+            <ClientLink key={`${client.href}-${i}`} {...client} />
           ))}
         </div>
       </div>

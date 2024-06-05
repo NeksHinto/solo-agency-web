@@ -17,7 +17,7 @@ export default function ServicesSection() {
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p className={styles.title}>SERVICIOS</p>
+        <p className={styles.title}>SERVICES</p>
         <p
           className={styles.link}
           style={{
@@ -43,7 +43,19 @@ export default function ServicesSection() {
                 textTransform: "uppercase",
               }}
             >
-              <Link href="/services">{service.name}</Link>
+              <Link
+                href={{
+                  pathname: "/services",
+                  hash: `service-${i}`,
+                  query: { id: i },
+                }}
+                style={{ width: "100%", height: "100%" }}
+                onClick={() => {
+                  window.scrollTo({ top: "6rem", behavior: "smooth" });
+                }}
+              >
+                {service.name}
+              </Link>
             </p>
           );
         })}

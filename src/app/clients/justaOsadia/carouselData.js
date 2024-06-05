@@ -5,7 +5,7 @@ export const carouselData = [
       {
         id: 1,
         type: "video",
-        src: "/justaOsadia/justaOsadia1.webm",
+        src: "/justaOsadia/justaOsadia.webm",
         alt: "AIA Be Free Be AIA Video",
       },
       {
@@ -49,18 +49,6 @@ export const carouselData = [
         type: "video",
         src: "/justaOsadia/justaOsadia8.webm",
         alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 9,
-        type: "video",
-        src: "/justaOsadia/justaOsadia9.webm",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 10,
-        type: "video",
-        src: "/justaOsadia/justaOsadia10.webm",
-        alt: "AIA Jogging with Tank Top Video",
       },
     ],
   },

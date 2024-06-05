@@ -4,7 +4,7 @@ import styles from "../../page.module.css";
 import React from "react";
 
 import BlackBox from "@/app/components/blackBox";
-import { carouselData, gridData } from "./carouselData";
+import { carouselData } from "./carouselData";
 import ClientPageContent from "@/app/components/clientPageContent";
 import ClientHeader from "@/app/components/clientHeader";
 
@@ -38,10 +38,6 @@ export default function Home() {
 
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} carousel={true} data={data} />
-        ))}
-
-        {gridData.map((data) => (
-          <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
         <BlackBox />

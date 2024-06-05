@@ -1,16 +1,19 @@
 export const gridData = [
   {
-    title: ["DIGITAL", "BRANDING"],
+    title: ["_", "BRANDING"],
+    gridProps: {
+      display: "grid",
+      alignItems: "center",
+      gridTemplateColumns: "repeat(3, 1fr)",
+      gridTemplateRows: "repeat(2, 1fr)",
+      gridTemplateAreas: `
+      "box5 box1 box2"
+      "box5 box3 box4"`,
+    },
     items: [
       {
         id: 1,
         src: "/lagouardeCatering/lagouardeCBrandbook1.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 2,
-        src: "/lagouardeCatering/lagouardeCBrandbook11.webp",
         type: "image",
         alt: "Solo Agency Stories",
       },
@@ -27,31 +30,22 @@ export const gridData = [
         alt: "Solo Agency Stories",
       },
       {
-        id: 5,
-        src: "/lagouardeCatering/lagouardeCBrandbook19.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 6,
-        src: "/lagouardeCatering/lagouardeCBrandbook20.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 7,
-        src: "/lagouardeCatering/lagouardeCBrandbook21.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
         id: 8,
         src: "/lagouardeCatering/lagouardeCBrandbook25.webp",
         type: "image",
         alt: "Solo Agency Stories",
       },
+      {
+        id: 19,
+        src: "/lagouardeCatering/lagouardeCFeedCompleto.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
     ],
   },
+];
+
+export const carouselData = [
   {
     title: ["INSTAGRAM", "FEED"],
     items: [
@@ -86,18 +80,15 @@ export const gridData = [
         alt: "Solo Agency Feed",
       },
       {
-        id: 19,
-        src: "/lagouardeCatering/lagouardeCFeedCompleto.webp",
+        id: 31,
+        src: "/lagouardeCatering/lagouardeCFeed1.webp",
         type: "image",
         alt: "Solo Agency Stories",
       },
     ],
   },
-];
-
-export const carouselData = [
   {
-    title: ["INSTAGRAM", "CONTENT"],
+    title: ["INSTAGRAM", "STORIES"],
     items: [
       {
         id: 20,
@@ -153,28 +144,10 @@ export const carouselData = [
         type: "video",
         alt: "Solo Agency Stories",
       },
-      {
-        id: 30,
-        src: "/lagouardeCatering/lagouardeCContent1.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 31,
-        src: "/lagouardeCatering/lagouardeCFeed1.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
-        id: 32,
-        src: "/lagouardeCatering/lagouardeCContent2.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
     ],
   },
   {
-    title: ["", ""],
+    title: ["INSTAGRAM", "CONTENT"],
     items: [
       {
         id: 13,
@@ -217,6 +190,18 @@ export const carouselData = [
         src: "/lagouardeCatering/lagouardeCContent16.webp",
         type: "image",
         alt: "Solo Agency Feed",
+      },
+      {
+        id: 30,
+        src: "/lagouardeCatering/lagouardeCContent1.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
+      },
+      {
+        id: 32,
+        src: "/lagouardeCatering/lagouardeCContent2.webp",
+        type: "image",
+        alt: "Solo Agency Stories",
       },
     ],
   },

@@ -24,7 +24,7 @@ export default function Home() {
           clientInfo="Centro de medicina estética recurre a Solo Agency para construir
           los cimientos de su marca. Se ha elaborado el diseño del brandbook
           para aportar concepto, narrativa y morfología a su idea."
-          services={["Digital Branding"]}
+          services={["Branding"]}
         />
 
         {carouselData.map((data) => (

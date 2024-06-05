@@ -31,7 +31,7 @@ export default function Home() {
           desarrollamos el re - branding y la identidad visual de la marca,
           adecuándose al nuevo sistema de consumo, bajo el objetivo de
           acercarla a un nuevo nicho de arquitectos jóvenes."
-          services={["Digital Branding"]}
+          services={["Branding"]}
         />
         {carouselData.map((data) => (
           <ClientPageContent

@@ -38,17 +38,6 @@ export const carouselData = [
         src: "/ubk/ubk5.webp",
         alt: "Unbroken Fitwear",
       },
-    ],
-  },
-  {
-    title: ["", ""],
-    items: [
-      {
-        id: 30,
-        type: "video",
-        src: "/ubk/UBK_H.264.webm",
-        alt: "Unbroken Fitwear Video",
-      },
       {
         id: 7,
         type: "image",
@@ -60,6 +49,12 @@ export const carouselData = [
         type: "image",
         src: "/ubk/ubk7.webp",
         alt: "Unbroken Fitwear",
+      },
+      {
+        id: 30,
+        type: "video",
+        src: "/ubk/UBK_H.264.webm",
+        alt: "Unbroken Fitwear Video",
       },
       {
         id: 9,
@@ -115,11 +110,6 @@ export const carouselData = [
         src: "/ubk/ubk16.webp",
         alt: "Unbroken Fitwear",
       },
-    ],
-  },
-  {
-    title: ["", ""],
-    items: [
       {
         id: 18,
         type: "image",
@@ -157,21 +147,9 @@ export const carouselData = [
         alt: "Unbroken Fitwear",
       },
       {
-        id: 24,
-        type: "image",
-        src: "/ubk/ubk23.webp",
-        alt: "Unbroken Fitwear",
-      },
-      {
         id: 25,
         type: "image",
         src: "/ubk/ubk24.webp",
-        alt: "Unbroken Fitwear",
-      },
-      {
-        id: 26,
-        type: "image",
-        src: "/ubk/ubk25.webp",
         alt: "Unbroken Fitwear",
       },
       {

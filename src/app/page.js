@@ -56,13 +56,14 @@ export default function Home() {
       </video> */}
       <div className={styles.WWW}>
         <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{
-                    ease: [0.65, 0, 0.35, 1],
-                    duration: 0.75,
-                    x: { duration: 0.25 },
-                  }}>
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{
+            ease: [0.65, 0, 0.35, 1],
+            duration: 0.75,
+            x: { duration: 0.25 },
+          }}
+        >
           <p className={styles.www__title}>
             <strong>WWW.</strong>
             <span className={styles.cursor}>|</span>
@@ -70,10 +71,12 @@ export default function Home() {
           <p className={styles.title}>WHAT, WHO, WHY?</p>
         </motion.div>
       </div>
-      <Paragraph value={paragraph} />
-      <ClientsSection />
-      <ServicesSection />
-      <CTA />
+      <div className={styles.home__content}>
+        <Paragraph value={paragraph} />
+        <ClientsSection />
+        <ServicesSection />
+        <CTA />
+        </div>
     </main>
   );
 }

@@ -4,7 +4,7 @@ import styles from "../page.module.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-const ClientCarousel = ({ items }) => {
+const ClientCarousel = ({ items, maxHeight }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -38,6 +38,9 @@ const ClientCarousel = ({ items }) => {
           item.type === "image" ? (
             <Image
               key={item.id}
+              style={{
+                maxHeight: maxHeight,
+              }}
               className={styles.client__image}
               src={item.src}
               alt={item.alt}
@@ -56,6 +59,9 @@ const ClientCarousel = ({ items }) => {
             ></iframe>
           ) : (
             <video
+              style={{
+                maxHeight: maxHeight,
+              }}
               key={item.id}
               controls
               autoPlay

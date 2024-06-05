@@ -21,7 +21,6 @@ export default function CTA() {
           flexDirection: "column",
         }}
       >
-        <p className={styles.title}>ESTAMOS A UN CLICK DE DISTANCIA</p>
         <div style={{ display: "flex", flexDirection: "row" }}>
           <p className={styles.button2}>
             <Link href="/contact">CONTACT US</Link>

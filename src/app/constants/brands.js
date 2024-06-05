@@ -94,6 +94,13 @@ export const brands = [
     route: "/clients/faitful",
   },
   {
+    name: "Fernando Ramos",
+    imageLocation: "/logos/fernandoRamosLogo.webp",
+    category: "Lifestyle",
+    services: ["Graphic Design & Branding"],
+    route: "/clients/fernandoRamos",
+  },
+  {
     name: "El Gourmet",
     imageLocation: "/logos/elgourmetLogo.webp",
     category: "Lifestyle",

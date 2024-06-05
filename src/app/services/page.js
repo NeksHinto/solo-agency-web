@@ -2,25 +2,29 @@
 import { useEffect } from "react";
 import styles from "../page.module.css";
 import { useState } from "react";
-import Inner from "../inner/inner";
-import ClientsSection from "../components/clientsSection";
 import Link from "next/link";
-import Image from "next/image";
 import { brands } from "../constants/brands";
 import { services } from "../constants/services";
 import { motion } from "framer-motion";
+import { useSearchParams } from "next/navigation";
 
 export default function ServicesPage() {
   const [selected, setSelected] = useState(null);
+  const [searchParams] = useSearchParams();
 
   const toggle = (i) => {
-    if (selected == i) {
-      return setSelected(null);
+    if (selected === i) {
+      setSelected(null);
+    } else {
+      setSelected(i);
     }
-    setSelected(i);
   };
 
-  const [isActive, setIsActive] = useState(true);
+  useEffect(() => {
+    const id = searchParams?.[1] ? parseInt(searchParams[1]) : null;
+    setSelected(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   useEffect(() => {
     (async () => {
@@ -52,6 +56,7 @@ export default function ServicesPage() {
           return (
             <motion.div
               key={i}
+              id={`service-${i}`}
               className={styles.service}
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}

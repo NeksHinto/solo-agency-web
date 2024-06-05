@@ -27,7 +27,7 @@ export default function Home() {
           comunique su confiabilidad, experiencia y sobre todo la
           grandilocuencia que esta ejerce en el rubro. Es así como Solo
           Agency, le propone una nueva identidad de marca."
-          services={["Digital Branding"]}
+          services={["Branding"]}
         />
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} branding={true} data={data} />

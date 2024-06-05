@@ -23,12 +23,13 @@ const ClientPageContent = ({ carousel, branding, data }) => {
         </p>
         <p className={styles.client__title}>{data.title[1]}</p>
         {carousel ? (
-          <ClientCarousel key={data.title} items={data.items} />
+          <ClientCarousel key={data.title} items={data.items} maxHeight={data.maxHeight} />
         ) : branding ? (
           <ClientGridBranding
             key={data.title}
             items={data.items}
             gridProps={data.gridProps}
+            maxHeight={data.maxHeight}
           />
         ) : (
           <ClientGrid

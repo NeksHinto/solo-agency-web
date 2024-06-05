@@ -1,69 +1,6 @@
-export const carouselData = [
-  {
-    title: ["BE FREE", "BE AIA"],
-    items: [
-      {
-        id: 2,
-        type: "image",
-        src: "/aia/aia1.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 3,
-        type: "image",
-        src: "/aia/aia2.webp",
-        alt: "AIA Athleisure Wear",
-      },
-
-      {
-        id: 5,
-        type: "image",
-        src: "/aia/aia3.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 6,
-        type: "image",
-        src: "/aia/aia4.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 8,
-        type: "image",
-        src: "/aia/aia5.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 9,
-        type: "image",
-        src: "/aia/aia6.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 11,
-        type: "image",
-        src: "/aia/aia7.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 12,
-        type: "image",
-        src: "/aia/aia8.webp",
-        alt: "AIA Athleisure Wear",
-      },
-      {
-        id: 13,
-        type: "image",
-        src: "/aia/aia9.webp",
-        alt: "AIA Athleisure Wear",
-      },
-    ],
-  },
-];
-
 export const gridData = [
   {
-    title: ["LYCRA", "VISION"],
+    title: ["SUMMER", "2024"],
     items: [
       {
         id: 1,
@@ -72,22 +9,118 @@ export const gridData = [
         alt: "AIA Be Free Be AIA Video",
       },
       {
+        id: 10,
+        type: "image",
+        src: "/aia/aiaSummer7.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 11,
+        type: "image",
+        src: "/aia/aiaSummer8.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 2,
+        type: "image",
+        src: "/aia/aiaSummer1.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 3,
+        type: "image",
+        src: "/aia/aiaSummer2.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
         id: 4,
+        type: "image",
+        src: "/aia/aiaSummer3.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 5,
+        type: "image",
+        src: "/aia/aiaSummer4.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 7,
         type: "video",
         src: "/aia/aiaReel.webm",
         alt: "AIA Athleisure Wear Video",
       },
       {
-        id: 14,
+        id: 12,
         type: "video",
         src: "/aia/aiaBatallaDeTenis.webm",
         alt: "AIA Tennis Battle Video",
       },
       {
-        id: 10,
+        id: 8,
+        type: "image",
+        src: "/aia/aiaSummer5.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 9,
+        type: "image",
+        src: "/aia/aiaSummer6.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 16,
+        type: "image",
+        src: "/aia/aiaSummer11.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 17,
+        type: "image",
+        src: "/aia/aiaSummer12.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 18,
+        type: "image",
+        src: "/aia/aiaSummer13.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 19,
+        type: "image",
+        src: "/aia/aiaSummer14.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 13,
         type: "video",
         src: "/aia/aiaJogginConMusculosa.webm",
         alt: "AIA Jogging with Tank Top Video",
+      },
+      {
+        id: 20,
+        type: "image",
+        src: "/aia/aiaSummer15.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 21,
+        type: "image",
+        src: "/aia/aiaSummer16.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 22,
+        type: "image",
+        src: "/aia/aiaSummer17.webp",
+        alt: "AIA Be Free Be AIA Video",
+      },
+      {
+        id: 23,
+        type: "image",
+        src: "/aia/aiaSummer18.webp",
+        alt: "AIA Be Free Be AIA Video",
       },
     ],
   },
