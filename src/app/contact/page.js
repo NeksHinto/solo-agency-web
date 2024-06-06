@@ -8,12 +8,12 @@ import Link from "next/link";
 import { wppAutoMessage } from "../utils/wppAutoMessage";
 
 export default function Contact() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
 
   return (
     <main className={styles.main}>

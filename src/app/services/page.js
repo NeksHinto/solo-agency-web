@@ -25,12 +25,12 @@ export default function ServicesPage() {
     setSelected(id);
   }, [searchParams]);
 
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
+  useEffect(() => {
+    (async () => {
+      const LocomotiveScroll = (await import("locomotive-scroll")).default;
+      const locomotiveScroll = new LocomotiveScroll();
+    })();
+  }, []);
 
   return (
     <main className={styles.main}>

@@ -4,20 +4,9 @@
   margin: 0;
 }
 
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
 * {
   scrollbar-width: auto;
   scrollbar-color: #636363 #000000;
-}
-
-/* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
-  width: 50px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #000000;
 }
 
 html,
