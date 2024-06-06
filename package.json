@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "framer-motion": "^11.2.10",
-    "locomotive-scroll": "^5.0.0-beta.11",
     "next": "^14.1.4",
     "react": "^18",
     "react-alice-carousel": "^2.9.1",
