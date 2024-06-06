@@ -1,6 +1,7 @@
 export const gridData = [
   {
     title: ["SUMMER", "2024"],
+    maxHeight: "475px",
     items: [
       {
         id: 1,

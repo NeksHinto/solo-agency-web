@@ -4,15 +4,14 @@ export const carouselData = [
     gridProps: {
       display: "grid",
       gridTemplateColumns: "repeat(4, 1fr)",
-      gridTemplateRows: "repeat(7, 1fr)",
+      gridTemplateRows: "repeat(6, 1fr)",
       gridTemplateAreas: `
-      "box4 box2 box1 box1"
-      "box3 box5 box1 box1"
-      "box6 box10 box8 box8"
-      "box7 box7 box8 box8"
-      "box7 box7 box12 box12"
-      "box9 box11 box12 box12"
-      "box13 box14 box15 box16"`,
+      "box4 box5 box1 box1"
+      "box2 box3 box1 box1"
+      "box8 box6 box10 box10"
+      "box9 box9 box10 box10"
+      "box9 box9 box12 box12"
+      "box7 box11 box12 box12"`,
     },
     items: [
       {
@@ -34,12 +33,6 @@ export const carouselData = [
         alt: "Timeless Product",
       },
       {
-        id: 4,
-        type: "image",
-        src: "/timeless/TIMELESS BRANDBOOK4.webp",
-        alt: "Timeless Team",
-      },
-      {
         id: 5,
         type: "image",
         src: "/timeless/TIMELESS BRANDBOOK5.webp",
@@ -50,18 +43,6 @@ export const carouselData = [
         type: "image",
         src: "/timeless/TIMELESS BRANDBOOK6.webp",
         alt: "Timeless Client Quote",
-      },
-      {
-        id: 7,
-        type: "image",
-        src: "/timeless/TIMELESS BRANDBOOK7.webp",
-        alt: "Timeless Award",
-      },
-      {
-        id: 8,
-        type: "image",
-        src: "/timeless/TIMELESS BRANDBOOK8.webp",
-        alt: "Timeless Press Mention",
       },
       {
         id: 9,

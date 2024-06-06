@@ -9,12 +9,12 @@ import ClientHeader from "@/app/components/clientHeader";
 import ClientPageContent from "@/app/components/clientPageContent";
 
 export default function Home() {
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
+  //     const locomotiveScroll = new LocomotiveScroll();
+  //   })();
+  // }, []);
 
   return (
     <main className={styles.main__client}>

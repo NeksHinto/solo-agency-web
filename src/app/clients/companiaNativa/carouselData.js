@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["COMPAÑIA", "NATIVA"],
+    maxHeight: "475px",
     items: [
       {
         id: 1,
@@ -96,18 +97,6 @@ export const carouselData = [
         id: 16,
         type: "video",
         src: "/companiaNativa/Proceso de armado mesa Rocky_H.264.webm",
-        alt: "Compañia Nativa Video",
-      },
-      {
-        id: 17,
-        type: "image",
-        src: "/companiaNativa/companiaNativa9.webp",
-        alt: "Compañia Nativa Image",
-      },
-      {
-        id: 18,
-        type: "video",
-        src: "/companiaNativa/Saludo de fin año_H.264.webm",
         alt: "Compañia Nativa Video",
       },
     ],

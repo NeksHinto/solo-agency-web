@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["UNBROKEN", "FITWEAR"],
+    maxHeight: "475px",
     items: [
       {
         id: 2,

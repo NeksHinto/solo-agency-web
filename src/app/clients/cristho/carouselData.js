@@ -1,6 +1,6 @@
 export const carouselData = [
   {
-    title: ["CAMPAÑA", "2023"],
+    title: ["CAMPAÑA", "2022"],
     items: [
       {
         id: 1,
@@ -54,6 +54,48 @@ export const carouselData = [
         id: 9,
         type: "image",
         src: "/cristho/cristho9.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 9,
+        type: "image",
+        src: "/cristho/cristho9.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 10,
+        type: "image",
+        src: "/cristho/cristho10.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 11,
+        type: "image",
+        src: "/cristho/cristho11.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 12,
+        type: "image",
+        src: "/cristho/cristho12.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 13,
+        type: "image",
+        src: "/cristho/cristho13.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 14,
+        type: "image",
+        src: "/cristho/cristho14.webp",
+        alt: "Cristho Image",
+      },
+      {
+        id: 15,
+        type: "image",
+        src: "/cristho/cristho15.webp",
         alt: "Cristho Image",
       },
     ],

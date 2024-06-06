@@ -8,12 +8,12 @@ import Link from "next/link";
 import { wppAutoMessage } from "../utils/wppAutoMessage";
 
 export default function Contact() {
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
+  //     const locomotiveScroll = new LocomotiveScroll();
+  //   })();
+  // }, []);
 
   return (
     <main className={styles.main}>
@@ -57,7 +57,9 @@ export default function Contact() {
               />
             </Link>
             <Link
-              href={`https://wa.me/${process.env.NEXT_PUBLIC_WPP_NUMBER}?text=${wppAutoMessage()}`}
+              href={`https://wa.me/${
+                process.env.NEXT_PUBLIC_WPP_NUMBER
+              }?text=${wppAutoMessage()}`}
               target="blank"
             >
               <Image src="/whatsapp.svg" alt="behance" width={80} height={80} />

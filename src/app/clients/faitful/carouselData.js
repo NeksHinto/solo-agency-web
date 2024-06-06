@@ -176,24 +176,17 @@ export const carouselData = [
 export const gridData = [
   {
     title: ["NEWS", "LETTER"],
-    gridProps: {
-      display: "grid",
-      alignItems: "start",
-      margin: "auto",
-      width: "50rem",
-      gridTemplateColumns: "repeat(2, 1fr)",
-      gridTemplateRows: "repeat(5, 1fr)",
-      gridTemplateAreas: `
-      "box2 box1"
-      "box2 box1"
-      "box3 box1"
-      "box3 box1"
-      "box3 box1"`,
-    },
+    maxHeight: "845px",
     items: [
       {
         id: 1,
         src: "/faitful/faitfulNews1.webp",
+        type: "image",
+        alt: "Solo Agency Feed",
+      },
+      {
+        id: 2,
+        src: "/faitful/faitfulNews2.webp",
         type: "image",
         alt: "Solo Agency Feed",
       },
@@ -204,8 +197,8 @@ export const gridData = [
         alt: "Solo Agency Feed",
       },
       {
-        id: 2,
-        src: "/faitful/faitfulNews2.webp",
+        id: 4,
+        src: "/faitful/faitfulNews4.webp",
         type: "image",
         alt: "Solo Agency Feed",
       },

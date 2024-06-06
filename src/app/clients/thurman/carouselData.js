@@ -63,12 +63,6 @@ export const carouselData = [
         src: "/thurman/thurmanCamp2.webm",
         alt: "Thurman Campaign Video",
       },
-    ],
-  },
-  {
-    title: ["", ""],
-    maxHeight: "475px",
-    items: [
       {
         id: 11,
         type: "image",
@@ -224,11 +218,6 @@ export const carouselData = [
         src: "/thurman/ecom/thurmanEcom13.webp",
         alt: "Thurman Campaign Video",
       },
-    ],
-  },
-  {
-    title: ["", ""],
-    items: [
       {
         id: 15,
         type: "image",

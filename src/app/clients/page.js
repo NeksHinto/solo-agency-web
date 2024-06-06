@@ -10,12 +10,12 @@ import { motion } from "framer-motion";
 export default function Clients() {
   const [isActive, setIsActive] = useState(true);
 
-  useEffect(() => {
-    (async () => {
-      const LocomotiveScroll = (await import("locomotive-scroll")).default;
-      const locomotiveScroll = new LocomotiveScroll();
-    })();
-  }, []);
+  // useEffect(() => {
+  //   (async () => {
+  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
+  //     const locomotiveScroll = new LocomotiveScroll();
+  //   })();
+  // }, []);
 
   const [selected, setSelected] = useState(null);
 

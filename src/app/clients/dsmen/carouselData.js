@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["SOCIAL", "MEDIA"],
+    maxHeight: "562px",
     items: [
       {
         id: 1,
@@ -27,12 +28,6 @@ export const carouselData = [
         alt: "Solo Agency Stories",
       },
       {
-        id: 6,
-        src: "/dsmen/dsmenBranding6.webp",
-        type: "image",
-        alt: "Solo Agency Stories",
-      },
-      {
         id: 7,
         src: "/dsmen/dsmenBranding7.webp",
         type: "image",
@@ -42,6 +37,7 @@ export const carouselData = [
   },
   {
     title: ["STREET", "STYLE"],
+    maxHeight: "475px",
     items: [
       {
         id: 12,

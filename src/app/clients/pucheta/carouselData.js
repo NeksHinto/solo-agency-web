@@ -209,6 +209,7 @@ export const carouselData = [
   },
   {
     title: ["MARTIN FIERRO", "RUNWAY"],
+    maxHeight: "475px",
     items: [
       {
         id: 1,
@@ -329,11 +330,6 @@ export const carouselData = [
         type: "image",
         alt: "Solo Agency Stories",
       },
-    ],
-  },
-  {
-    title: ["", ""],
-    items: [
       {
         id: 9,
         src: "/pucheta/puchetaEcom9.webp",
@@ -469,6 +465,7 @@ export const carouselData = [
   },
   {
     title: ["PUCHETA", "RESILIENCIA"],
+    maxHeight: "475px",
     items: [
       {
         id: 1,

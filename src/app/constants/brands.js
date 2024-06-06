@@ -60,7 +60,6 @@ export const brands = [
     services: [
       "Content",
       "Social Media",
-      "Graphic Design & Branding",
       "Creative Strategy",
     ],
     route: "/clients/pucheta",
@@ -78,13 +77,6 @@ export const brands = [
     category: "Lifestyle",
     services: ["Graphic Design & Branding"],
     route: "/clients/pimux",
-  },
-  {
-    name: "Lagouarde",
-    imageLocation: "/logos/lagouardeLogo.webp",
-    category: "Lifestyle",
-    services: ["Content", "Social Media", "Paid Media", "Creative Strategy"],
-    route: "/clients/lagouardePropiedades",
   },
   {
     name: "Faitful",
@@ -167,18 +159,6 @@ export const brands = [
     category: "Health & beauty",
     services: ["Content"],
     route: "/clients/lidherma",
-  },
-  {
-    name: "JP Peluquerias",
-    imageLocation: "/logos/jpLogo.webp",
-    category: "Health & beauty",
-    services: [
-      "Content",
-      "Social Media",
-      "Creative Strategy",
-      "Production & Styling",
-    ],
-    route: "/clients/jp",
   },
   {
     name: "Eucerin",
