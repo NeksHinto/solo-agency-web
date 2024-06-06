@@ -10,7 +10,7 @@ import { useSearchParams } from "next/navigation";
 
 export default function ServicesPage() {
   const [selected, setSelected] = useState(null);
-  const [searchParams] = useSearchParams();
+  const searchParams = useSearchParams();
 
   const toggle = (i) => {
     if (selected === i) {
@@ -21,10 +21,9 @@ export default function ServicesPage() {
   };
 
   useEffect(() => {
-    const id = searchParams?.[1] ? parseInt(searchParams[1]) : null;
+    const id = searchParams.get("id");
     setSelected(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [searchParams]);
 
   useEffect(() => {
     (async () => {
@@ -85,14 +84,17 @@ export default function ServicesPage() {
                 }}
               >
                 <div style={{ display: "flex", gap: "1rem" }}>
-                  {service.items.map((item, i) => {
-                    return (
-                      <>
-                        {i != 0 && <p>|</p>}
-                        <p key={`item-${i}`}>{item}</p>
-                      </>
-                    );
-                  })}
+                  {service.items.map((item, i) => (
+                    <div
+                      key={`item-${i}`}
+                      style={{
+                        display: "flex",
+                      }}
+                    >
+                      {i !== 0 && <p style={{ marginRight: "1rem" }}>|</p>}{" "}
+                      <p>{item}</p>
+                    </div>
+                  ))}
                 </div>
                 <motion.div
                   style={{

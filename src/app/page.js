@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useEffect } from "react";
-import Link from "next/link";
+import { useEffect, Suspense } from "react";
 import { motion } from "framer-motion";
 import styles from "./page.module.css";
 import Paragraph from "./components/paragraph";
