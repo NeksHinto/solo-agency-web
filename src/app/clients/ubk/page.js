@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/ubkLogo.webp"
-          logoProps={{
-            marginTop: "5rem",
-            width: "18vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__ubk}
           clientInfo="Una marca que transforma el movimiento en acción recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y
           producción de su campaña 2024."

@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/pimuxLogo.webp"
-          logoProps={{
-            marginTop: "6rem",
-            width: "16vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__pimux}
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea
           desarrollamos el re - branding y la identidad visual de la marca,

@@ -21,9 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/fernandoRamosLogo.webp"
-          logoProps={{
-            marginTop: "3rem",
-          }}
+          logoProps={styles.client__page__logo__fernandoRamos}
           clientInfo="Cementando sus raíces en 1920, Sassone más que una empresa, nace
           como una puerta hacia el mundo, conectando culturas. Siendo
           empresa líder en despachos, Sassone busca una nueva imagen que

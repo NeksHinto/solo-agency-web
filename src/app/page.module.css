@@ -470,6 +470,60 @@
   margin-top: -3rem;
   margin-bottom: -10rem;
 }
+
+.client__page__logo__aia {
+  margin-top: 4rem;
+}
+
+.client__page__logo__companiaNativa {
+  margin-top: 4rem;
+  width: 16vw;
+  height: auto;
+}
+.client__page__logo__daDesign {
+  margin-top: 4rem;
+  width: 16vw;
+  height: auto;
+}
+.client__page__logo__drAromas {
+  margin-top: 4rem;
+  width: 15vw;
+  height: auto;
+}
+.client__page__logo__elGourmet {
+  margin-top: 5rem;
+  width: 20vw;
+  height: auto;
+}
+.client__page__logo__eucerin {
+  margin-top: 4rem;
+  width: 18vw;
+  height: auto;
+}
+.client__page__logo__faitful {
+  margin-top: 4rem;
+  width: 18vw;
+  height: auto;
+}
+.client__page__logo__fernandoRamos {
+  margin-top: 3rem;
+}
+.client__page__logo__lidherma {
+  margin-top: 5rem;
+  width: 18vw;
+  height: auto;
+}
+.client__page__logo__pimux {
+  margin-top: 6rem;
+  width: 16vw;
+  height: auto;
+}
+.client__page__logo__ubk {
+  margin-top: 5rem;
+  width: 18vw;
+  height: auto;
+}
+
 .client__services {
   display: flex;
   width: 100%;
@@ -498,6 +552,9 @@
   justify-content: center;
   width: "100%";
 }
+.services__sep {
+  margin-right: 0.5rem;
+}
 .client__content {
   display: flex;
   flex-wrap: wrap;
@@ -516,6 +573,21 @@
   align-items: start;
   grid-template-columns: repeat(4, 1fr);
 }
+
+.client__grid__eucerin {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas:
+    "box1 box1 box16 box2 box3 box6 box8"
+    "box1 box1 box16 box2 box3 box6 box15"
+    "box10 box9 box17 box11 box4 box4 box4"
+    "box10 box9 box17 box11 box4 box4 box4"
+    "box5 box5 box5 box12 box13 box14 box7"
+    "box5 box5 box5 box12 box13 box14 box7";
+}
+
 .client__content__container {
   width: 100%;
 }
@@ -557,6 +629,13 @@
   height: auto;
   width: 20rem;
 }
+
+.client__carousel__image {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: auto;
+  width: 20rem;
+}
 .client__grid__branding__image {
   border: 5px solid black;
   border-radius: 20px;
@@ -572,6 +651,14 @@
   border-radius: 20px;
 }
 .client__grid__video {
+  width: auto;
+  height: min-content;
+  max-width: 20rem;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.client__carousel__video {
   width: auto;
   height: min-content;
   max-width: 20rem;
@@ -1260,6 +1347,68 @@
     margin-bottom: -2rem;
     margin-top: 0;
   }
+
+  .client__page__logo__aia {
+    margin-top: 4rem;
+  }
+
+  .client__page__logo__companiaNativa {
+    margin-top: 4rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__daDesign {
+    margin-top: 4rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__drAromas {
+    margin-top: 4rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__elGourmet {
+    margin-top: 4rem;
+    width: 45vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__eucerin {
+    margin-top: 3rem;
+    width: 40vw;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .client__page__logo__faitful {
+    margin-top: 4rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__fernandoRamos {
+    margin-top: 3rem;
+  }
+  .client__page__logo__lidherma {
+    margin-top: 5rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__pimux {
+    margin-top: 6rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .client__page__logo__ubk {
+    margin-top: 5rem;
+    width: 40vw;
+    margin-bottom: 2rem;
+    height: auto;
+  }
   .client__info {
     width: 95%;
     padding-top: 0;
@@ -1296,6 +1445,22 @@
   .grid__client {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .client__grid__eucerin {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-areas:
+      "box1 box1 box1"
+      "box2 box6 box13"
+      "box11 box10 box12"
+      "box4 box4 box14"
+      "box7 box16 box9"
+      "box3 box8 box15"
+      "box5 box5 box5";
+  }
+
   .client__grid__image {
     width: 100%;
     height: auto;
@@ -1322,9 +1487,26 @@
     margin-bottom: -1rem;
     z-index: 0;
   }
+  .client__info__list {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .service__list__mobile {
+    width: auto;
+  }
+  .services__sep {
+    margin-left: 0.5rem;
+  }
 
   .client__image {
     max-width: 90vw;
+  }
+  .client__carousel__image {
+    max-width: 30vw;
+  }
+  .client__carousel__video {
+    max-width: 30vw;
   }
   .client__imagetext {
     flex-direction: column;

@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "../page.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { brands } from "../constants/brands";
 
 const ToggleList = ({ items, initSelect, filterFunction }) => {
-  const [selected, setSelected] = useState(initSelect);
+  const [selected, setSelected] = useState(null);
 
   const toggle = (i) => {
     if (selected === i) {
@@ -14,6 +14,11 @@ const ToggleList = ({ items, initSelect, filterFunction }) => {
       setSelected(i);
     }
   };
+
+  useEffect(() => {
+    if (initSelect) toggle(initSelect);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [initSelect]);
 
   return (
     <div className={styles.services_container}>

@@ -1,19 +1,8 @@
+import styles from "../../page.module.css";
+
 export const carouselData = [
   {
     title: ["HYDRO", "FLUID"],
-    gridProps: {
-      display: "grid",
-      alignItems: "center",
-      gridTemplateColumns: "repeat(7, 1fr)",
-      gridTemplateRows: "repeat(6, 1fr)",
-      gridTemplateAreas: `
-      "box1 box1 box16 box2 box3 box6 box8"
-      "box1 box1 box16 box2 box3 box6 box15" 
-      "box16 box9 box10 box11 box4 box4 box4"
-      "box16 box9 box10 box11 box4 box4 box4"
-      "box5 box5 box5 box12 box13 box14 box7"
-      "box5 box5 box5 box12 box13 box14 box7"`,
-    },
     items: [
       {
         id: 3,

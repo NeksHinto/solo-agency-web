@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/companianativaLogo.webp"
-          logoProps={{
-            marginTop: "4rem",
-            width: "16vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__companiaNativa}
           clientInfo="Marca referente de mobiliario contemporáneo, recurre a la agencia
           para el desarrollo de piezas audiovisuales orientadas a conectar
           con su audiencia y resaltar el valor agregado en cada uno de sus

@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 import styles from "../page.module.css";
 
-const ClientGrid = ({ items, gridProps }) => {
+const ClientGrid = ({ items, gridProps, classProps }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
 
   return (
     <div className={styles.embla}>
-      <div style={gridProps}>
+      <div style={gridProps} className={classProps}>
         {items.map((item, i) => {
           if (item.id) {
             return item.type === "image" ? (

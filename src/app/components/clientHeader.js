@@ -16,7 +16,7 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
       }}
     >
       <div className={styles.client__header}>
-        <div style={logoProps}>
+        <div className={logoProps}>
           <Image
             className={styles.client__page__logo}
             src={logoSrc}
@@ -33,8 +33,13 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
       <div className={styles.client__services}>
         <p className={styles.subtitle}>SERVICIOS</p>
         <div className={styles.client__info__list}>
-          {services.map((service) => (
-            <p key={service}>{service}</p>
+          {services.map((service, i) => (
+            <div key={`item-${i}`} style={{ display: "flex", gap: "0.5rem" }}>
+              {i !== 0 && <p className={styles.services__sep}>|</p>}
+              <p key={service} className={styles.service__list__mobile}>
+                {service}
+              </p>
+            </div>
           ))}
         </div>
       </div>

@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/elgourmetLogo.webp"
-          logoProps={{
-            marginTop: "5rem",
-            width: "20vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__elGourmet}
           clientInfo="De la idea a la realidad llevamos a cabo la creatividad y
           producción de la campaña digital gastronómica de 'ruta 40'."
           services={["Content", "Creative Startegy"]}

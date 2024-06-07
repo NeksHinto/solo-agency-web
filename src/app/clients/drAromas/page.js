@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/doctoraromasLogo.webp"
-          logoProps={{
-            marginTop: "4rem",
-            width: "15vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__drAromas}
           clientInfo="Solo agency for export, realizamos la dirección estratégica y la
           generación de contenido audiovisual para reconocida marca de
           aromatizantes con base en Miami, USA."

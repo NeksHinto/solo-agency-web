@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/eucerinLogo.webp"
-          logoProps={{
-            marginTop: "4rem",
-            width: "18vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__eucerin}
           clientInfo="Tras el lanzamiento de su protector solar “Hydro fluid” Realizamos
           toda la cobertura audiovisual del evento a nivel nacional."
           services={["Content"]}
@@ -36,6 +32,7 @@ export default function Home() {
             carousel={false}
             branding={true}
             data={data}
+            customProps={styles.client__grid__eucerin}
           />
         ))}
 

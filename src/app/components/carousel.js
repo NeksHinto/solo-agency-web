@@ -19,18 +19,6 @@ const ClientCarousel = ({ items }) => {
         autoPlayStrategy="none"
         autoWidth
         infinite
-        responsive={{
-          0: {
-            items: 1,
-          },
-          568: {
-            items: 2,
-          },
-          1024: {
-            items: 3,
-            itemsFit: "contain",
-          },
-        }}
         disableDotsControls
         disableButtonsControls
       >
@@ -38,7 +26,7 @@ const ClientCarousel = ({ items }) => {
           item.type === "image" ? (
             <Image
               key={item.id}
-              className={styles.client__image}
+              className={styles.client__carousel__image}
               src={item.src}
               alt={item.alt}
               width={100}
@@ -62,7 +50,7 @@ const ClientCarousel = ({ items }) => {
               muted
               loop
               playsInline
-              className={styles.client__image}
+              className={styles.client__carousel__video}
             >
               <source src={item.src} />
             </video>

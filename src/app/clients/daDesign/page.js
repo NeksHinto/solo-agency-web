@@ -21,11 +21,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/logos/dadesignLogo.webp"
-          logoProps={{
-            marginTop: "4rem",
-            width: "16vw",
-            height: "auto",
-          }}
+          logoProps={styles.client__page__logo__daDesign}
           clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
           para democratizar su mensaje en redes sociales. Bajo los servicios
           de creative strategy, social media management y content creation
