@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../page.module.css";
 
-const ClientGrid = ({ items, containerProps, maxHeight }) => {
+const ClientGrid = ({ items, containerProps }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -18,9 +18,6 @@ const ClientGrid = ({ items, containerProps, maxHeight }) => {
             return item.type === "image" ? (
               <Image
                 key={item.id}
-                style={{
-                  maxHeight: maxHeight,
-                }}
                 className={styles.client__grid__image}
                 src={item.src}
                 alt={item.alt}
@@ -42,15 +39,12 @@ const ClientGrid = ({ items, containerProps, maxHeight }) => {
             ) : (
               <video
                 key={item.id}
-                style={{
-                  maxHeight: maxHeight,
-                }}
                 controls
                 autoPlay
                 muted
                 loop
                 playsInline
-                className={styles.client__grid__image}
+                className={styles.client__grid__video}
               >
                 <source src={item.src} />
               </video>

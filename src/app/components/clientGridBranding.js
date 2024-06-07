@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "../page.module.css";
 
-const ClientGrid = ({ items, gridProps, maxHeight }) => {
+const ClientGrid = ({ items, gridProps }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -41,7 +41,6 @@ const ClientGrid = ({ items, gridProps, maxHeight }) => {
                 key={item.id}
                 style={{
                   gridArea: `box${i + 1}`,
-                  maxHeight: maxHeight,
                 }}
                 controls
                 autoPlay

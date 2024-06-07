@@ -14,7 +14,6 @@ export const carouselData = [
       "box5 box5 box5 box12 box13 box14 box7"
       "box5 box5 box5 box12 box13 box14 box7"`,
     },
-    maxHeight: "359px",
     items: [
       {
         id: 3,

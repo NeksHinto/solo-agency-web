@@ -1,7 +1,7 @@
 export const carouselData = [
   {
     title: ["CAMPAIGN", "AW24"],
-    maxHeight: "475px",
+
     items: [
       {
         id: 1,
@@ -383,7 +383,6 @@ export const carouselData = [
   },
   {
     title: ["NEWS", "LETTER"],
-    maxHeight: "612px",
     items: [
       {
         id: 1,

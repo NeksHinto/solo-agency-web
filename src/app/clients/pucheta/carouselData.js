@@ -209,7 +209,7 @@ export const carouselData = [
   },
   {
     title: ["MARTIN FIERRO", "RUNWAY"],
-    maxHeight: "475px",
+
     items: [
       {
         id: 1,
@@ -465,7 +465,7 @@ export const carouselData = [
   },
   {
     title: ["PUCHETA", "RESILIENCIA"],
-    maxHeight: "475px",
+
     items: [
       {
         id: 1,

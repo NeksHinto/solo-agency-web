@@ -34,6 +34,9 @@ export const carouselData = [
       display: "grid",
       gridTemplateColumns: "repeat(6, auto)",
       paddingLeft: "10vw",
+      "@media (max-width: 700px)": {
+        gridTemplateColumns: "repeat(3, auto)",
+      },
     },
     items: [
       {

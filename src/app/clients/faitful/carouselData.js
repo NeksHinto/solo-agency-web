@@ -176,7 +176,6 @@ export const carouselData = [
 export const gridData = [
   {
     title: ["NEWS", "LETTER"],
-    maxHeight: "845px",
     items: [
       {
         id: 1,

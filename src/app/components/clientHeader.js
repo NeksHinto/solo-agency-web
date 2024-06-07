@@ -15,7 +15,7 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
         x: { duration: 0.25 },
       }}
     >
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div className={styles.client__header}>
         <div style={logoProps}>
           <Image
             className={styles.client__page__logo}
@@ -24,7 +24,6 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
             width={0}
             height={0}
             sizes="100vw"
-            style={{ width: "100%", height: "auto", maxWidth: "500px" }}
           />
         </div>
         <div className={styles.client__info}>
@@ -32,22 +31,11 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
         </div>
       </div>
       <div className={styles.client__services}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexDirection: "column",
-            gap: "1rem",
-          }}
-        >
-          <p className={styles.subtitle}>SERVICIOS</p>
-          <div style={{ backgroundColor: "black", width: "5rem" }}></div>
-          <div className={styles.client__info__list}>
-            {services.map((service) => (
-              <p key={service}>{service}</p>
-            ))}
-          </div>
+        <p className={styles.subtitle}>SERVICIOS</p>
+        <div className={styles.client__info__list}>
+          {services.map((service) => (
+            <p key={service}>{service}</p>
+          ))}
         </div>
       </div>
     </motion.div>
