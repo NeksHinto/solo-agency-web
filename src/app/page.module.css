@@ -310,7 +310,7 @@
   justify-content: space-between;
   font-size: 1rem;
   width: 100%;
-  z-index: 10;
+  z-index: 1;
   margin: auto;
   margin-top: 5rem;
   color: white;
@@ -449,7 +449,7 @@
 .client__page {
   background-color: black;
   margin-top: -10vh;
-  z-index: 1;
+  z-index: -1;
 }
 .client__banner {
   display: flex;
