@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import styles from "../page.module.css";
-
+import { motion } from "framer-motion";
 import Flecha from "./flecha";
 
 export default function Nav() {
@@ -36,9 +36,9 @@ export default function Nav() {
         />
       </Link>
       <div className={styles.list}>
-        <ul
-          animate={{ top: isActive ? "-15px" : "-225px" }}
-          // transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
+        <motion.ul
+          animate={{ top: isActive ? "-10px" : "-210px" }}
+          transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
         >
           {pages.map((page, index) => {
             return (
@@ -57,7 +57,7 @@ export default function Nav() {
             );
           })}
           <Flecha isActive={isActive} setIsActive={setIsActive} />
-        </ul>
+        </motion.ul>
       </div>
     </div>
   );

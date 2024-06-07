@@ -29,8 +29,8 @@ export default function Contact() {
           }}
         >
           <p className={styles.title}>CONTACT</p>
-          <p>
-            <strong>TU MARCA SE CODIFICA CON EL MENSAJE DEL ÉXITO</strong>
+          <p className={styles.page__description}>
+            Tu marca se codifica con el mensaje del éxito
           </p>
           <ContactForm />
         </motion.div>

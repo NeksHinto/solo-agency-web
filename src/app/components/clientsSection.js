@@ -25,8 +25,8 @@ export default function ClientsSection() {
         x: { duration: 0.25 },
       }}
     >
-      <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <p className={styles.title}>CLIENTES</p>
+      <div className={styles.section__group}>
+        <p className={styles.title}>CLIENTS</p>
         <p
           className={styles.link}
           style={{

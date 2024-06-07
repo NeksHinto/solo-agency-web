@@ -30,3 +30,9 @@ a {
   text-decoration: none;
   width: auto;
 }
+
+@media (max-width: 700px) {
+  p {
+    font-size: medium;
+  }
+}
