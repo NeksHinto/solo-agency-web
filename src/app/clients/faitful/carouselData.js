@@ -176,6 +176,7 @@ export const carouselData = [
 export const gridData = [
   {
     title: ["NEWS", "LETTER"],
+    hideLastItems: [3],
     items: [
       {
         id: 1,

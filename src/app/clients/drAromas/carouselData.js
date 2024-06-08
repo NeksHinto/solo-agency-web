@@ -1,7 +1,7 @@
 export const carouselData = [
   {
     title: ["HOME", "PERFUMES"],
-
+    hideLastItems: [14],
     items: [
       {
         id: 1,
@@ -70,7 +70,7 @@ export const carouselData = [
         alt: "Dr. Aromas",
       },
       {
-        id: 12,
+        id: 16,
         type: "video",
         src: "/drAromas/drAromasVideo5.webm",
         alt: "Dr. Aromas Home Fragrance",

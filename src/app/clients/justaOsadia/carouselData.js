@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["CAPSULA", "SS24"],
+    hideLastItems: [6, 7],
     items: [
       {
         id: 1,

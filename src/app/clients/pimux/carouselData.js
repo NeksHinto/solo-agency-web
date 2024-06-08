@@ -8,8 +8,8 @@ export const carouselData = [
       gridTemplateAreas: `
       "box2 box2 box1 box3"
       "box2 box2 box4 box5"
-      "box6 box7 box10 box10"
-      "box8 box9 box10 box10"`,
+      "box10 box7 box6 box6"
+      "box9 box8 box6 box6"`,
     },
     items: [
       {

@@ -57,11 +57,7 @@ export const brands = [
     name: "Pucheta",
     imageLocation: "/logos/puchetaLogo.webp",
     category: "Fashion",
-    services: [
-      "Content",
-      "Social Media",
-      "Creative Strategy",
-    ],
+    services: ["Content", "Social Media", "Creative Strategy"],
     route: "/clients/pucheta",
   },
   {
@@ -95,7 +91,7 @@ export const brands = [
   {
     name: "El Gourmet",
     imageLocation: "/logos/elgourmetLogo.webp",
-    category: "Lifestyle",
+    category: "Food & other pleasures",
     services: ["Content", "Creative Strategy"],
     route: "/clients/elGourmet",
   },

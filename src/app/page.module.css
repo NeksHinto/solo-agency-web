@@ -290,7 +290,8 @@
 
 .socials__container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .socials {
@@ -591,6 +592,7 @@
 .client__content__container {
   width: 100%;
 }
+
 .client__content__paidmedia {
   display: flex;
   flex-direction: row;
@@ -630,12 +632,21 @@
   width: 20rem;
 }
 
+.client__content__container > div > div > div > div > ul {
+  display: flex;
+}
+.client__content__container > div > div > div > div > ul > li {
+  flex: 1 0 auto;
+  height: auto;
+}
+
 .client__carousel__image {
   border: 5px solid black;
   border-radius: 20px;
-  height: auto;
-  width: 20rem;
+  height: 100%;
+  width: 18vw;
 }
+
 .client__grid__branding__image {
   border: 5px solid black;
   border-radius: 20px;
@@ -658,10 +669,11 @@
   border: 5px solid black;
   border-radius: 20px;
 }
+
 .client__carousel__video {
   width: auto;
   height: min-content;
-  max-width: 20rem;
+  max-width: 18vw;
   margin: auto;
   border: 5px solid black;
   border-radius: 20px;
@@ -1503,10 +1515,10 @@
     max-width: 90vw;
   }
   .client__carousel__image {
-    max-width: 30vw;
+    width: 32vw;
   }
   .client__carousel__video {
-    max-width: 30vw;
+    max-width: 32vw;
   }
   .client__imagetext {
     flex-direction: column;
@@ -1589,6 +1601,8 @@
   }
   .socials__container {
     justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
   }
   /*EMBLA CAROUSEL*/
   .embla {

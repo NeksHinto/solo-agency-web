@@ -36,7 +36,7 @@ export default function Home() {
           />
         ))}
 
-        {/* <BlackBox /> */}
+        <BlackBox />
       </div>
     </main>
   );

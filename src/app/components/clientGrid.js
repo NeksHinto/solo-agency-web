@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../page.module.css";
+import useIsMobile from "../hooks/useIsMobile";
 
-const ClientGrid = ({ items, containerProps }) => {
+const ClientGrid = ({ items, containerProps, hideLastItems }) => {
+  const isMobile = useIsMobile();
+
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -19,6 +22,11 @@ const ClientGrid = ({ items, containerProps }) => {
               <Image
                 key={item.id}
                 className={styles.client__grid__image}
+                style={
+                  isMobile && hideLastItems?.includes(i)
+                    ? { display: "none" }
+                    : null
+                }
                 src={item.src}
                 alt={item.alt}
                 width={0}
@@ -45,6 +53,11 @@ const ClientGrid = ({ items, containerProps }) => {
                 loop
                 playsInline
                 className={styles.client__grid__video}
+                style={
+                  isMobile && hideLastItems?.includes(i)
+                    ? { display: "none" }
+                    : null
+                }
               >
                 <source src={item.src} />
               </video>

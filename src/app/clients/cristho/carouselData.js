@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["CAMPAÑA", "2022"],
+    hideLastItems: [15],
     items: [
       {
         id: 1,
@@ -57,7 +58,7 @@ export const carouselData = [
         alt: "Cristho Image",
       },
       {
-        id: 9,
+        id: 16,
         type: "image",
         src: "/cristho/cristho9.webp",
         alt: "Cristho Image",

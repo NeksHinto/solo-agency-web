@@ -1,7 +1,7 @@
 export const carouselData = [
   {
     title: ["UNBROKEN", "FITWEAR"],
-
+    hideLastItems: [23],
     items: [
       {
         id: 2,

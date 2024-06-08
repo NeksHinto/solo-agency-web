@@ -50,6 +50,7 @@ export default function Contact() {
           <div className={styles.socials__container}>
             <Link href="https://www.instagram.com/solo_agency/" target="blank">
               <Image
+                className={styles.contact__socials__icon}
                 src="/instagram.svg"
                 alt="instagram"
                 width={80}

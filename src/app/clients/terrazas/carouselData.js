@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["LA MAGIA", "DE LA MONTAÑA"],
+    hideLastItems: [6],
     items: [
       {
         id: 2,

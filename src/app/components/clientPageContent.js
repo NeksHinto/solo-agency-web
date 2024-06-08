@@ -36,6 +36,7 @@ const ClientPageContent = ({ carousel, branding, data, customProps }) => {
             key={data.title}
             items={data.items}
             containerProps={data.containerProps}
+            hideLastItems={data.hideLastItems}
           />
         )}
       </motion.div>

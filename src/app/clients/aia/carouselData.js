@@ -1,6 +1,7 @@
 export const gridData = [
   {
     title: ["SUMMER", "2024"],
+    hideLastItems: [18, 19],
     items: [
       {
         id: 1,
