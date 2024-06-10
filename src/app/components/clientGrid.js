@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
+import styles from "@/styles/styles.module.css";
 import Image from "next/image";
-import styles from "../page.module.css";
+
 import useIsMobile from "../hooks/useIsMobile";
 
 const ClientGrid = ({ items, containerProps, hideLastItems }) => {

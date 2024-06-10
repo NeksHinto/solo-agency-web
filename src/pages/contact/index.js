@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 import ContactForm from "../../app/components/contactForm";
 import { motion } from "framer-motion";
 import Image from "next/image";

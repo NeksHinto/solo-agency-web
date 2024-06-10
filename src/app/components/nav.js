@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 import Flecha from "./flecha";
 

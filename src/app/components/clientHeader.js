@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import { delay, motion } from "framer-motion";
-import styles from "../page.module.css";
+import { motion } from "framer-motion";
+import styles from "@/styles/styles.module.css";
 
 const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
   return (

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import styles from "./page.module.css";
+import styles from "@/styles/styles.module.css";
 import Paragraph from "./components/paragraph";
 import ClientsSection from "./components/clientsSection";
 import ServicesSection from "./components/servicesSection";

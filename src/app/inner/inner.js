@@ -1,5 +1,5 @@
 "use client";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 
 export default function Inner({ children }) {
   const anim = (variants) => {

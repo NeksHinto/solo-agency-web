@@ -1,12 +1,12 @@
 "use client";
 import { useEffect } from "react";
-import styles from "../../page.module.css";
+import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/app/components/blackBox";
-import { carouselData } from "./carouselData";
-import ClientHeader from "@/app/components/clientHeader";
-import ClientPageContent from "@/app/components/clientPageContent";
+import BlackBox from "@/components/blackBox";
+import { carouselData } from "@/constants/companiaNativaData";
+import ClientHeader from "@/components/clientHeader";
+import ClientPageContent from "@/components/clientPageContent";
 
 export default function Home() {
   useEffect(() => {

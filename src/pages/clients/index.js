@@ -1,16 +1,13 @@
 "use client";
 import { useEffect } from "react";
-import styles from "../page.module.css";
-import { useState } from "react";
+import styles from "@/styles/styles.module.css";
 import React from "react";
-import Link from "next/link";
-import { brands } from "../../app/constants/brands";
 import { motion } from "framer-motion";
 import ToggleList from "../../app/components/toggleList";
 
 export default function Clients() {
-  
-  const filterByCategory = (category) => (brand) => brand.category === category.name;
+  const filterByCategory = (category) => (brand) =>
+    brand.category === category.name;
 
   useEffect(() => {
     (async () => {

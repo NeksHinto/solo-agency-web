@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 
 const ClientGrid = ({ items, gridProps, classProps }) => {
   const constructYoutubeUrl = (videoId) => {

@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 import Image from "next/image";
 import { clientLogos } from "../constants/homeLogos";
 import { motion } from "framer-motion";

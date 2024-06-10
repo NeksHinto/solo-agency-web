@@ -2,7 +2,8 @@ import React from "react";
 import ClientCarousel from "./carousel";
 import ClientGrid from "./clientGrid";
 import ClientGridBranding from "./clientGridBranding";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
+
 import { motion } from "framer-motion";
 
 const ClientPageContent = ({ carousel, branding, data, customProps }) => {

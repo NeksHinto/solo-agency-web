@@ -1,5 +1,5 @@
 "use client";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 import React, { useRef } from "react";
 import { useScroll, useTransform } from "framer-motion";
 

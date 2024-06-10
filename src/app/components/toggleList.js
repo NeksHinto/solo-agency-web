@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import styles from "../page.module.css";
+import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { brands } from "../constants/brands";
