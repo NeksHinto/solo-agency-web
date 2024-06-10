@@ -10,7 +10,7 @@ export const metadata = {
   title: "Solo Agency",
   description: "No somos SOLO una agencia",
   icons: {
-    icon: "/favicon.ico",
+    icon: "/images/favicon.ico",
   },
 };
 
@@ -35,7 +35,7 @@ export default function RootLayout({ children }) {
             filter: "brightness(40%)",
           }}
         >
-          <source src="/3dBackground.webm" />
+          <source src="/images/3dBackground.webm" />
         </video>
         <Nav />
         <Suspense>{children}</Suspense>

@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/timelessLogo.webp"
+          logosrc="/images/logos/timelessLogo.webp"
           clientInfo="Centro de medicina estética recurre a Solo Agency para construir
           los cimientos de su marca. Se ha elaborado el diseño del brandbook
           para aportar concepto, narrativa y morfología a su idea."

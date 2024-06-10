@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/puchetaLogo.webp"
+          logosrc="/images/logos/puchetaLogo.webp"
           clientInfo="Marca referente del diseño emergente argentino. Desde creative
           strategy, social media management y content creation acompañamos a
           la marca en todos los desafíos que comprenden comunicación visual

@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/terrazasdelosandesLogo.webp"
+          logosrc="/images/logos/terrazasdelosandesLogo.webp"
           clientInfo="Solo Agency ha tenido el rol de registrar el evento de lanzamiento
           de su línea de vinos reserva, elaborando piezas fotográficas y
           audiovisuales del mismo."

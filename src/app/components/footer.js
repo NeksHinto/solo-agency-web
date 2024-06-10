@@ -1,10 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../page.module.css";
-import instagramIcon from "../../../public/instagram.svg";
-import behanceIcon from "../../../public/behance.svg";
-import linkedinIcon from "../../../public/linkedin.svg";
-import whatsappIcon from "../../../public/whatsapp.svg";
 import { wppAutoMessage } from "../utils/wppAutoMessage";
 import Image from "next/image";
 
@@ -41,7 +37,12 @@ export default function Footer() {
                 href="https://www.instagram.com/solo_agency/"
                 target="blank"
               >
-                <Image src={instagramIcon} alt="instagram" />
+                <Image
+                  src="/images/instagram.svg"
+                  alt="instagram"
+                  width={32}
+                  height={32}
+                />
               </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
@@ -51,7 +52,12 @@ export default function Footer() {
                 }?text=${wppAutoMessage()}`}
                 target="blank"
               >
-                <Image src={whatsappIcon} alt="whatsapp" />
+                <Image
+                  src="/images/whatsapp.svg"
+                  alt="whatsapp"
+                  width={32}
+                  height={32}
+                />
               </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
@@ -59,12 +65,22 @@ export default function Footer() {
                 href="https://www.linkedin.com/company/soloagency6/"
                 target="blank"
               >
-                <Image src={linkedinIcon} alt="linkedin" />
+                <Image
+                  src="/images/linkedin.svg"
+                  alt="linkedin"
+                  width={32}
+                  height={32}
+                />
               </Link>
             </p>
             <p style={{ width: "32px", height: "32px", overflow: "hidden" }}>
               <Link href="https://www.behance.net/soloagency6" target="blank">
-                <Image src={behanceIcon} alt="behance" />
+                <Image
+                  src="/images/behance.svg"
+                  alt="behance"
+                  width={32}
+                  height={32}
+                />
               </Link>
             </p>
           </div>

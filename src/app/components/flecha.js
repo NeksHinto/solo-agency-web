@@ -15,7 +15,13 @@ export default function Flecha({ isActive, setIsActive }) {
       }}
       transition={{ duration: 0.5, ease: [0.33, 1, 0.68, 1] }}
     >
-      <Image src="/FLECHA.svg" alt="menu" width={80} height={30} priority />
+      <Image
+        src="/images/FLECHA.svg"
+        alt="menu"
+        width={80}
+        height={30}
+        priority
+      />
     </motion.div>
   );
 }

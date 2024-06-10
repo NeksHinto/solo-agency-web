@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/dsmenLogo.webp"
+          logosrc="/images/logos/dsmenLogo.webp"
           clientInfo="Reconocida marca de moda Argentina recurre a nuestro servicio 360.
           Desde creative strategy, social media management, content creation
           y paid media (Meta ads) acompañamos en todos los desafíos que

@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/celebreinculinaLogo.webp"
+          logosrc="/images/logos/celebreinculinaLogo.webp"
           clientInfo="Producción audiovisual y estrategia de contenido gastronómico
           mensual para audiencia de redes sociales y streaming, instagram &
           Youtube"

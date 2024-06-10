@@ -6,8 +6,10 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { wppAutoMessage } from "../utils/wppAutoMessage";
+import useIsMobile from "../hooks/useIsMobile";
 
 export default function Contact() {
+  const isMobile = useIsMobile();
   useEffect(() => {
     (async () => {
       const LocomotiveScroll = (await import("locomotive-scroll")).default;
@@ -50,8 +52,8 @@ export default function Contact() {
           <div className={styles.socials__container}>
             <Link href="https://www.instagram.com/solo_agency/" target="blank">
               <Image
-                className={styles.contact__socials__icon}
-                src="/instagram.svg"
+                style={{ marginLeft: !isMobile && -5 }}
+                src="/images/instagramThin.svg"
                 alt="instagram"
                 width={80}
                 height={80}
@@ -63,21 +65,40 @@ export default function Contact() {
               }?text=${wppAutoMessage()}`}
               target="blank"
             >
-              <Image src="/whatsapp.svg" alt="behance" width={80} height={80} />
+              <Image
+                style={{ paddingBottom: !isMobile && 4 }}
+                src="/images/whatsappThin.svg"
+                alt="behance"
+                width={70}
+                height={70}
+              />
             </Link>
             <Link
               href="https://www.linkedin.com/company/soloagency6/"
               target="blank"
             >
               <Image
-                src="/linkedin.svg"
+                style={{
+                  paddingBottom: isMobile && 5,
+                  paddingTop: !isMobile && 3,
+                }}
+                src="/images/linkedinThin.svg"
                 alt="linkedin"
                 width={80}
                 height={80}
               />
             </Link>
             <Link href="https://www.behance.net/soloagency6" target="blank">
-              <Image src="/behance.svg" alt="whatsapp" width={80} height={80} />
+              <Image
+                style={{
+                  paddingBottom: isMobile && 5,
+                  marginLeft: isMobile ? -10 : -5,
+                }}
+                src="/images/behanceThin.svg"
+                alt="whatsapp"
+                width={80}
+                height={80}
+              />
             </Link>
           </div>
         </motion.div>

@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/logos/ubkLogo.webp"
+          logosrc="/images/logos/ubkLogo.webp"
           logoProps={styles.client__page__logo__ubk}
           clientInfo="Una marca que transforma el movimiento en acción recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y

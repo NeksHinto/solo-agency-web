@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "eslint-config-next": "14.1.4",
+    "netlify-cli": "^17.26.1"
   }
 }
