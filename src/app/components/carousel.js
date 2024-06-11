@@ -51,7 +51,7 @@ const ClientCarousel = ({ items }) => {
                 muted
                 loop
                 playsInline
-                className={styles.client__carousel__video}
+                className={styles.client__carousel__image}
               >
                 <source src={item.src} />
               </video>
