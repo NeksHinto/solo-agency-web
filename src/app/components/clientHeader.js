@@ -24,6 +24,7 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
             width={0}
             height={0}
             sizes="100vw"
+            priority
           />
         </div>
         <div className={styles.client__info}>

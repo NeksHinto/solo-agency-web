@@ -38,6 +38,7 @@ export default function Home() {
           height={0}
           sizes="100vw"
           style={{ width: "100%", height: "auto", maxWidth: "1200px" }}
+          priority
         />
         <p id="subtitle">
           NO SOMOS <strong>SOLO</strong> UNA AGENCIA

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Image from "next/image";
 import styles from "@/styles/styles.module.css";
 import AliceCarousel from "react-alice-carousel";
@@ -29,8 +29,8 @@ const ClientCarousel = ({ items }) => {
               className={styles.client__carousel__image}
               src={item.src}
               alt={item.alt}
-              width={100}
-              height={100}
+              width={360}
+              height={640}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           ) : item.type === "youtube" ? (
@@ -43,17 +43,19 @@ const ClientCarousel = ({ items }) => {
               allowFullScreen
             ></iframe>
           ) : (
-            <video
-              key={item.id}
-              controls
-              autoPlay
-              muted
-              loop
-              playsInline
-              className={styles.client__carousel__video}
-            >
-              <source src={item.src} />
-            </video>
+            <Suspense>
+              <video
+                key={item.id}
+                controls
+                autoPlay
+                muted
+                loop
+                playsInline
+                className={styles.client__carousel__video}
+              >
+                <source src={item.src} />
+              </video>
+            </Suspense>
           )
         )}
       </AliceCarousel>
