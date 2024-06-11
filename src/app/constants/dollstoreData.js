@@ -64,7 +64,7 @@ export const carouselData = [
       {
         id: 1,
         type: "video",
-        src: "/images/dollstore/navidadVideo.webm",
+        src: "/images/dollstore/navidadVideo.mp4",
         alt: "Magic Doll Christmas Video",
       },
       {
@@ -129,7 +129,7 @@ export const carouselData = [
       {
         id: 4,
         type: "video",
-        src: "/images/dollstore/finalsalereel.webm",
+        src: "/images/dollstore/finalsalereel.mp4",
         alt: "Doll Store Sale Video",
       },
       {
@@ -147,7 +147,7 @@ export const carouselData = [
       {
         id: 8,
         type: "video",
-        src: "/images/dollstore/sale8.webm",
+        src: "/images/dollstore/sale8.mp4",
         alt: "Doll Store Final Sale Video",
       },
     ],
@@ -176,7 +176,7 @@ export const carouselData = [
       {
         id: 4,
         type: "video",
-        src: "/images/dollstore/llevatetododollsummerreel.webm",
+        src: "/images/dollstore/llevatetododollsummerreel.mp4",
         alt: "Take All Dolls Summer Video",
       },
       {
