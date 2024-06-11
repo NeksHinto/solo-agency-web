@@ -49,7 +49,9 @@ export default function Nav() {
                   }}
                   href={page.path}
                   alt={page.name}
-                  className={isCurrent(page.path) ? "page_current__pRY1c" : ""}
+                  className={
+                    isCurrent(page.path) ? "styles_current__CrgeL" : ""
+                  }
                 >
                   {page.name}
                 </Link>

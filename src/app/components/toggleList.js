@@ -43,8 +43,8 @@ const ToggleList = ({ items, initSelect, filterFunction }) => {
             <div
               className={
                 selected == i
-                  ? "page_service__list__show__37KEC"
-                  : "page_service__list__aU9Ez"
+                  ? "styles_service__list__show__kTqju"
+                  : "styles_service__list__I6x7x"
               }
               style={{
                 display: "flex",

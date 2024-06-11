@@ -1,12 +1,12 @@
 "use client";
 import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
-import ContactForm from "../../app/components/contactForm";
+import ContactForm from "@/components/contactForm";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { wppAutoMessage } from "../../app/utils/wppAutoMessage";
-import useIsMobile from "../../app/hooks/useIsMobile";
+import { wppAutoMessage } from "../utils/wppAutoMessage";
+import useIsMobile from "../hooks/useIsMobile";
 
 export default function Contact() {
   const isMobile = useIsMobile();

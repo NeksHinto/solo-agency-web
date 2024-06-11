@@ -1239,13 +1239,12 @@
     font-size: 1rem;
   }
   .list ul {
-    top: -210px;
     list-style: none;
     display: flex;
     position: absolute;
     right: 1rem;
     padding-left: 1rem;
-    width: 30vw;
+    width: 35vw;
     flex-direction: column;
     justify-content: space-around;
     border-left: 1px white solid;

@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 import { motion } from "framer-motion";
-import ToggleList from "../../app/components/toggleList";
+import ToggleList from "@/components/toggleList";
 
 export default function Clients() {
   const filterByCategory = (category) => (brand) =>

@@ -2,10 +2,10 @@
 import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import { useState } from "react";
-import { services } from "../../app/constants/services";
+import { services } from "../constants/services";
 import { motion } from "framer-motion";
 import { useSearchParams } from "next/navigation";
-import ToggleList from "../../app/components/toggleList";
+import ToggleList from "@/components/toggleList";
 
 export default function ServicesPage() {
   const [selected, setSelected] = useState(null);
