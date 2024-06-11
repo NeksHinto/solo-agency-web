@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/elgourmetLogo.webp"
+          logoSrc="/images/logos/elgourmetLogo.png"
           logoProps={styles.client__page__logo__elGourmet}
           clientInfo="De la idea a la realidad llevamos a cabo la creatividad y
           producción de la campaña digital gastronómica de 'ruta 40'."

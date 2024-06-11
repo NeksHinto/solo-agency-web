@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/faitfulLogo.webp"
+          logoSrc="/images/logos/faitfulLogo.png"
           logoProps={styles.client__page__logo__faitful}
           clientInfo="Reconocido vivero con más de 10 años de trayectoria recurre a
           nuestro servicio 360. Desde creative strategy, social media

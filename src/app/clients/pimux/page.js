@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/pimuxLogo.webp"
+          logoSrc="/images/logos/pimuxLogo.png"
           logoProps={styles.client__page__logo__pimux}
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea

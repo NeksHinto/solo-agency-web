@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/companianativaLogo.webp"
+          logoSrc="/images/logos/companianativaLogo.png"
           logoProps={styles.client__page__logo__companiaNativa}
           clientInfo="Marca referente de mobiliario contemporáneo, recurre a la agencia
           para el desarrollo de piezas audiovisuales orientadas a conectar

@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/cristhoLogo.webp"
+          logoSrc="/images/logos/cristhoLogo.png"
           clientInfo="Una marca que resignifica los valores del boho chic recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y
           producción de su campaña 2022. Junto a diseño gráfico y

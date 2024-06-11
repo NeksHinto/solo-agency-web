@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/justaosadiaLogo.webp"
+          logoSrc="/images/logos/justaosadiaLogo.png"
           clientInfo="Marca de moda Argentina, recurre a Solo Agency para la producción
           audiovisual de la cápsula SS24."
           services={["Content"]}

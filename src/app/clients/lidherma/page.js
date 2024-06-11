@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/lidhermaLogo.webp"
+          logoSrc="/images/logos/lidhermaLogo.png"
           logoProps={styles.client__page__logo__lidherma}
           clientInfo="Tras el lanzamiento de sus nuevas bases “SKIN COLOUR BB CREAM”
           Realizamos todo el contenido audiovisual nacional para todos sus

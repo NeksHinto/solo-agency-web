@@ -19,7 +19,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/aiaLogo.webp"
+          logoSrc="/images/logos/aiaLogo.png"
           logoProps={styles.client__page__logo__aia}
           clientInfo="Junto a la marca realizamos la dirección estratégica para el desarrollo de editoriales para redes sociales, reflejando los valores de simplicidad, movimiento y calidad, aspectos claves de una mujer contemporánea y joven, el público meta planteado con esta desarrollo."
           services={["Content"]}

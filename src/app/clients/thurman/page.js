@@ -20,7 +20,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/thurmanLogo.webp"
+          logoSrc="/images/logos/thurmanLogo.png"
           clientInfo="Marca líder en su rubro, Thurman conquista la Argentina con el
           denim. Buscando fortalecer su presencia en redes, recurre a Solo
           Agency para una intervención 360 gestionando la estrategia
