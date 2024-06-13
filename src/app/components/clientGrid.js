@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "@/styles/styles.module.css";
 import Image from "next/image";
-
 import useIsMobile from "../hooks/useIsMobile";
 
 const ClientGrid = ({ items, containerProps, hideLastItems }) => {

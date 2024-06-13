@@ -9,18 +9,11 @@ import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
 
 export default function Home() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
   return (
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/pimuxLogo.png"
+          logoSrc="/images/logos/pimuxLogo.webp"
           logoProps={styles.client__page__logo__pimux}
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea

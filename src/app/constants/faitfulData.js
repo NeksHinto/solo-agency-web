@@ -126,6 +126,7 @@ export const carouselData = [
   },
   {
     title: ["INSTAGRAM", "FEED"],
+    carouselItemProps: true,
     items: [
       {
         id: 1,

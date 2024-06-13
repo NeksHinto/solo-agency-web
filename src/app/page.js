@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { useEffect } from "react";
 import { motion } from "framer-motion";
 import styles from "@/styles/styles.module.css";
 import Paragraph from "@/components/paragraph";
@@ -12,13 +11,7 @@ const paragraph =
   "Somos un booster de marcas, creadores y de tus ideas. Creemos firmemente que hoy en día detrás de cada medio lo que más importa es el carácter humano otorgándole a tu marca su propia identidad siendo única e irrepetible. ";
 
 export default function Home() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
+  
   return (
     <main className={styles.main__home}>
       <motion.div

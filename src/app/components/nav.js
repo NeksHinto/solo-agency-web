@@ -28,6 +28,7 @@ export default function Nav() {
     <div className={styles.nav}>
       <Link href="/" style={{ display: "flex" }}>
         <Image
+          className={styles.logo__navbar}
           src="/images/SOLO AGENCY LOGO TYPO BLANCO.webp"
           alt="Valeries"
           width={177}

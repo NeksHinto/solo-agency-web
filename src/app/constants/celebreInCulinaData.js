@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["INSTAGRAM", "REELS"],
+    hideLastItems: [3],
     items: [
       {
         id: 1,
@@ -31,12 +32,11 @@ export const carouselData = [
   {
     title: ["YOU", "TUBE"],
     containerProps: {
-      display: "grid",
-      gridTemplateColumns: "repeat(6, auto)",
-      paddingLeft: "10vw",
-      "@media (max-width: 700px)": {
-        gridTemplateColumns: "repeat(3, auto)",
-      },
+      display: "flex",
+      flexWrap: "wrap",
+      justifyContent: "center",
+      alignItems: "center",
+      gap: 1,
     },
     items: [
       {

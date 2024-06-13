@@ -253,12 +253,6 @@ export const carouselData = [
         type: "image",
         alt: "Solo Agency Feed",
       },
-      {
-        id: 20,
-        src: "/images/daDesign/daDesign20.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
     ],
   },
   {

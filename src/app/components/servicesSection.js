@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import styles from "@/styles/styles.module.css";
 import { services } from "../constants/services";
@@ -49,7 +48,13 @@ export default function ServicesSection() {
                   hash: `service-${i}`,
                   query: { id: i },
                 }}
-                style={{ width: "100%", height: "100%" }}
+                style={{
+                  width: "100%",
+                  height: "100%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
                 onClick={() => {
                   window.scrollTo({ top: "6rem", behavior: "smooth" });
                 }}

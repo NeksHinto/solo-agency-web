@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
@@ -9,18 +8,12 @@ import ClientPageContent from "@/components/clientPageContent";
 import ClientHeader from "@/components/clientHeader";
 
 export default function Home() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
   return (
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/thurmanLogo.png"
+          logoProps={styles.client__page__logo__thurman}
           clientInfo="Marca líder en su rubro, Thurman conquista la Argentina con el
           denim. Buscando fortalecer su presencia en redes, recurre a Solo
           Agency para una intervención 360 gestionando la estrategia

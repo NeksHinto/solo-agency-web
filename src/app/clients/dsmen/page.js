@@ -9,18 +9,12 @@ import ClientPageContent from "@/components/clientPageContent";
 import ClientHeader from "@/components/clientHeader";
 
 export default function Home() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
   return (
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/dsmenLogo.png"
+          logoProps={styles.client__page__logo__dsmen}
           clientInfo="Reconocida marca de moda Argentina recurre a nuestro servicio 360.
           Desde creative strategy, social media management, content creation
           y paid media (Meta ads) acompañamos en todos los desafíos que

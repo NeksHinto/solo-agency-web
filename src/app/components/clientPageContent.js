@@ -3,7 +3,6 @@ import ClientCarousel from "./carousel";
 import ClientGrid from "./clientGrid";
 import ClientGridBranding from "./clientGridBranding";
 import styles from "@/styles/styles.module.css";
-
 import { motion } from "framer-motion";
 
 const ClientPageContent = ({ carousel, branding, data, customProps }) => {
@@ -19,12 +18,18 @@ const ClientPageContent = ({ carousel, branding, data, customProps }) => {
           x: { duration: 0.25 },
         }}
       >
-        <p className={styles.client__title} style={{ color: "gray" }}>
-          {data.title[0]}
-        </p>
-        <p className={styles.client__title}>{data.title[1]}</p>
+        <div className={styles.client__title__container}>
+          <p className={styles.client__title} style={{ color: "gray" }}>
+            {data.title[0]}
+          </p>
+          <p className={styles.client__title}>{data.title[1]}</p>
+        </div>
         {carousel ? (
-          <ClientCarousel key={data.title} items={data.items} />
+          <ClientCarousel
+            key={data.title}
+            items={data.items}
+            carouselItemProps={data.carouselItemProps}
+          />
         ) : branding ? (
           <ClientGridBranding
             key={data.title}

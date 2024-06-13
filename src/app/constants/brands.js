@@ -69,7 +69,7 @@ export const brands = [
   },
   {
     name: "Pimux",
-    imageLocation: "/images/logos/pimuxLogo.png",
+    imageLocation: "/images/logos/pimuxLogo.webp",
     category: "Lifestyle",
     services: ["Graphic Design & Branding"],
     route: "/clients/pimux",
@@ -144,7 +144,7 @@ export const brands = [
   },
   {
     name: "Timeless",
-    imageLocation: "/images/logos/timelessLogo.png",
+    imageLocation: "/images/logos/timelessLogo.webp",
     category: "Health & beauty",
     services: ["Graphic Design & Branding"],
     route: "/clients/timeless",
@@ -165,7 +165,7 @@ export const brands = [
   },
   {
     name: "Sassone",
-    imageLocation: "/images/logos/sassoneLogo.png",
+    imageLocation: "/images/logos/sassoneLogo.webp",
     category: "Lifestyle",
     services: ["Content", "Graphic Design & Branding"],
     route: "/clients/sassone",

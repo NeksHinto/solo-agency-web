@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 import { motion } from "framer-motion";
@@ -8,13 +7,6 @@ import ToggleList from "@/components/toggleList";
 export default function Clients() {
   const filterByCategory = (category) => (brand) =>
     brand.category === category.name;
-
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
 
   const categories = [
     { name: "Fashion" },

@@ -1,18 +1,16 @@
-import React, { Suspense } from "react";
+import React from "react";
 import Image from "next/image";
 import styles from "@/styles/styles.module.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-const ClientCarousel = ({ items }) => {
+const ClientCarousel = ({ items, carouselItemProps }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
 
   return (
     <div className={styles.embla}>
-      {/* <div className={styles.scroller__client}>
-        <div className={styles.scroller__client__inner}> */}
       <AliceCarousel
         autoPlay
         autoPlayInterval={2000}
@@ -26,7 +24,9 @@ const ClientCarousel = ({ items }) => {
           item.type === "image" ? (
             <Image
               key={item.id}
-              className={styles.client__carousel__image}
+              className={
+                carouselItemProps ? styles.client__carousel__image__igfeed : styles.client__carousel__image
+              }
               src={item.src}
               alt={item.alt}
               width={360}
@@ -43,24 +43,20 @@ const ClientCarousel = ({ items }) => {
               allowFullScreen
             ></iframe>
           ) : (
-            <Suspense>
-              <video
-                key={item.id}
-                controls
-                autoPlay
-                muted
-                loop
-                playsInline
-                className={styles.client__carousel__image}
-              >
-                <source src={item.src} />
-              </video>
-            </Suspense>
+            <video
+              key={item.id}
+              controls
+              autoPlay
+              muted
+              loop
+              playsInline
+              className={styles.client__carousel__video}
+            >
+              <source src={item.src} />
+            </video>
           )
         )}
       </AliceCarousel>
-      {/* </div>
-      </div> */}
     </div>
   );
 };

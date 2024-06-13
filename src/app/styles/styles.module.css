@@ -77,7 +77,6 @@
   text-transform: uppercase;
   border: none;
   margin: 1em;
-  /* border: 1px solid rgba(255, 255, 255, 0.362); */
   width: 8em;
   align-self: flex-end;
   font-weight: 600;
@@ -135,9 +134,7 @@
 
 .box {
   font-size: 1.5rem;
-  /* line-height: 1; */
   font-weight: 600;
-  /* border: 1px solid rgba(255, 255, 255, 0.362); */
   border-radius: 20px;
   padding: 1.5rem;
   width: 1fr;
@@ -154,16 +151,14 @@
   transition: 0.25s ease-out;
 }
 .box:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center;
   color: #fff;
   text-decoration: none;
 }
 .box::after {
-  /* content: ""; */
   display: flex;
   position: relative;
   width: 100%;
-  /* transform: scaleX(0); */
   height: 2px;
   bottom: 0;
   left: 0;
@@ -173,16 +168,9 @@
     #41434569 90%,
     #23252665 10%
   );
-  /* background-color: rgba(170, 170, 170, 0.459); */
-  /* transform-origin: bottom right; */
   transition: transform 0.25s ease-out;
   border-radius: 10px;
 }
-.box:hover::after {
-  /* transform: scaleX(1); */
-  /* transform-origin: bottom left; */
-}
-
 .link {
   font-size: 1.5rem;
   cursor: pointer;
@@ -200,7 +188,6 @@
   content: "";
   display: flex;
   position: relative;
-  /* width: 100%; */
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
@@ -214,7 +201,6 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
-
 .title {
   font-weight: bold;
   font-size: 3rem;
@@ -287,13 +273,13 @@
   color: #ffffff69;
   text-shadow: 6px 4px 7px rgba(215, 215, 215, 0.3);
 }
-
+/* CONTACT PAGE: SOCIALS */
 .socials__container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 314pt;
 }
-
 .socials {
   fill: #ffffff;
 }
@@ -343,7 +329,7 @@
   animation-duration: 5ms;
   transition: color 0.1s ease-in;
   box-shadow: black;
-  color: #ffffff69;
+  fill: #ffffff69;
 }
 
 /* PAGE CONTAINER */
@@ -463,17 +449,32 @@
 .client__header {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: -3rem;
+  margin-bottom: -3rem;
 }
 .client__page__logo {
   width: 100%;
   height: auto;
   max-width: 500px;
-  margin-top: -3rem;
-  margin-bottom: -10rem;
+  padding-top: 1rem;
 }
 
-.client__page__logo__aia {
-  margin-top: 4rem;
+.client__page__logo__terrazas {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+.client__page__logo__thurman {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+
+.client__page__logo__cristho {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 
 .client__page__logo__companiaNativa {
@@ -482,9 +483,14 @@
   height: auto;
 }
 .client__page__logo__daDesign {
-  margin-top: 4rem;
+  margin-top: 6rem;
   width: 16vw;
   height: auto;
+}
+.client__page__logo__dsmen {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
 }
 .client__page__logo__drAromas {
   margin-top: 4rem;
@@ -492,12 +498,12 @@
   height: auto;
 }
 .client__page__logo__elGourmet {
-  margin-top: 5rem;
+  margin-top: 4rem;
   width: 20vw;
   height: auto;
 }
 .client__page__logo__eucerin {
-  margin-top: 4rem;
+  margin-top: 3rem;
   width: 18vw;
   height: auto;
 }
@@ -507,28 +513,29 @@
   height: auto;
 }
 .client__page__logo__fernandoRamos {
-  margin-top: 3rem;
+  margin-top: 4rem;
+  width: 23vw;
 }
 .client__page__logo__lidherma {
-  margin-top: 5rem;
-  width: 18vw;
+  margin-top: 4rem;
+  width: 20vw;
   height: auto;
 }
 .client__page__logo__pimux {
-  margin-top: 6rem;
+  margin-top: 5rem;
   width: 16vw;
   height: auto;
 }
 .client__page__logo__ubk {
-  margin-top: 5rem;
-  width: 18vw;
+  margin-top: 4rem;
+  width: 20vw;
   height: auto;
 }
 
 .client__services {
   display: flex;
   width: 100%;
-  padding: 5rem;
+  padding-bottom: 5rem;
   font-size: 1.5rem;
   justify-content: center;
   align-items: center;
@@ -540,7 +547,6 @@
   margin: auto;
   max-width: 1000px;
   width: 60%;
-  padding-top: 8rem;
   font-size: 1.5rem;
   justify-content: center;
 }
@@ -570,7 +576,6 @@
 .grid__client {
   display: grid;
   justify-content: center;
-  grid-auto-rows: min-content;
   align-items: start;
   grid-template-columns: repeat(4, 1fr);
 }
@@ -598,6 +603,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+}
+.client__title__container {
+  margin-bottom: 2rem;
 }
 .client__title {
   font-size: 4rem;
@@ -647,6 +655,13 @@
   width: 18vw;
 }
 
+.client__carousel__image__igfeed {
+  border: 5px solid black;
+  border-radius: 20px;
+  height: 16vw;
+  width: 15vw;
+}
+
 .client__grid__branding__image {
   border: 5px solid black;
   border-radius: 20px;
@@ -654,16 +669,18 @@
   height: auto;
 }
 .client__grid__image {
-  width: auto;
-  height: 0;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
   min-height: 100%;
   margin: auto;
   border: 5px solid black;
   border-radius: 20px;
 }
 .client__grid__video {
-  width: auto;
-  height: min-content;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   max-width: 20rem;
   margin: auto;
   border: 5px solid black;
@@ -671,8 +688,8 @@
 }
 
 .client__carousel__video {
-  width: auto;
-  height: min-content;
+  width: 100%;
+  height: auto;
   max-width: 18vw;
   margin: auto;
   border: 5px solid black;
@@ -832,6 +849,7 @@
   border-radius: 20px;
   padding: 1rem;
   text-align: left;
+  height: 300pt;
 }
 .form p {
   font-weight: bold;
@@ -846,7 +864,7 @@
   color: rgba(255, 255, 255, 0.671);
 }
 .form textarea {
-  height: 15vh;
+  height: 25vh;
   background-color: #00000098;
   color: white;
   font-family: Aron;
@@ -875,36 +893,11 @@
     transparent
   );
   margin-bottom: 4rem;
+  margin-top: -5rem;
 }
-.embla2 {
-  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
-  margin: auto;
-  width: 60%;
-  margin-bottom: 4rem;
-}
+
 .embla__container {
-  /* display: flex;
-  margin: auto; */
   width: 100%;
-  /* justify-content: space-evenly; */
-}
-.embla__slide {
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 0;
-  max-width: 20rem;
-}
-.embla__slide2 {
-  flex: 0 0 100%;
-  min-width: 0;
-  max-width: 20rem;
 }
 
 /*SCROLLER*/
@@ -1235,15 +1228,21 @@
   }
   /*NAVBAR*/
   .nav {
+    display: grid;
+    grid-template-columns: auto 1fr;
     padding: 0.5rem;
     font-size: 1rem;
+  }
+  .logo__navbar {
+    width: 45vw;
+    height: auto;
   }
   .list ul {
     list-style: none;
     display: flex;
     position: absolute;
-    right: 1rem;
-    padding-left: 1rem;
+    right: 0.2vw;
+    padding-left: 3vw;
     width: 35vw;
     flex-direction: column;
     justify-content: space-around;
@@ -1352,15 +1351,11 @@
   }
   .client__header {
     flex-direction: column;
+    margin: 0;
   }
   .client__page__logo {
     max-width: 50vw;
-    margin-bottom: -2rem;
-    margin-top: 0;
-  }
-
-  .client__page__logo__aia {
-    margin-top: 4rem;
+    margin-top: 3vh;
   }
 
   .client__page__logo__companiaNativa {
@@ -1370,10 +1365,9 @@
     height: auto;
   }
   .client__page__logo__daDesign {
-    margin-top: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
     width: 40vw;
-    margin-bottom: 2rem;
-    height: auto;
   }
   .client__page__logo__drAromas {
     margin-top: 4rem;
@@ -1381,8 +1375,13 @@
     margin-bottom: 2rem;
     height: auto;
   }
+  .client__page__logo__dsmen {
+    width: 40vw;
+    margin-bottom: -1rem;
+    height: auto;
+  }
   .client__page__logo__elGourmet {
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 45vw;
     margin-bottom: 2rem;
     height: auto;
@@ -1401,17 +1400,31 @@
   }
   .client__page__logo__fernandoRamos {
     margin-top: 3rem;
+    width: 40vw;
+    margin-bottom: 2rem;
   }
   .client__page__logo__lidherma {
-    margin-top: 5rem;
+    margin-top: 2rem;
+    width: 40vw;
+    margin-bottom: 1rem;
+    height: auto;
+  }
+  .client__page__logo__pimux {
+    margin-top: 3rem;
     width: 40vw;
     margin-bottom: 2rem;
     height: auto;
   }
-  .client__page__logo__pimux {
-    margin-top: 6rem;
-    width: 40vw;
-    margin-bottom: 2rem;
+  .client__page__logo__terrazas {
+    margin-top: 1rem;
+    width: 50vw;
+    margin-bottom: -2rem;
+    height: auto;
+  }
+  .client__page__logo__thurman {
+    margin-top: 1rem;
+    width: 50vw;
+    margin-bottom: -2rem;
     height: auto;
   }
   .client__page__logo__ubk {
@@ -1422,9 +1435,9 @@
   }
   .client__info {
     width: 95%;
-    padding-top: 0;
+    padding-top: -1rem;
     padding-bottom: 2rem;
-    text-align: justify;
+    text-align: center;
     flex-direction: column;
   }
   .client__services {
@@ -1447,6 +1460,9 @@
     flex-direction: row;
     overflow: scroll;
     padding-right: 0.5rem;
+  }
+  .client__title__container {
+    margin-bottom: 1.5rem;
   }
   .client__title {
     font-size: 2rem;
@@ -1513,6 +1529,13 @@
   .client__image {
     max-width: 90vw;
   }
+  .client__carousel__image__igfeed {
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 40vw;
+    width: 36vw;
+  }
+
   .client__carousel__image {
     width: 32vw;
   }
@@ -1598,19 +1621,18 @@
   }
   .form {
     width: 100%;
+    height: 50vh;
   }
   .socials__container {
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
+    height: auto;
   }
   /*EMBLA CAROUSEL*/
   .embla {
-    margin-bottom: 1rem;
     margin-top: 1rem;
-  }
-  .embla2 {
-    width: 100%;
+    margin-bottom: 0;
   }
   .embla__container {
     width: 100%;
@@ -1797,6 +1819,7 @@
     width: 30vw;
   }
   /*EMBLA CAROUSEL*/
+
   .embla__container {
     width: 100%;
   }

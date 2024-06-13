@@ -1,16 +1,8 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 
 export default function About() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
   return (
     <main className={styles.main}>
       <motion.div

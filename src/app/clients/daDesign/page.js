@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
@@ -9,13 +8,6 @@ import ClientPageContent from "@/components/clientPageContent";
 import ClientHeader from "@/components/clientHeader";
 
 export default function Home() {
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
-
   return (
     <main className={styles.main__client}>
       <div className={styles.client__page}>

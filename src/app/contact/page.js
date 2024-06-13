@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+
 import styles from "@/styles/styles.module.css";
 import ContactForm from "@/components/contactForm";
 import { motion } from "framer-motion";
@@ -10,12 +10,6 @@ import useIsMobile from "../hooks/useIsMobile";
 
 export default function Contact() {
   const isMobile = useIsMobile();
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
 
   return (
     <main className={styles.main}>
@@ -49,10 +43,10 @@ export default function Contact() {
           <div className={styles.title__gap}>
             <p className={styles.title}>FOLLOW US</p>
           </div>
-          <div className={styles.socials__container}>
+          <motion.div className={styles.socials__container}>
             <Link href="https://www.instagram.com/solo_agency/" target="blank">
               <Image
-                style={{ marginLeft: !isMobile && -5 }}
+                style={{ marginLeft: !isMobile && -4 }}
                 src="/images/instagramThin.svg"
                 alt="instagram"
                 width={80}
@@ -92,7 +86,7 @@ export default function Contact() {
               <Image
                 style={{
                   paddingBottom: isMobile && 5,
-                  marginLeft: isMobile ? -10 : -5,
+                  marginLeft: isMobile ? -10 : -4,
                 }}
                 src="/images/behanceThin.svg"
                 alt="whatsapp"
@@ -100,7 +94,7 @@ export default function Contact() {
                 height={80}
               />
             </Link>
-          </div>
+          </motion.div>
         </motion.div>
       </div>
     </main>

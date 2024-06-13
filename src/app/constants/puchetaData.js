@@ -498,12 +498,6 @@ export const carouselData = [
         alt: "Solo Agency Feed",
       },
       {
-        id: 6,
-        src: "/images/pucheta/puchetaResiliencia5.webp",
-        type: "image",
-        alt: "Solo Agency Feed",
-      },
-      {
         id: 7,
         src: "/images/pucheta/puchetaResiliencia6.webp",
         type: "image",

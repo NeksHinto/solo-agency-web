@@ -29,9 +29,6 @@ export default function ContactForm() {
 
   return (
     <div className={styles.form__container}>
-      {/* <div className={styles.contact__page__title}>
-        <p>ESCRIBINOS</p>
-      </div> */}
       <form onSubmit={onSubmit} className={styles.form}>
         <input type="hidden" name="access_key" value="" />
         <input type="text" name="Name" placeholder="name" required />

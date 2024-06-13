@@ -1,4 +1,5 @@
 "use client";
+
 import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import { useState } from "react";
@@ -18,13 +19,6 @@ export default function ServicesPage() {
     const id = searchParams.get("id");
     setSelected(id);
   }, [searchParams]);
-
-  // useEffect(() => {
-  //   (async () => {
-  //     const LocomotiveScroll = (await import("locomotive-scroll")).default;
-  //     const locomotiveScroll = new LocomotiveScroll();
-  //   })();
-  // }, []);
 
   return (
     <main className={styles.main}>
