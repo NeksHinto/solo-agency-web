@@ -25,18 +25,18 @@ const ClientCarousel = ({ items, carouselItemProps }) => {
             <Image
               key={item.id}
               className={
-                carouselItemProps ? styles.client__carousel__image__igfeed : styles.client__carousel__image
+                carouselItemProps
+                  ? styles.client__carousel__image__igfeed
+                  : styles.client__carousel__image
               }
               src={item.src}
               alt={item.alt}
-              width={360}
-              height={640}
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              width={0}
+              height={0}
             />
           ) : item.type === "youtube" ? (
             <iframe
               key={item.id}
-              className={styles.client__image}
               src={constructYoutubeUrl(item.src)}
               allow
               title={item.title}

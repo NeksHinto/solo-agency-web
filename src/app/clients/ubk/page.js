@@ -1,5 +1,4 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
@@ -13,7 +12,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/ubkLogo.png"
+          logoSrc="/images/logos/desktop/ubkLogo.png"
           logoProps={styles.client__page__logo__ubk}
           clientInfo="Una marca que transforma el movimiento en acción recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y
@@ -25,7 +24,7 @@ export default function Home() {
           <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
-        <BlackBox />
+        {/* <BlackBox /> */}
       </div>
     </main>
   );

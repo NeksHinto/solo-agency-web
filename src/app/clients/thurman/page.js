@@ -12,7 +12,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/thurmanLogo.png"
+          logoSrc="/images/logos/desktop/thurmanLogo.png"
           logoProps={styles.client__page__logo__thurman}
           clientInfo="Marca líder en su rubro, Thurman conquista la Argentina con el
           denim. Buscando fortalecer su presencia en redes, recurre a Solo

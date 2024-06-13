@@ -13,7 +13,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/justaosadiaLogo.png"
+          logoSrc="/images/logos/desktop/justaosadiaLogo.png"
           clientInfo="Marca de moda Argentina, recurre a Solo Agency para la producción
           audiovisual de la cápsula SS24."
           services={["Content"]}
@@ -22,7 +22,7 @@ export default function Home() {
           <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
 
-        <BlackBox />
+        {/* <BlackBox /> */}
       </div>
     </main>
   );

@@ -13,7 +13,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/celebreinculinaLogo.png"
+          logoSrc="/images/logos/desktop/celebreinculinaLogo.png"
           clientInfo="Producción audiovisual y estrategia de contenido gastronómico
           mensual para audiencia de redes sociales y streaming, instagram &
           Youtube"

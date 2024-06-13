@@ -13,7 +13,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/sassoneLogo.webp"
+          logoSrc="/images/logos/desktop/sassoneLogo.webp"
           clientInfo="Cementando sus raíces en 1920, Sassone más que una empresa, nace
           como una puerta hacia el mundo, conectando culturas. Siendo
           empresa líder en despachos, Sassone busca una nueva imagen que

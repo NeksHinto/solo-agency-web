@@ -4,8 +4,10 @@ import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { brands } from "../constants/brands";
+import useIsMobile from "app/hooks/useIsMobile";
 
 const ToggleList = ({ items, initSelect, filterFunction }) => {
+  const isMobile = useIsMobile();
   const [selected, setSelected] = useState(null);
 
   const toggle = (i) => {
@@ -83,7 +85,11 @@ const ToggleList = ({ items, initSelect, filterFunction }) => {
                     <div key={brandIndex}>
                       <Link href={brand.route} alt={brand.name}>
                         <img
-                          src={brand.imageLocation}
+                          src={
+                            isMobile
+                              ? brand.imageLocationMobile
+                              : brand.imageLocation
+                          }
                           alt={brand.name}
                           className={styles.client__logo}
                         />

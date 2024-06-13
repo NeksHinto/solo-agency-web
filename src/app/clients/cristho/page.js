@@ -11,7 +11,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/cristhoLogo.png"
+          logoSrc="/images/logos/desktop/cristhoLogo.png"
           logoProps={styles.client__page__logo__cristho}
           clientInfo="Una marca que resignifica los valores del boho chic recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y

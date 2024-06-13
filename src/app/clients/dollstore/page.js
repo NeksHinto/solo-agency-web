@@ -13,7 +13,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/dollstoreLogo.png"
+          logoSrc="/images/logos/desktop/dollstoreLogo.png"
           clientInfo="Reconocida marca de moda Argentina recurre a nuestro servicio 360. Desde creative strategy, social media management, content creation y paid media (Meta ads) acompañamos en todos los desafíos que comprenden comunicación visual y digital."
           services={[
             "Creative Strategy",

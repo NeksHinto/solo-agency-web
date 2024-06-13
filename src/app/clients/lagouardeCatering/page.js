@@ -13,7 +13,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/lagouardeLogo.png"
+          logoSrc="/images/logos/desktop/lagouardeLogo.png"
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la gastronomía de lujo
           desarrollamos el re-branding y la identidad visual de la marca.

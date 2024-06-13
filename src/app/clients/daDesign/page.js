@@ -12,7 +12,7 @@ export default function Home() {
     <main className={styles.main__client}>
       <div className={styles.client__page}>
         <ClientHeader
-          logoSrc="/images/logos/dadesignLogo.png"
+          logoSrc="/images/logos/desktop/dadesignLogo.png"
           logoProps={styles.client__page__logo__daDesign}
           clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
           para democratizar su mensaje en redes sociales. Bajo los servicios

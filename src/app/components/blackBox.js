@@ -9,7 +9,7 @@ export default function BlackBox() {
           background: "black",
           height: "150vh",
           position: "fixed",
-          zIndex: "-1",
+          zIndex: "-10",
           width: "100vw",
           top: "0",
           left: "0",
