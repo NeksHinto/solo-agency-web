@@ -35,7 +35,7 @@ const ClientGrid = ({ items, containerProps, hideLastItems }) => {
                 sizes="100vw"
               />
             ) : item.type === "youtube" ? (
-              <div className="videoWrapper">
+              <div className={styles.videoWrapper}>
                 <iframe
                   key={item.id}
                   className={styles.client__grid__image}
