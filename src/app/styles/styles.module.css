@@ -1121,7 +1121,6 @@
     width: 35vw;
     flex-direction: column;
     justify-content: space-around;
-    border-left: 1px white solid;
   }
   /*FOOTER*/
   .footer {
