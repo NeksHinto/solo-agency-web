@@ -32,7 +32,7 @@ export default function ClientsSection() {
             textAlign: "center",
           }}
         >
-          <Link href="/services">VER MÁS</Link>
+          <Link href="/clients">VER MÁS</Link>
         </p>
       </div>
       <div className={styles.scroller}>

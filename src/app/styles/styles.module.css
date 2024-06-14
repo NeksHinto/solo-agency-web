@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: column;
   color: white;
+  padding-top: 10vh;
 }
 
 .banner__home {
@@ -451,6 +452,7 @@
   align-items: center;
   justify-content: center;
   grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
 }
 
 .client__page__logo {
@@ -510,7 +512,7 @@
   align-items: start;
   grid-auto-rows: max-content;
   margin: auto;
-  grid-template-columns: repeat(4, minmax(auto, 1fr));
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .client__grid__branding__image {
@@ -520,7 +522,7 @@
   height: auto;
 }
 .client__grid__image {
-  width: fit-content;
+  width: 100%;
   object-fit: cover;
   max-width: 20rem;
   margin: auto;
@@ -860,8 +862,7 @@
   animation: scroll 25s linear infinite;
 }
 .scroller__inner img {
-  width: 100%;
-  max-width: 200px;
+  width: 15rem;
   height: auto;
   object-fit: cover;
 }
@@ -1086,6 +1087,9 @@
     padding-top: 20vh;
     padding-bottom: 20vw;
   }
+  .main__client {
+    padding-top: 0;
+  }
   .link {
     font-size: large;
   }
@@ -1098,6 +1102,9 @@
   }
   .scroller__inner {
     gap: 2rem;
+  }
+  .scroller__inner img {
+    width: 10rem;
   }
 
   /*NAVBAR*/
