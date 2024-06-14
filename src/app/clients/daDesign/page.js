@@ -32,7 +32,6 @@ export default function Home() {
             key={data.title}
             carousel={true}
             data={data}
-            hqVideos
           />
         ))}
       </div>

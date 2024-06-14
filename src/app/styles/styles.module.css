@@ -443,7 +443,7 @@
   display: grid;
   width: 90%;
   margin: auto;
-  margin-top: 8vh;
+  margin-top: 8rem;
   grid-template-rows: 1fr auto;
   place-items: center;
 }
@@ -458,7 +458,7 @@
 .client__page__logo {
   width: 100%;
   height: auto;
-  max-width: 50vw;
+  max-width: 50rem;
 }
 
 .client__page__logo__shrink {
@@ -862,7 +862,7 @@
   animation: scroll 25s linear infinite;
 }
 .scroller__inner img {
-  width: 15rem;
+  width: 10rem;
   height: auto;
   object-fit: cover;
 }
@@ -1102,9 +1102,6 @@
   }
   .scroller__inner {
     gap: 2rem;
-  }
-  .scroller__inner img {
-    width: 10rem;
   }
 
   /*NAVBAR*/
