@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/eucerinData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -14,7 +13,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/eucerinLogo.png"
-          logoProps={styles.client__page__logo__eucerin}
+          logoProps={styles.client__page__logo}
           clientInfo="Tras el lanzamiento de su protector solar “Hydro fluid” Realizamos
           toda la cobertura audiovisual del evento a nivel nacional."
           services={["Content"]}
@@ -28,8 +27,6 @@ export default function Home() {
             customProps={styles.client__grid__eucerin}
           />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

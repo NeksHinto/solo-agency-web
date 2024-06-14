@@ -3,7 +3,13 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "@/styles/styles.module.css";
 
-const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
+const ClientHeader = ({
+  logoSrc,
+  logoProps,
+  clientInfo,
+  services,
+  shrinkLogo,
+}) => {
   return (
     <motion.div
       className={styles.client__banner}
@@ -15,10 +21,17 @@ const ClientHeader = ({ logoSrc, logoProps, clientInfo, services }) => {
         x: { duration: 0.25 },
       }}
     >
-      <div className={styles.client__header}>
+      <div
+        className={styles.client__header}
+        style={{ marginTop: shrinkLogo ? "4rem" : 0 }}
+      >
         <div className={logoProps}>
           <Image
-            className={styles.client__page__logo}
+            className={
+              shrinkLogo
+                ? styles.client__page__logo__shrink
+                : styles.client__page__logo
+            }
             src={logoSrc}
             alt="Solo Agency"
             width={0}

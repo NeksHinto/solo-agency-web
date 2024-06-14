@@ -1,9 +1,7 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/fernandoRamosData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -14,7 +12,8 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/fernandoRamosLogo.png"
-          logoProps={styles.client__page__logo__fernandoRamos}
+          logoProps={styles.client__page__logo}
+          shrinkLogo
           clientInfo="Cementando sus raíces en 1920, Sassone más que una empresa, nace
           como una puerta hacia el mundo, conectando culturas. Siendo
           empresa líder en despachos, Sassone busca una nueva imagen que
@@ -26,8 +25,6 @@ export default function Home() {
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} branding={true} data={data} />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

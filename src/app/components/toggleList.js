@@ -1,13 +1,13 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { brands } from "../constants/brands";
-import useIsMobile from "app/hooks/useIsMobile";
+import { DeviceContext } from "../contexts/deviceContext";
 
 const ToggleList = ({ items, initSelect, filterFunction }) => {
-  const isMobile = useIsMobile();
+  const { isMobile } = useContext(DeviceContext);
   const [selected, setSelected] = useState(null);
 
   const toggle = (i) => {

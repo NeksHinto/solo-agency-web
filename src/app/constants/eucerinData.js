@@ -1,6 +1,7 @@
 export const carouselData = [
   {
     title: ["HYDRO", "FLUID"],
+    hideLastItems: [16],
     items: [
       {
         id: 3,
@@ -32,18 +33,6 @@ export const carouselData = [
         src: "/images/eucerin/eucerinVideo3.webm",
         alt: "Eucerin Media",
       },
-      // {
-      //   id: 8,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin3.webp",
-      //   alt: "Eucerin Media",
-      // },
-      // {
-      //   id: 9,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin4.webp",
-      //   alt: "Eucerin Media",
-      // },
       {
         id: 12,
         type: "image",
@@ -98,12 +87,6 @@ export const carouselData = [
         src: "/images/eucerin/Eucerin18.webp",
         alt: "Eucerin Media",
       },
-      // {
-      //   id: 24,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin19.webp",
-      //   alt: "Eucerin Media",
-      // },
       {
         id: 25,
         type: "image",
@@ -116,24 +99,12 @@ export const carouselData = [
         src: "/images/eucerin/Eucerin24.webp",
         alt: "Eucerin Media",
       },
-      // {
-      //   id: 26,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin21.webp",
-      //   alt: "Eucerin Media",
-      // },
-      // {
-      //   id: 27,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin22.webp",
-      //   alt: "Eucerin Media",
-      // },
-      // {
-      //   id: 28,
-      //   type: "image",
-      //   src: "/images/eucerin/Eucerin23.webp",
-      //   alt: "Eucerin Media",
-      // },
+      {
+        id: 27,
+        type: "image",
+        src: "/images/eucerin/Eucerin22.webp",
+        alt: "Eucerin Media",
+      },
     ],
   },
 ];

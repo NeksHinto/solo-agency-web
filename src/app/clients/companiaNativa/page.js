@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/companiaNativaData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -14,7 +13,8 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/companianativaLogo.png"
-          logoProps={styles.client__page__logo__companiaNativa}
+          logoProps={styles.client__page__logo}
+          shrinkLogo
           clientInfo="Marca referente de mobiliario contemporáneo, recurre a la agencia
           para el desarrollo de piezas audiovisuales orientadas a conectar
           con su audiencia y resaltar el valor agregado en cada uno de sus
@@ -24,8 +24,6 @@ export default function Home() {
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

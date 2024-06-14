@@ -2,7 +2,6 @@
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/ubkData";
 import ClientPageContent from "@/components/clientPageContent";
 import ClientHeader from "@/components/clientHeader";
@@ -13,7 +12,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/ubkLogo.png"
-          logoProps={styles.client__page__logo__ubk}
+          logoProps={styles.client__page__logo}
           clientInfo="Una marca que transforma el movimiento en acción recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y
           producción de su campaña 2024."
@@ -23,8 +22,6 @@ export default function Home() {
         {carouselData.map((data) => (
           <ClientPageContent key={data.title} carousel={false} data={data} />
         ))}
-
-        {/* <BlackBox /> */}
       </div>
     </main>
   );

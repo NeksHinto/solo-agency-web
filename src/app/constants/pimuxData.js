@@ -1,16 +1,7 @@
 export const carouselData = [
   {
     title: ["_", "BRANDING"],
-    gridProps: {
-      display: "grid",
-      gridTemplateColumns: "repeat(4, 1fr)",
-      gridTemplateRows: "repeat(4, 1fr)",
-      gridTemplateAreas: `
-      "box2 box2 box1 box3"
-      "box2 box2 box4 box5"
-      "box10 box7 box6 box6"
-      "box9 box8 box6 box6"`,
-    },
+    hideLastItems: [9],
     items: [
       {
         id: 1,

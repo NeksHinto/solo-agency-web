@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/elGourmetData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -14,7 +13,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/elgourmetLogo.png"
-          logoProps={styles.client__page__logo__elGourmet}
+          logoProps={styles.client__page__logo}
           clientInfo="De la idea a la realidad llevamos a cabo la creatividad y
           producción de la campaña digital gastronómica de 'ruta 40'."
           services={["Content", "Creative Startegy"]}
@@ -27,8 +26,6 @@ export default function Home() {
             data={data}
           />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

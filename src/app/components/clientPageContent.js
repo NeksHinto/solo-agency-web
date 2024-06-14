@@ -5,7 +5,13 @@ import ClientGridBranding from "./clientGridBranding";
 import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
 
-const ClientPageContent = ({ carousel, branding, data, customProps }) => {
+const ClientPageContent = ({
+  carousel,
+  branding,
+  data,
+  customProps,
+  hqVideos,
+}) => {
   return (
     <div className={styles.client__content}>
       <motion.div
@@ -29,6 +35,7 @@ const ClientPageContent = ({ carousel, branding, data, customProps }) => {
             key={data.title}
             items={data.items}
             carouselItemProps={data.carouselItemProps}
+            hqVideos={hqVideos}
           />
         ) : branding ? (
           <ClientGridBranding
@@ -36,6 +43,7 @@ const ClientPageContent = ({ carousel, branding, data, customProps }) => {
             items={data.items}
             gridProps={data.gridProps}
             classProps={customProps}
+            hideLastItems={data.hideLastItems}
           />
         ) : (
           <ClientGrid

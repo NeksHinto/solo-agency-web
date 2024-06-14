@@ -2,7 +2,6 @@
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/daDesignData";
 import ClientPageContent from "@/components/clientPageContent";
 import ClientHeader from "@/components/clientHeader";
@@ -13,7 +12,8 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/dadesignLogo.png"
-          logoProps={styles.client__page__logo__daDesign}
+          logoProps={styles.client__page__logo}
+          shrinkLogo
           clientInfo="Pintando los hogares de cultura, da design recurre a solo agency
           para democratizar su mensaje en redes sociales. Bajo los servicios
           de creative strategy, social media management y content creation
@@ -28,10 +28,13 @@ export default function Home() {
         />
 
         {carouselData.map((data) => (
-          <ClientPageContent key={data.title} carousel={true} data={data} />
+          <ClientPageContent
+            key={data.title}
+            carousel={true}
+            data={data}
+            hqVideos
+          />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

@@ -1,10 +1,11 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
 import styles from "@/styles/styles.module.css";
 import Image from "next/image";
-import useIsMobile from "../hooks/useIsMobile";
+import { DeviceContext } from "../contexts/deviceContext";
 
 const ClientGrid = ({ items, containerProps, hideLastItems }) => {
-  const isMobile = useIsMobile();
+  const { isMobile } = useContext(DeviceContext);
 
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
@@ -59,7 +60,13 @@ const ClientGrid = ({ items, containerProps, hideLastItems }) => {
                     : null
                 }
               >
-                <source src={item.src} />
+                {isMobile ? (
+                  <source src={item.src} />
+                ) : (
+                  <source
+                    src={item.src.replace(/\.webm(?=.*)$/, "-desktop.webm")}
+                  />
+                )}
               </video>
             );
           }

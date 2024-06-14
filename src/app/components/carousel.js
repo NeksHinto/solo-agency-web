@@ -1,10 +1,13 @@
-import React from "react";
+"use client";
+import React, { useContext } from "react";
 import Image from "next/image";
 import styles from "@/styles/styles.module.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { DeviceContext } from "../contexts/deviceContext";
 
-const ClientCarousel = ({ items, carouselItemProps }) => {
+const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
+  const { isMobile } = useContext(DeviceContext);
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -52,7 +55,13 @@ const ClientCarousel = ({ items, carouselItemProps }) => {
               playsInline
               className={styles.client__carousel__video}
             >
-              <source src={item.src} />
+              {!isMobile && hqVideos ? (
+                <source
+                  src={item.src.replace(/\.webm(?=.*)$/, "-desktop.webm")}
+                />
+              ) : (
+                <source src={item.src} />
+              )}
             </video>
           )
         )}

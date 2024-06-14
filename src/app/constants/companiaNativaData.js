@@ -6,7 +6,7 @@ export const carouselData = [
       {
         id: 1,
         type: "video",
-        src: "/images/companiaNativa/BARRAS CN_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel1.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -18,7 +18,7 @@ export const carouselData = [
       {
         id: 3,
         type: "video",
-        src: "/images/companiaNativa/Armado mesa Quadra_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel2.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -30,7 +30,7 @@ export const carouselData = [
       {
         id: 5,
         type: "video",
-        src: "/images/companiaNativa/Armado exterior_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel3.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -48,7 +48,7 @@ export const carouselData = [
       {
         id: 8,
         type: "video",
-        src: "/images/companiaNativa/Centro de mesa navideño_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel4.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -60,7 +60,7 @@ export const carouselData = [
       {
         id: 10,
         type: "video",
-        src: "/images/companiaNativa/Saludo de fin año_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel5.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -72,7 +72,7 @@ export const carouselData = [
       {
         id: 12,
         type: "video",
-        src: "/images/companiaNativa/Mesa navideña día_ noche_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel6.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -84,7 +84,7 @@ export const carouselData = [
       {
         id: 14,
         type: "video",
-        src: "/images/companiaNativa/Sillas de exterior_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel7.webm",
         alt: "Compañia Nativa Video",
       },
       {
@@ -96,7 +96,7 @@ export const carouselData = [
       {
         id: 16,
         type: "video",
-        src: "/images/companiaNativa/Proceso de armado mesa Rocky_H.264.webm",
+        src: "/images/companiaNativa/companiaNativaReel8.webm",
         alt: "Compañia Nativa Video",
       },
     ],

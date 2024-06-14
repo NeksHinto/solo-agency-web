@@ -439,97 +439,31 @@
   z-index: -1;
 }
 .client__banner {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   width: 90%;
   margin: auto;
-  margin-top: 6rem;
-  align-items: center;
+  margin-top: 8vh;
+  grid-template-rows: 1fr auto;
+  place-items: center;
 }
 .client__header {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -3rem;
-  margin-bottom: -3rem;
+  grid-template-columns: auto 1fr;
 }
+
 .client__page__logo {
   width: 100%;
   height: auto;
-  max-width: 500px;
-  padding-top: 1rem;
+  max-width: 50vw;
 }
 
-.client__page__logo__terrazas {
+.client__page__logo__shrink {
   width: 100%;
   height: auto;
-  max-width: 500px;
-}
-.client__page__logo__thurman {
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-}
-
-.client__page__logo__cristho {
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-}
-
-.client__page__logo__companiaNativa {
-  margin-top: 4rem;
-  width: 16vw;
-  height: auto;
-}
-.client__page__logo__daDesign {
-  margin-top: 6rem;
-  width: 16vw;
-  height: auto;
-}
-.client__page__logo__dsmen {
-  width: 100%;
-  height: auto;
-  max-width: 500px;
-}
-.client__page__logo__drAromas {
-  margin-top: 4rem;
-  width: 15vw;
-  height: auto;
-}
-.client__page__logo__elGourmet {
-  margin-top: 4rem;
-  width: 20vw;
-  height: auto;
-}
-.client__page__logo__eucerin {
-  margin-top: 3rem;
-  width: 18vw;
-  height: auto;
-}
-.client__page__logo__faitful {
-  margin-top: 4rem;
-  width: 18vw;
-  height: auto;
-}
-.client__page__logo__fernandoRamos {
-  margin-top: 4rem;
-  width: 23vw;
-}
-.client__page__logo__lidherma {
-  margin-top: 4rem;
-  width: 20vw;
-  height: auto;
-}
-.client__page__logo__pimux {
-  margin-top: 5rem;
-  width: 16vw;
-  height: auto;
-}
-.client__page__logo__ubk {
-  margin-top: 4rem;
-  width: 20vw;
-  height: auto;
+  max-height: 20vw;
+  margin-top: 3vh;
 }
 
 .client__services {
@@ -543,12 +477,9 @@
   gap: 1rem;
 }
 .client__info {
-  display: flex;
   margin: auto;
-  max-width: 1000px;
-  width: 60%;
+  width: 90%;
   font-size: 1.5rem;
-  justify-content: center;
 }
 .client__info__list {
   display: flex;
@@ -577,7 +508,35 @@
   display: grid;
   justify-content: center;
   align-items: start;
-  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: max-content;
+  margin: auto;
+  grid-template-columns: repeat(4, minmax(auto, 1fr));
+}
+
+.client__grid__branding__image {
+  border: 5px solid black;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.client__grid__image {
+  width: fit-content;
+  object-fit: cover;
+  max-width: 20rem;
+  margin: auto;
+  height: auto;
+  min-height: 100%;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+.client__grid__video {
+  width: 100%;
+  height: auto;
+  max-width: 20rem;
+  margin: auto;
+  border: 5px solid black;
+  border-radius: 20px;
 }
 
 .client__grid__eucerin {
@@ -592,6 +551,17 @@
     "box10 box9 box17 box11 box4 box4 box4"
     "box5 box5 box5 box12 box13 box14 box7"
     "box5 box5 box5 box12 box13 box14 box7";
+}
+
+.client__grid__pimux {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "box2 box2 box1 box3"
+    "box2 box2 box4 box5"
+    "box10 box7 box6 box6"
+    "box9 box8 box6 box6";
 }
 
 .client__content__container {
@@ -662,29 +632,6 @@
   border-radius: 20px;
   height: 16vw;
   width: 15vw;
-}
-
-.client__grid__branding__image {
-  border: 5px solid black;
-  border-radius: 20px;
-  width: 100%;
-  height: auto;
-}
-.client__grid__image {
-  width: 100%;
-  max-width: 320px;
-  height: auto;
-  min-height: 100%;
-  margin: auto;
-  border: 5px solid black;
-  border-radius: 20px;
-}
-.client__grid__video {
-  width: 100%;
-  height: auto;
-  max-width: 20rem;
-  border: 5px solid black;
-  border-radius: 20px;
 }
 
 .client__imagetext {
@@ -893,9 +840,8 @@
 
 /*SCROLLER*/
 .scroller {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 150vh;
+  width: 85%;
+  margin: auto;
   overflow: hidden;
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
   -webkit-mask: linear-gradient(
@@ -915,6 +861,7 @@
 }
 .scroller__inner img {
   width: 100%;
+  max-width: 200px;
   height: auto;
   object-fit: cover;
 }
@@ -1112,7 +1059,6 @@
   }
 }
 
-
 /* Mobile */
 @media (max-width: 700px) {
   /* BASIC HTML*/
@@ -1153,11 +1099,7 @@
   .scroller__inner {
     gap: 2rem;
   }
-  .scroller__inner img {
-    width: auto;
-    max-width: fit-content;
-    height: 30vw;
-  }
+
   /*NAVBAR*/
   .nav {
     display: grid;
@@ -1280,9 +1222,12 @@
     margin-top: 0vh;
   }
   .client__banner {
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
   }
   .client__header {
+    display: flex;
     flex-direction: column;
     margin: 0;
   }
@@ -1291,81 +1236,14 @@
     margin-top: 3vh;
   }
 
-  .client__page__logo__companiaNativa {
-    margin-top: 4rem;
-    width: 40vw;
-    margin-bottom: 2rem;
+  .client__page__logo__shrink {
+    width: 100%;
     height: auto;
+    max-height: 50vw;
+    max-width: 50vw;
+    margin-top: 3vh;
   }
-  .client__page__logo__daDesign {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    width: 40vw;
-  }
-  .client__page__logo__drAromas {
-    margin-top: 4rem;
-    width: 40vw;
-    margin-bottom: 2rem;
-    height: auto;
-  }
-  .client__page__logo__dsmen {
-    width: 40vw;
-    margin-bottom: -1rem;
-    height: auto;
-  }
-  .client__page__logo__elGourmet {
-    margin-top: 2rem;
-    width: 45vw;
-    margin-bottom: 2rem;
-    height: auto;
-  }
-  .client__page__logo__eucerin {
-    margin-top: 3rem;
-    width: 40vw;
-    margin-bottom: 1rem;
-    height: auto;
-  }
-  .client__page__logo__faitful {
-    margin-top: 4rem;
-    width: 40vw;
-    margin-bottom: 2rem;
-    height: auto;
-  }
-  .client__page__logo__fernandoRamos {
-    margin-top: 3rem;
-    width: 40vw;
-    margin-bottom: 2rem;
-  }
-  .client__page__logo__lidherma {
-    margin-top: 2rem;
-    width: 40vw;
-    margin-bottom: 1rem;
-    height: auto;
-  }
-  .client__page__logo__pimux {
-    margin-top: 3rem;
-    width: 40vw;
-    margin-bottom: 2rem;
-    height: auto;
-  }
-  .client__page__logo__terrazas {
-    margin-top: 1rem;
-    width: 50vw;
-    margin-bottom: -2rem;
-    height: auto;
-  }
-  .client__page__logo__thurman {
-    margin-top: 1rem;
-    width: 50vw;
-    margin-bottom: -2rem;
-    height: auto;
-  }
-  .client__page__logo__ubk {
-    margin-top: 5rem;
-    width: 40vw;
-    margin-bottom: 2rem;
-    height: auto;
-  }
+
   .client__info {
     width: 95%;
     padding-top: -1rem;
@@ -1376,7 +1254,7 @@
   .client__services {
     padding: 0;
     padding-bottom: 2rem;
-    gap: 0;
+    gap: 1;
   }
 
   .client__content {
@@ -1419,6 +1297,20 @@
       "box7 box16 box9"
       "box3 box8 box15"
       "box5 box5 box5";
+  }
+
+  .client__grid__pimux {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, auto);
+    grid-template-areas:
+      "box2 box2 box8 box8"
+      "box2 box2 box8 box8"
+      "box1 box3 box4 box5"
+      "box7 box7 box7 box7"
+      "box7 box7 box7 box7"
+      "box6 box6 box9 box9"
+      "box6 box6 box9 box9";
   }
 
   .client__grid__image {
@@ -1624,158 +1516,6 @@
     padding-right: 1rem;
     text-align: center;
     height: 50vh;
-  }
-}
-
-/* Tablet and Smaller Desktop */
-
-@media (min-width: 701px) and (max-width: 1120px) {
-  /*BASIC HTML*/
-  .title {
-    font-size: 9vh;
-    padding-bottom: 1rem;
-  }
-  .section_title {
-    font-size: 2rem;
-  }
-  /*FOOTER*/
-
-  /*PAGE CONTAINER*/
-  .page {
-    width: 90%;
-  }
-  .page__title {
-    width: 100%;
-    padding-left: 3rem;
-  }
-  /*ABOUT SECTION*/
-  .about__paragraph {
-    font-size: medium;
-    line-height: 37px;
-  }
-  /*SERVICES SECTION*/
-  .service {
-    margin: auto;
-  }
-  .service__list {
-    gap: 3rem;
-    width: 100%;
-    margin-left: 2rem;
-    justify-content: space-between;
-  }
-  .service__list__show {
-    gap: 3rem;
-    width: 100%;
-    margin-left: 2rem;
-    justify-content: left;
-  }
-  /*CLIENT SECTION*/
-  .client__page {
-    margin-top: 0vh;
-  }
-  .client__banner {
-    width: 90%;
-  }
-  .client__content {
-    width: 90%;
-  }
-  .client__title {
-    font-size: 6rem;
-    text-align: left;
-    margin: 0;
-    margin-bottom: -2rem;
-    padding-left: 1rem;
-    line-height: 5rem;
-  }
-
-  .client__social_media {
-    font-size: 3rem;
-  }
-  .client__social_media img {
-    width: 50px;
-    height: auto;
-    filter: invert(1);
-  }
-  .client__metrics_container {
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
-  }
-  .client__metrics_container_title {
-    font-size: 2.5rem;
-  }
-  .client__metrics_left {
-    width: 50%;
-    gap: 1rem;
-    margin: auto;
-  }
-  .client__metrics_right {
-    width: 50%;
-    gap: 1rem;
-    margin: auto;
-  }
-  .client__metrics_box {
-    margin: auto;
-    width: 100%;
-  }
-  .client__paid__image {
-    width: 18rem;
-  }
-  .client__sale {
-    flex-direction: column;
-  }
-  /*FORM*/
-  .form {
-    width: 30vw;
-  }
-  /*EMBLA CAROUSEL*/
-
-  .embla__container {
-    width: 100%;
-  }
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
-    max-width: 20rem;
-  }
-  .embla__slide2 {
-    flex: 0 0 100%;
-    min-width: 0;
-    max-width: 20rem;
-  }
-
-  /* MASONRY */
-  .masonry__galery {
-    width: 90%;
-    columns: 3 5rem;
-  }
-
-  /*OTHER COMPONENTS*/
-  .WWW {
-    width: 90%;
-  }
-  .center {
-    font-size: 2.5rem;
-  }
-  .paragraph {
-    font-size: 4vh;
-    padding: 1rem;
-    text-align: center;
-    gap: 0px;
-    line-height: 0.75;
-    width: 90%;
-  }
-  .carousel {
-    width: 90%;
-  }
-  .idea {
-    width: 90%;
-    padding: 0px;
-    z-index: 4;
-  }
-  .aboutredir {
-    width: 90%;
-    padding: 0.5rem;
   }
 }
 

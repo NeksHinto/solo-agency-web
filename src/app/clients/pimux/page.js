@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
 
-import BlackBox from "@/components/blackBox";
 import { carouselData } from "@/constants/pimuxData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -14,7 +13,8 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/pimuxLogo.webp"
-          logoProps={styles.client__page__logo__pimux}
+          logoProps={styles.client__page__logo}
+          shrinkLogo
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea
           desarrollamos el re - branding y la identidad visual de la marca,
@@ -28,10 +28,9 @@ export default function Home() {
             carousel={false}
             branding={true}
             data={data}
+            customProps={styles.client__grid__pimux}
           />
         ))}
-
-        <BlackBox />
       </div>
     </main>
   );

@@ -1,8 +1,11 @@
-import React from "react";
+"use client"
+import React, {useContext} from "react";
 import Image from "next/image";
 import styles from "@/styles/styles.module.css";
+import { DeviceContext } from "../contexts/deviceContext";
 
-const ClientGrid = ({ items, gridProps, classProps }) => {
+const ClientGrid = ({ items, gridProps, classProps, hideLastItems }) => {
+  const { isMobile } = useContext(DeviceContext);
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
@@ -18,6 +21,8 @@ const ClientGrid = ({ items, gridProps, classProps }) => {
                 className={styles.client__grid__branding__image}
                 style={{
                   gridArea: `box${i + 1}`,
+                  display:
+                    isMobile && hideLastItems?.includes(i) ? "none" : null,
                 }}
                 src={item.src}
                 alt={item.alt}

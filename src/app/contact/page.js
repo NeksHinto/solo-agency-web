@@ -1,15 +1,15 @@
 "use client";
-
+import { useContext } from "react";
 import styles from "@/styles/styles.module.css";
 import ContactForm from "@/components/contactForm";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { wppAutoMessage } from "../utils/wppAutoMessage";
-import useIsMobile from "../hooks/useIsMobile";
+import { DeviceContext } from "../contexts/deviceContext";
 
 export default function Contact() {
-  const isMobile = useIsMobile();
+  const { isMobile } = useContext(DeviceContext);
 
   return (
     <main className={styles.main}>
