@@ -32,10 +32,10 @@ export const carouselData = [
   {
     title: ["YOU", "TUBE"],
     containerProps: {
-      display: "flex",
-      flexWrap: "wrap",
+      display: "grid",
       justifyContent: "center",
       alignItems: "center",
+      gridTemplateColumns: "1fr 1fr",
       gap: 1,
     },
     items: [
