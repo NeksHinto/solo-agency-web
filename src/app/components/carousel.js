@@ -13,17 +13,15 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
   const settings = {
-    // className: "slider variable-width",
     dots: false,
     infinite: true,
-    // centerMode: true,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 2000,
         settings: {
-          slidesToShow: 8,
           variableWidth: true,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
         },
