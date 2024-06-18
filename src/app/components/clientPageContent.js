@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import ClientCarousel from "./carousel";
 import ClientGrid from "./clientGrid";
 import ClientGridBranding from "./clientGridBranding";
@@ -16,6 +16,11 @@ const ClientPageContent = ({
     <div className={styles.client__content}>
       <motion.div
         className={styles.client__content__container}
+        style={
+          data.carouselItemProps
+            ? { marginBottom: "-5rem" }
+            : { marginBottom: 0 }
+        }
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{

@@ -2,8 +2,9 @@
 import React, { useContext } from "react";
 import Image from "next/image";
 import styles from "@/styles/styles.module.css";
-import AliceCarousel from "react-alice-carousel";
-import "react-alice-carousel/lib/alice-carousel.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { DeviceContext } from "../contexts/deviceContext";
 
 const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
@@ -11,18 +12,23 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
   const constructYoutubeUrl = (videoId) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
+  const settings = {
+    className: "slider variable-width",
+    dots: false,
+    infinite: true,
+    centerMode: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
+  };
 
   return (
     <div className={styles.embla}>
-      <AliceCarousel
-        autoPlay
-        autoPlayInterval={2000}
-        autoPlayStrategy="none"
-        autoWidth
-        infinite
-        disableDotsControls
-        disableButtonsControls
-      >
+      <Slider {...settings}>
         {items.map((item) =>
           item.type === "image" ? (
             <Image
@@ -65,7 +71,7 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
             </video>
           )
         )}
-      </AliceCarousel>
+      </Slider>
     </div>
   );
 };

@@ -301,7 +301,6 @@
   width: 100%;
   z-index: 1;
   margin: auto;
-  margin-top: 5rem;
   color: white;
   background: rgb(0, 0, 0);
   background: linear-gradient(0deg, rgba(0, 0, 0, 1) 65%, rgba(0, 0, 0, 0) 94%);
@@ -436,7 +435,8 @@
 }
 .client__page {
   background-color: black;
-  margin-top: -10vh;
+  padding-bottom: 10rem;
+  margin-top: -10rem;
   z-index: -1;
 }
 .client__banner {
@@ -565,6 +565,7 @@
 
 .client__content__container {
   width: 100%;
+  margin-bottom: var(--margin);
 }
 
 .client__content__paidmedia {
@@ -602,26 +603,31 @@
   height: 100%;
 }
 
-.client__content__container > div > div > div > div > ul {
-  display: flex;
+/* slick-track */
+.client__content__container > div > div > div > div {
+  display: flex !important;
 }
-.client__content__container > div > div > div > div > ul > li {
-  flex: 1 0 auto;
-  height: auto;
+/* slick-slide */
+.client__content__container > div > div > div > div > div {
+  height: 32rem !important;
+}
+/* div media wrapper */
+.client__content__container > div > div > div > div > div > div {
+  height: 100%;
 }
 
 .client__carousel__image {
   border: 5px solid black;
   border-radius: 20px;
   height: 100%;
-  width: 18vw;
+  object-fit: contain;
+  object-position: center;
 }
 
 .client__carousel__video {
-  width: 100%;
-  height: auto;
-  max-width: 18vw;
-  margin: auto;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
   border: 5px solid black;
   border-radius: 20px;
 }
@@ -631,6 +637,10 @@
   border-radius: 20px;
   height: 16vw;
   width: 15vw;
+}
+
+.client__carousel__image__igfeed__margin {
+  margin-bottom: -32rem;
 }
 
 .client__imagetext {
@@ -1354,6 +1364,11 @@
   .client__image {
     max-width: 90vw;
   }
+
+  /* slick-slide */
+  .client__content__container > div > div > div > div > div {
+    height: 15rem !important;
+  }
   .client__carousel__image__igfeed {
     border: 5px solid black;
     border-radius: 20px;
@@ -1361,12 +1376,6 @@
     width: 36vw;
   }
 
-  .client__carousel__image {
-    width: 32vw;
-  }
-  .client__carousel__video {
-    max-width: 32vw;
-  }
   .client__imagetext {
     flex-direction: column;
     margin-bottom: 0rem;
