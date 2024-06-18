@@ -13,26 +13,23 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
   const settings = {
+    // className: "slider variable-width",
     dots: false,
     infinite: true,
+    // centerMode: true,
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 2000,
         settings: {
           slidesToShow: 8,
-          slidesToScroll: 3,
+          variableWidth: true,
+          slidesToScroll: 1,
+          infinite: true,
         },
       },
       {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
+        breakpoint: 800,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 1,
@@ -42,6 +39,7 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
+    // cssEase: "linear",
   };
 
   return (

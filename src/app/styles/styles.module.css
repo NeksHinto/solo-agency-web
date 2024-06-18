@@ -621,9 +621,7 @@
   border-radius: 20px;
   height: 100%;
   width: auto;
-  margin: 0;
-  padding: 0;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
 }
 
@@ -1371,8 +1369,8 @@
   /* slick-slide */
   .client__content__container > div > div > div > div > div {
     height: 10rem !important;
-    margin: 0;
   }
+
   .client__carousel__image__igfeed {
     border: 5px solid black;
     border-radius: 20px;
