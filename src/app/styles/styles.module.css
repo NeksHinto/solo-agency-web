@@ -435,7 +435,7 @@
 }
 .client__page {
   background-color: black;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   margin-top: -10rem;
   z-index: -1;
 }
@@ -606,6 +606,7 @@
 /* slick-track */
 .client__content__container > div > div > div > div {
   display: flex !important;
+  gap: 0;
 }
 /* slick-slide */
 .client__content__container > div > div > div > div > div {
@@ -1367,7 +1368,8 @@
 
   /* slick-slide */
   .client__content__container > div > div > div > div > div {
-    height: 15rem !important;
+    height: 10rem !important;
+    margin: 0;
   }
   .client__carousel__image__igfeed {
     border: 5px solid black;
