@@ -13,12 +13,9 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     return `https://www.youtube.com/embed/${videoId}`;
   };
   const settings = {
-    // className: "slider variable-width",
     dots: false,
     infinite: true,
-    // centerMode: true,
     slidesToScroll: 1,
-    // variableWidth: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -45,7 +42,6 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
-    // cssEase: "linear",
   };
 
   return (

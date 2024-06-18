@@ -620,6 +620,7 @@
   border: 5px solid black;
   border-radius: 20px;
   height: 100%;
+  width: auto;
   margin: 0;
   padding: 0;
   object-fit: contain;
