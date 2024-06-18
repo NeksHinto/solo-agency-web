@@ -605,7 +605,7 @@
 
 /* slick-track */
 .client__content__container > div > div > div > div {
-  display: inline-block !important;
+  display: flex !important;
 }
 /* slick-slide */
 .client__content__container > div > div > div > div > div {
@@ -620,7 +620,8 @@
   border: 5px solid black;
   border-radius: 20px;
   height: 100%;
-  width: auto;
+  margin: 0;
+  padding: 0;
   object-fit: contain;
   object-position: center;
 }
