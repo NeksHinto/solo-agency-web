@@ -611,16 +611,19 @@
 /* slick-slide */
 .client__content__container > div > div > div > div > div {
   height: 32rem !important;
+  width: auto;
 }
 /* div media wrapper */
 .client__content__container > div > div > div > div > div > div {
   height: 100%;
+  width: auto;
 }
 
 .client__carousel__image {
   border: 5px solid black;
   border-radius: 20px;
   height: 100%;
+  width: auto;
   object-fit: contain;
   object-position: center;
 }
