@@ -24,6 +24,7 @@ export default function Home() {
             branding={true}
             data={data}
             customProps={styles.client__grid__eucerin}
+            imageProps={true}
           />
         ))}
       </div>

@@ -12,6 +12,7 @@ const ClientPageContent = ({
   data,
   customProps,
   hqVideos,
+  imageProps,
 }) => {
   const { isMobile } = useContext(DeviceContext);
 
@@ -51,6 +52,7 @@ const ClientPageContent = ({
             gridProps={data.gridProps}
             classProps={customProps}
             hideLastItems={data.hideLastItems}
+            imageProps={imageProps}
           />
         ) : (
           <ClientGrid
