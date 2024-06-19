@@ -1,8 +1,6 @@
 "use client";
-import { useEffect } from "react";
 import styles from "@/styles/styles.module.css";
 import React from "react";
-
 import { carouselData, gridData } from "@/constants/faitfulData";
 import ClientHeader from "@/components/clientHeader";
 import ClientPageContent from "@/components/clientPageContent";
@@ -13,7 +11,6 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/faitfulLogo.png"
-          logoProps={styles.client__page__logo}
           clientInfo="Reconocido vivero con más de 10 años de trayectoria recurre a
           nuestro servicio 360. Desde creative strategy, social media
           management, content creation y paid media acompañamos en todos los

@@ -29,7 +29,7 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: carouselItemProps ? 3 : 4,
           slidesToScroll: 1,
         },
       },
@@ -37,7 +37,6 @@ const ClientCarousel = ({ items, carouselItemProps, hqVideos }) => {
     autoplay: true,
     speed: 3000,
     autoplaySpeed: 3000,
-    // cssEase: "linear",
   };
 
   return (

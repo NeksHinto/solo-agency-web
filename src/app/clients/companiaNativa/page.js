@@ -13,7 +13,6 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/companianativaLogo.png"
-          logoProps={styles.client__page__logo}
           shrinkLogo
           clientInfo="Marca referente de mobiliario contemporáneo, recurre a la agencia
           para el desarrollo de piezas audiovisuales orientadas a conectar

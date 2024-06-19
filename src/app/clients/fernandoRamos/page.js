@@ -12,14 +12,7 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/fernandoRamosLogo.png"
-          logoProps={styles.client__page__logo}
-          shrinkLogo
-          clientInfo="Cementando sus raíces en 1920, Sassone más que una empresa, nace
-          como una puerta hacia el mundo, conectando culturas. Siendo
-          empresa líder en despachos, Sassone busca una nueva imagen que
-          comunique su confiabilidad, experiencia y sobre todo la
-          grandilocuencia que esta ejerce en el rubro. Es así como Solo
-          Agency, le propone una nueva identidad de marca."
+          clientInfo='Fernando Ramos recurre a nosotros bajo el lema "más que un espacio, un hogar". Desarrollamos toda su identidad de marca, branding y ADN visual.'
           services={["Branding"]}
         />
         {carouselData.map((data) => (

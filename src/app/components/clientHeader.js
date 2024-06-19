@@ -25,21 +25,19 @@ const ClientHeader = ({
         className={styles.client__header}
         style={{ marginTop: shrinkLogo ? "4rem" : 0 }}
       >
-        <div className={logoProps}>
-          <Image
-            className={
-              shrinkLogo
-                ? styles.client__page__logo__shrink
-                : styles.client__page__logo
-            }
-            src={logoSrc}
-            alt="Solo Agency"
-            width={0}
-            height={0}
-            sizes="100vw"
-            priority
-          />
-        </div>
+        <Image
+          className={
+            shrinkLogo
+              ? styles.client__page__logo__shrink
+              : styles.client__page__logo
+          }
+          src={logoSrc}
+          alt="Solo Agency"
+          width={0}
+          height={0}
+          sizes="100vw"
+          priority
+        />
         <div className={styles.client__info}>
           <p>{clientInfo}</p>
         </div>

@@ -12,7 +12,6 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/cristhoLogo.png"
-          logoProps={styles.client__page__logo}
           clientInfo="Una marca que resignifica los valores del boho chic recurre a la
           dirección creativa y estratégica de Solo Agency para la gestión y
           producción de su campaña 2022. Junto a diseño gráfico y

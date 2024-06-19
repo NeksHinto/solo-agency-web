@@ -13,7 +13,6 @@ export default function Home() {
       <div className={styles.client__page}>
         <ClientHeader
           logoSrc="/images/logos/desktop/pimuxLogo.webp"
-          logoProps={styles.client__page__logo}
           shrinkLogo
           clientInfo="Brandbook design development. Brand kit essentials. Haciendo
           énfasis en sus cimientos basados en la arquitectura contemporánea

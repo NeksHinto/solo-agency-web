@@ -4,6 +4,7 @@ import ClientGrid from "./clientGrid";
 import ClientGridBranding from "./clientGridBranding";
 import styles from "@/styles/styles.module.css";
 import { motion } from "framer-motion";
+import { DeviceContext } from "app/contexts/deviceContext";
 
 const ClientPageContent = ({
   carousel,
@@ -12,14 +13,15 @@ const ClientPageContent = ({
   customProps,
   hqVideos,
 }) => {
+  const { isMobile } = useContext(DeviceContext);
+
   return (
     <div className={styles.client__content}>
       <motion.div
-        className={styles.client__content__container}
-        style={
+        className={
           data.carouselItemProps
-            ? { marginBottom: "-5rem" }
-            : { marginBottom: 0 }
+            ? styles.client__content__container__for__feed
+            : styles.client__content__container
         }
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

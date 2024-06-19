@@ -455,14 +455,13 @@
 }
 
 .client__page__logo {
-  width: 35rem;
-  height: auto;
+  height: 35rem;
+  width: auto;
 }
 
 .client__page__logo__shrink {
+  height: 25rem;
   width: auto;
-  height: 100%;
-  max-height: 25rem;
 }
 
 .client__services {
@@ -565,7 +564,10 @@
 
 .client__content__container {
   width: 100%;
-  margin-bottom: var(--margin);
+}
+
+.client__content__container__for__feed {
+  width: 100%;
 }
 
 .client__content__paidmedia {
@@ -616,6 +618,19 @@
   height: 100%;
 }
 
+/* slick-track */
+.client__content__container__for__feed > div > div > div > div {
+  display: flex !important;
+}
+/* slick-slide */
+.client__content__container__for__feed > div > div > div > div > div {
+  height: 20rem !important;
+}
+/* div media wrapper */
+.client__content__container__for__feed > div > div > div > div > div > div {
+  height: 100%;
+}
+
 .client__carousel__image {
   border: 5px solid black;
   border-radius: 20px;
@@ -636,12 +651,9 @@
 .client__carousel__image__igfeed {
   border: 5px solid black;
   border-radius: 20px;
-  height: 16vw;
-  width: 15vw;
-}
-
-.client__carousel__image__igfeed__margin {
-  margin-bottom: -32rem;
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
 }
 
 .client__imagetext {
@@ -1245,6 +1257,7 @@
   .client__page__logo {
     width: 100%;
     max-width: 50vw;
+    height: auto;
     margin-top: 3vh;
   }
 
@@ -1278,6 +1291,10 @@
   .client__content__container {
     width: 95%;
   }
+  .client__content__container__for__feed {
+    width: 95%;
+  }
+
   .client__content__paidmedia {
     display: flex;
     flex-direction: row;
@@ -1366,6 +1383,10 @@
     max-width: 90vw;
   }
 
+  .client__content__container__for__feed > div > div > div > div > div {
+    height: 9rem !important;
+  }
+
   /* slick-slide */
   .client__content__container > div > div > div > div > div {
     height: 10rem !important;
@@ -1374,8 +1395,12 @@
   .client__carousel__image__igfeed {
     border: 5px solid black;
     border-radius: 20px;
-    height: 40vw;
-    width: 36vw;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    object-position: top;
   }
 
   .client__imagetext {
