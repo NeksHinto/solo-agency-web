@@ -4,12 +4,11 @@ import Image from "next/image";
 import styles from "@/styles/styles.module.css";
 import { DeviceContext } from "../contexts/deviceContext";
 
-const ClientGrid = ({
+const ClientGridBranding = ({
   items,
   gridProps,
   classProps,
   hideLastItems,
-  imageProps,
 }) => {
   const { isMobile } = useContext(DeviceContext);
   const constructYoutubeUrl = (videoId) => {
@@ -24,11 +23,7 @@ const ClientGrid = ({
             return item.type === "image" ? (
               <Image
                 key={item.id}
-                className={
-                  imageProps
-                    ? styles.client__grid__branding__image_custom
-                    : styles.client__grid__branding__image
-                }
+                className={styles.client__grid__branding__image}
                 style={{
                   gridArea: `box${i + 1}`,
                   display:
@@ -74,4 +69,4 @@ const ClientGrid = ({
   );
 };
 
-export default ClientGrid;
+export default ClientGridBranding;

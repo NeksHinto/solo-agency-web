@@ -1,7 +1,6 @@
 export const carouselData = [
   {
     title: ["HYDRO", "FLUID"],
-    hideLastItems: [16],
     items: [
       {
         id: 1,
